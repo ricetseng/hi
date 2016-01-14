@@ -37,6 +37,14 @@ p {
   color: #fff;
 }
 
+a {
+	-webkit-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+}
+
 a, a:hover {
   text-decoration: none;
   color: #00D598;
@@ -223,16 +231,41 @@ strong {
 	transform: scale(1); -ms-transform: scale(1); /* IE 9 */	
 	-webkit-transform: scale(1); /* Safari */ 
 }
-/*---------------------works-------------------------------*/
+/*---------------------button-------------------------------*/
 
 .clear {
 	clear: both;
 }
+
+
+#resume {
+	display: block;
+	margin: 40px auto;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 20px 0;
+}
+
+a.button {
+	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+	font-size: 24px;
+	color: rgba(0, 213, 152, 1);
+	box-shadow: rgba(0, 213, 152, 0) 0 0px 0px 2px inset;
+	border:#00D598 5px solid; 
+	padding: 15px 50px;
+}
+
+a.button:hover {
+	color: rgba(255, 255, 255, 1);
+	box-shadow: rgba(0, 213, 152, 1) 0 0px 0px 40px inset;
+}
+
+
 /*---------------------footer-------------------------------*/
 #footer {
     background: #ECECEC;
     position: absolute;
-    height: 80px; 
+    height: 60px; 
     bottom:0;
 	left:0;
 	width: 100%;
@@ -242,7 +275,7 @@ strong {
 	font-size: 12px;
 	color:#818181;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 30px;
     
 }
 
