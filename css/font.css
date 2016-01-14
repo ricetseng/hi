@@ -8,3 +8,8 @@
   src: url("fonts/gotham-medium.woff") format("woff"),
        url("fonts/gotham-medium.ttf") format("opentype");
 }
+
+@font-face {
+  font-family: gothambold;
+  src: url("fonts/GothamRnd-Bold.otf") format("opentype"),
+}

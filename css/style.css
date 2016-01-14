@@ -38,11 +38,11 @@ p {
 }
 
 a {
-	-webkit-transition: all 100ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-	-moz-transition: all 100ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-	-ms-transition: all 100ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-	-o-transition: all 100ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-	transition: all 100ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-webkit-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 500ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
 }
 
 a, a:hover {
@@ -221,22 +221,18 @@ h1, h2, h3, h4, h5, h6, ol, dl, pre, table, address, fieldset, p, hr {
 	height: 48px; 
 	line-height: 48px; 
 	font-size: 28px; 
-	text-align: center; }
-
-.links i { 
-	color: #aaa; 
-	transition: transform 500ms ease-in-out, color 500ms ease-in-out; 
-	-webkit-transition: transform 500ms ease-in-out, color 500ms ease-in-out; 
+	text-align: center;
+	color: #aaa;  
+	transition: transform 200ms ease-in-out, color 200ms ease-in-out; 
+	-webkit-transition: transform 200ms ease-in-out, color 200ms ease-in-out; 
 	transform: scale(1); -ms-transform: scale(1); /* IE 9 */	
 	-webkit-transform: scale(1); /* Safari */
 }
 
-.links a:hover i { 
+
+.links a:hover { 
 	color: #00D598; 
-	transform 500ms ease-in-out, color 500ms ease-in-out; 
-	-webkit-transition: transform 500ms ease-in-out, color 500ms ease-in-out; 
-	transform: scale(1); -ms-transform: scale(1); /* IE 9 */	
-	-webkit-transform: scale(1); /* Safari */ 
+	transform: scale(1.1);
 }
 /*---------------------button-------------------------------*/
 
