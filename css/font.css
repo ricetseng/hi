@@ -1,0 +1,10 @@
+@font-face {
+  font-family: gothamlight;
+  src: url("fonts/gotham-light.woff") format("woff"),
+       url("fonts/gotham-light.ttf") format("opentype");
+}
+@font-face {
+  font-family: gothammedium;
+  src: url("fonts/gotham-medium.woff") format("woff"),
+       url("fonts/gotham-medium.ttf") format("opentype");
+}
