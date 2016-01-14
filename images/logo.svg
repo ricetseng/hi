@@ -1,16 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="234px" height="31px" viewBox="0 0 234 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="99px" height="80px" viewBox="0 0 99 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
     <title>logo</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <path id="path-1" d="M12.8857143,12.3157895 C18.1107143,12.3157895 24.8285714,8.78469257 24.8285714,4.15321162 C24.8285714,-0.478269318 19.2303571,1.27148893 12.8857143,1.27148893 C6.54107143,1.27148893 0.942857143,-0.478269328 0.942857143,4.15321148 C0.942857143,8.78469228 7.66071429,12.3157895 12.8857143,12.3157895 Z"></path>
+    </defs>
     <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Desktop-HD-work-Copy-2" sketch:type="MSArtboardGroup" transform="translate(-132.000000, -100.000000)">
-            <g id="logo" sketch:type="MSLayerGroup" transform="translate(132.000000, 100.000000)">
-                <ellipse id="Oval-1" fill="#00D598" sketch:type="MSShapeGroup" cx="15.4376117" cy="15.8506787" rx="15.4376117" ry="15.1493213"></ellipse>
-                <text id="RICE-TSENG" sketch:type="MSTextLayer" font-family="Gotham Medium" font-size="28" font-weight="normal" sketch:alignment="middle" fill="#444444">
-                    <tspan x="59.1489655" y="25.974359">RICE TSENG</tspan>
-                </text>
+        <g id="Desktop-HD-work-Copy-3" sketch:type="MSArtboardGroup" transform="translate(-663.000000, -146.000000)">
+            <g id="logo" sketch:type="MSLayerGroup" transform="translate(662.000000, 146.000000)">
+                <g id="Rectangle-13-+-Oval-59-+-Oval-59-+-Oval-59-+-Oval-59-Copy-+-Group" transform="translate(27.238095, 0.000000)">
+                    <rect id="Rectangle-13" fill="#00D598" sketch:type="MSShapeGroup" x="0" y="0" width="62.8571429" height="63.1578947" rx="4.19047619"></rect>
+                    <g id="Oval-59-+-Oval-59-+-Oval-59-+-Oval-59-Copy-+-Group" transform="translate(14.666667, 20.000000)">
+                        <g id="Oval-59-+-Oval-59-+-Oval-59-+-Oval-59-Copy" transform="translate(0.523810, 0.526316)" sketch:type="MSShapeGroup">
+                            <g id="Oval-59-+-Oval-59">
+                                <ellipse id="Oval-59" fill="#FFFFFF" cx="4.71428571" cy="4.73684211" rx="4.71428571" ry="4.73684211"></ellipse>
+                                <ellipse id="Oval-59" fill="#444444" cx="4.71428571" cy="4.73684211" rx="2.82857143" ry="2.84210526"></ellipse>
+                            </g>
+                            <g id="Oval-59-+-Oval-59-Copy" transform="translate(23.047619, 0.000000)">
+                                <ellipse id="Oval-59" fill="#FFFFFF" cx="4.71428571" cy="4.73684211" rx="4.71428571" ry="4.73684211"></ellipse>
+                                <ellipse id="Oval-59" fill="#444444" cx="4.71428571" cy="4.73684211" rx="2.82857143" ry="2.84210526"></ellipse>
+                            </g>
+                        </g>
+                        <g id="Group" transform="translate(4.190476, 12.105263)">
+                            <mask id="mask-2" sketch:name="Mask" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#444444" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                            <g id="Rectangle-76-+-Rectangle-76-Copy-+-Rectangle-76-Copy-2" mask="url(#mask-2)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                                <g transform="translate(4.714286, -3.157895)">
+                                    <rect id="Rectangle-76" x="0" y="0.393960418" width="5.23809524" height="5.92182906" rx="125.714286"></rect>
+                                    <rect id="Rectangle-76-Copy" x="5.23809524" y="0.393960418" width="5.23809524" height="5.92182906" rx="125.714286"></rect>
+                                    <rect id="Rectangle-76-Copy-2" x="10.4761905" y="0.393960418" width="5.23809524" height="5.92182906" rx="125.714286"></rect>
+                                </g>
+                            </g>
+                            <g id="Rectangle-76-Copy-3-+-Rectangle-76-Copy-4" mask="url(#mask-2)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                                <g transform="translate(7.857143, 10.263158)">
+                                    <rect id="Rectangle-76-Copy-3" x="0" y="0" width="4.71428571" height="8.52631579" rx="125.714286"></rect>
+                                    <rect id="Rectangle-76-Copy-4" x="4.71428571" y="0" width="4.71428571" height="8.52631579" rx="125.714286"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Shape-+-Oval-65" transform="translate(0.000000, 15.789474)" fill="#00D598" sketch:type="MSShapeGroup">
+                    <path d="M26.6318834,12.4542991 C26.4603678,12.4816622 26.1191107,12.5259965 25.6409717,12.5712924 C23.4914624,12.7749234 21.1707495,12.7521373 19.028485,12.353909 C14.6104467,11.5326341 12.1783485,9.40029418 12.1783485,5.36839653 C12.1783485,4.49636798 11.4747959,3.78944917 10.6069199,3.78944917 C9.73904387,3.78944918 9.03549134,4.496368 9.03549134,5.36839655 C9.03549139,11.1725605 12.7051625,14.3899414 18.4567396,15.4591096 C20.9280427,15.9185033 23.5215932,15.9439683 25.9359803,15.7152444 C26.4835289,15.663373 26.8902046,15.61054 27.1247259,15.573125 C27.9818648,15.4363792 28.5663866,14.6273517 28.4302919,13.7661117 C28.2941972,12.9048717 27.4890222,12.3175532 26.6318834,12.4542991 L26.6318834,12.4542991 Z" id="Shape"></path>
+                    <path d="M6.5279833,8.15699935 C9.61180164,8.15699935 12.1117304,6.76720197 12.1117304,3.66862851 C12.1117304,0.570055045 8.49521021,1.77830124 6.5279833,1.77830124 C4.56075638,1.77830124 0.944236235,0.570055045 0.944236235,3.66862851 C0.944236235,6.76720197 3.44416495,8.15699935 6.5279833,8.15699935 Z" id="Oval-65" transform="translate(6.527983, 4.851667) rotate(-346.000000) translate(-6.527983, -4.851667) "></path>
+                </g>
+                <g id="Shape-+-Oval-65-Copy" transform="translate(92.801538, 36.901832) scale(-1, -1) rotate(-314.000000) translate(-92.801538, -36.901832) translate(78.134872, 28.480779)" fill="#00D598" sketch:type="MSShapeGroup">
+                    <path d="M26.6318834,12.4542991 C26.4603678,12.4816622 26.1191107,12.5259965 25.6409717,12.5712924 C23.4914624,12.7749234 21.1707495,12.7521373 19.028485,12.353909 C14.6104467,11.5326341 12.1783485,9.40029418 12.1783485,5.36839653 C12.1783485,4.49636798 11.4747959,3.78944917 10.6069199,3.78944917 C9.73904387,3.78944918 9.03549134,4.496368 9.03549134,5.36839655 C9.03549139,11.1725605 12.7051625,14.3899414 18.4567396,15.4591096 C20.9280427,15.9185033 23.5215932,15.9439683 25.9359803,15.7152444 C26.4835289,15.663373 26.8902046,15.61054 27.1247259,15.573125 C27.9818648,15.4363792 28.5663866,14.6273517 28.4302919,13.7661117 C28.2941972,12.9048717 27.4890222,12.3175532 26.6318834,12.4542991 L26.6318834,12.4542991 Z" id="Shape"></path>
+                    <path d="M6.5279833,8.15699935 C9.61180164,8.15699935 12.1117304,6.76720197 12.1117304,3.66862851 C12.1117304,0.570055045 8.49521021,1.77830124 6.5279833,1.77830124 C4.56075638,1.77830124 0.944236235,0.570055045 0.944236235,3.66862851 C0.944236235,6.76720197 3.44416495,8.15699935 6.5279833,8.15699935 Z" id="Oval-65" transform="translate(6.527983, 4.851667) rotate(-346.000000) translate(-6.527983, -4.851667) "></path>
+                </g>
+                <ellipse id="Oval-66" fill="#D6D6D6" sketch:type="MSShapeGroup" cx="58.6666667" cy="77.8947368" rx="18.8571429" ry="2.10526316"></ellipse>
             </g>
         </g>
     </g>
