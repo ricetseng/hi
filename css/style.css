@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5, h6, ol, dl, pre, table, address, fieldset, p, hr {
   width: 100%;
   background: #fff;
   display: none;
+  margin-top: 50px;
 }
 
 .fade {
@@ -145,6 +146,7 @@ h1, h2, h3, h4, h5, h6, ol, dl, pre, table, address, fieldset, p, hr {
 
 
 /*-----------------------content-----------------------------*/
+
 .content .logo {
 	width: 110px;
     height: 80px;
@@ -207,12 +209,19 @@ h1, h2, h3, h4, h5, h6, ol, dl, pre, table, address, fieldset, p, hr {
 /* links */
 .links { 
 	width: 100%;
-	height: 20px;
-	line-height: 40px;
-	display: inline-block;
-	text-align: center;
+	height: 100px;
+	margin: 0 auto;
 }
-
+.links:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle ;
+	height: 100%;
+}
+.footer_wrapper {
+	display: inline-block;
+	vertical-align: middle;
+}
 .links a { 
 	border: 0; 
 	margin-right: 20px; 
@@ -220,7 +229,7 @@ h1, h2, h3, h4, h5, h6, ol, dl, pre, table, address, fieldset, p, hr {
 	width: 48px; 
 	height: 48px; 
 	line-height: 48px; 
-	font-size: 28px; 
+	font-size: 20px; 
 	text-align: center;
 	color: #aaa;  
 	transition: transform 200ms ease-in-out, color 200ms ease-in-out; 
@@ -230,10 +239,17 @@ h1, h2, h3, h4, h5, h6, ol, dl, pre, table, address, fieldset, p, hr {
 }
 
 
+
 .links a:hover { 
 	color: #00D598; 
 	transform: scale(1.1);
 }
+
+/*------------------grid-----------------*/
+
+
+
+
 /*---------------------button-------------------------------*/
 
 .clear {
@@ -243,7 +259,7 @@ h1, h2, h3, h4, h5, h6, ol, dl, pre, table, address, fieldset, p, hr {
 
 #resume {
 	display: block;
-	margin: 40px auto;
+	margin: 40px 0 100px 0;
     text-decoration: none;
     border-radius: 0px;
     padding: 20px 0;
@@ -282,7 +298,12 @@ a.button:hover {
     
 }
 
+@media screen and (min-width: 768px) and (max-width: 979px) {
+    /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
+	
+}
 @media screen and (max-width: 767px) {
+	/* 如果使用者之視窗寬度 <= 768px，將會再載入這裡的 CSS。*/
     .introduction {
 		min-height: 300px;
 		margin: 20px 0 0px 0;
@@ -300,22 +321,16 @@ a.button:hover {
 	.bio {
 		margin: 33px 15px 50px 15px;
 	}
-
-
 	.links { 
 		width: 100%;
-		line-height: 40px;
-		display: inline-block;
-		text-align: center;
-		margin:0px 0px 150px 0px;
+		height: 0px;
+		margin: 0 auto;
 	}
 	.links a {
-		font-size:24px;
-		padding: 0px 2px;
+		font-size:18px;
 	}
-	#footer {
-		display: none;
-	}
+	
+
 }
 
 
