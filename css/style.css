@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6, ol, dl, pre, table, address, fieldset, p, hr {
 .introduction p {
 	font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
 	font-size: 24px;
-	line-height: 2em;
+	line-height: 2;
 	text-align: center;
 	color:#4E4E4E;
 }
