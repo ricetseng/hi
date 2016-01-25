@@ -5792,7 +5792,8 @@ a.pswp__share--download:hover {
       content: "";
       width: 100%;
       padding: 0 0 75.18797% 0;
-      height: 0; }
+      height: 0; 
+    }
     /* line 26, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/utilities/mixins/_ratio_content.scss */
     .b-studio .b-home__project_large > img, .b-studio .b-home__project_small > img {
       z-index: 100;
@@ -6829,6 +6830,7 @@ a.pswp__share--download:hover {
   .b-home__project_large, .b-home__project_small {
     width: 100%;
     float: left;
+    height: 100%;
   }
   
   /* line 399, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/state/_mediaqueries.scss */
@@ -7429,7 +7431,8 @@ a.pswp__share--download:hover {
       bottom: 0;
       left: 0;
       width: 100%;
-      height: 100%; }
+      height: 100%; 
+    }
     /* line 1035, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/state/_mediaqueries.scss */
     .b-project__title {
       font-size: 2.1875rem; }
