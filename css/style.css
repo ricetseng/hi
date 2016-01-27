@@ -243,10 +243,10 @@ nav ul a {
 
 .mobile-toggle span {
   width: 24px;
-  height: 2px;
-  margin-bottom: 6px;
-  border-radius: 1000px;
-  background: #8f8f8f;
+  height: 4px;
+  margin-bottom: 7px;
+  border-radius: 0px;
+  background: #00D598;
   display: block;
 }
 
@@ -391,7 +391,7 @@ nav ul a {
 }
 .links a { 
 	border: 0; 
-	margin-right: 20px; 
+	margin-right: 12px; 
 	display: inline-block; 
 	width: 48px; 
 	height: 48px; 

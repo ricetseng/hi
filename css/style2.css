@@ -49,26 +49,6 @@
   .b-footer__map:hover, .b-colophon__careers:hover, .hero__read-more:hover, .b-footer__map:focus, .b-colophon__careers:focus, .hero__read-more:focus {
     border-bottom-color: #FFFFFF; }
 
-/* line 1, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/base/_global.scss */
-body {
-  background-color: #FFFFFF; }
-
-/* line 3, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/base/_global.scss */
-html, body {
-  height: 100%;
-  min-height: 100%;
-  padding: 0;
-  margin: 0; }
-
-/* line 10, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/base/_global.scss */
-h1, .hero__subinfo, h2, .fc-quote__text, h3, .b-single__articleContent blockquote h4, .fc-threeColState__item, h4, h5, h6 {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-/* line 14, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/base/_global.scss */
-body.page-projects {
-  padding-top: 4.125rem; }
-
 /* line 18, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/base/_global.scss */
 .site-main {
   position: relative;
@@ -93,11 +73,6 @@ body.page-projects {
 .page {
   position: relative; }
 
-
-header {
-  height: 70px;
-  width: 100%;
-}
 
 .b-header {
   zoom: 1;
@@ -3518,7 +3493,8 @@ html.cssvhunit #big-video-wrap, html.cssvhunit .b-video__screen {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%; }
+    height: 100%; 
+  }
   /* line 8, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/modules/_project-overlay.scss */
   .b-project__overlay {
     display: block;
@@ -5803,7 +5779,8 @@ a.pswp__share--download:hover {
       bottom: 0;
       left: 0;
       width: 100%;
-      height: 100%; }
+      /*height: 100%;*/
+    }
 
 /* line 14, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/pages/_studio.scss */
 .b-instagramFeed {
@@ -6830,7 +6807,7 @@ a.pswp__share--download:hover {
   .b-home__project_large, .b-home__project_small {
     width: 100%;
     float: left;
-    height: 100%;
+    /*height: 100%;*/
   }
   
   /* line 399, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/state/_mediaqueries.scss */
