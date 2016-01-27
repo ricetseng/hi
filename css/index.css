@@ -55,6 +55,7 @@
 }
 
 .subtitle {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   position: absolute;
   top: 38px;
   left: 21px;
@@ -67,6 +68,7 @@
 }
 
 .title {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   position: absolute;
   top: 0;
   left: 21px;
@@ -110,6 +112,7 @@
 }
 
 .work_top_titles {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   position: relative;
   float: left;
   clear: both;
@@ -131,6 +134,7 @@
 }
 
 .works_content {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   float: left;
   clear: both;
   min-height: 400px;
@@ -147,6 +151,7 @@
 }
 
 .works_title {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   float: left;
   font-size: 1.5em;
   line-height: 1.38;
@@ -168,6 +173,7 @@
 }
 
 .subtitle span {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   border-top-width: 0;
   border-right-width: 0;
   border-bottom-width: 0;
