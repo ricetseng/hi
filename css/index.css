@@ -2,7 +2,18 @@ body {
   font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-
+.content_animation {
+  position: relative;
+  float: left;
+  z-index: 12;
+  width: 51.6666666666%;
+  height: 557px;
+  margin: -562px 0 0 44%;
+  background: url('../images/pemory_animation.gif') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
 .content_description_left {
   position: relative;
   float: left;
@@ -33,6 +44,8 @@ body {
 }
 
 .content_work_background {
+  background: url('') rgb(255, 221, 40);
+
   position: relative;
   float: left;
   clear: both;
@@ -40,7 +53,6 @@ body {
   width: 100%;
   height: 562px;
   margin-top: 413px;
-  background: url('../images/pemory_animation.gif') rgb(255, 221, 40);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 126% 0%;
@@ -198,4 +210,158 @@ body {
   word-break: normal;
   word-wrap: normal;
   white-space: normal;
+}
+
+@media(max-width: 767px) {
+  .content_animation {
+    position: relative;
+    z-index: 12;
+    width: 56.0625814863%;
+    height: 515px;
+    margin-top: -525px;
+    margin-left: 22.79987%;
+  }
+
+  .content_description_left {
+    position: relative;
+    z-index: 11;
+    width: 79.9217731421%;
+    margin-top: -653px;
+    margin-left: 10.03911%;
+  }
+
+  .content_description_left .works_content {
+    width: 94.0509915014%;
+    margin-left: 5.94901%;
+  }
+
+  .content_description_left .works_title {
+    position: relative;
+    z-index: 8;
+    margin-left: 4.47061%;
+  }
+
+  .content_work_background {
+    position: relative;
+    clear: none;
+    z-index: 6;
+    height: 704px;
+    margin-top: 450px;
+  }
+
+  .pemory_logo {
+    top: 564px;
+    left: 46.4166395045%;
+    right: auto;
+    width: 55px;
+  }
+
+  .work_top_bg {
+    position: relative;
+    z-index: 0;
+  }
+
+  .work_top_titles {
+    position: relative;
+    z-index: 4;
+    width: 50%;
+    margin-left: 9.99837%;
+  }
+
+  .works_content {
+    width: 79.9217731421%;
+    margin-top: -1104px;
+    margin-left: 10.03708%;
+  }
+
+  .works_title {
+    position: absolute;
+    margin-left: 0;
+  }
+
+  .works_content-1 {
+    position: relative;
+    z-index: 5;
+  }
+
+  .works_title-1 {
+    float: left;
+    top: 640px;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media(max-width: 400px) {
+  body {
+    font-size: 1em;
+  }
+
+  .content_animation {
+    position: relative;
+    z-index: 12;
+    width: 66.5%;
+    height: 304px;
+    margin-top: -315px;
+    margin-left: 16.75%;
+  }
+
+  .content_description_left {
+    position: relative;
+    z-index: 11;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .content_description_left .works_content {
+    width: 85.625%;
+    margin-left: 5.9375%;
+  }
+
+  .content_description_left .works_title {
+    position: relative;
+    z-index: 8;
+    margin-left: 4.45801%;
+  }
+
+  .content_work_background {
+    position: relative;
+    z-index: 6;
+    margin-top: 696px;
+  }
+
+  .pemory_logo {
+    top: 561px;
+    left: 42.4%;
+  }
+
+  .work_top_bg {
+    position: relative;
+    z-index: 0;
+  }
+
+  .work_top_titles {
+    position: relative;
+    z-index: 4;
+    width: 71.75%;
+    margin-top: -424px;
+    margin-left: 10%;
+  }
+
+  .works_content {
+    width: 66.5%;
+    margin-left: 16.75%;
+  }
+
+  .works_content-1 {
+    position: relative;
+    z-index: 5;
+    margin-top: -1435px;
+  }
+
+  .works_title-1 {
+    top: 632px;
+    left: 28.7499999999%;
+    width: 42.5%;
+  }
 }
