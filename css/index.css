@@ -1,4 +1,7 @@
-
+body {
+  font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
 
 .content_description_left {
   position: relative;
