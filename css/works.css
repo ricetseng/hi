@@ -138,7 +138,7 @@ body {
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
   .work_top_titles {
-    width: 70%;
+    width: 35%;
   }
   .work_introduction {
     padding: 0 10%;
