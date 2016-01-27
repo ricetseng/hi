@@ -2,6 +2,14 @@ body {
   font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+.content_description_center_wrapper {
+  
+}
+
 .content_animation {
   position: relative;
   float: left;
