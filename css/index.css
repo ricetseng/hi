@@ -166,7 +166,9 @@ body {
   margin: -945px 0 0 16.63021%;
   text-align: center;
 }
-
+.works_content-1 p {
+  line-height: 32px;
+}
 .works_title-1 {
   clear: both;
   margin: 24px 0 0 42.71615%;
