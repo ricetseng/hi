@@ -101,8 +101,19 @@ body {
 .work_content_wrapper {
   width: 100%;
   margin: 0 auto;
-  max-width: 1080px;
+  background-color: #ffffff;
 }
+.work_content_wrapper_color {
+  width: 100%;
+  margin: 100px auto;
+  background-color: #F6F6F6;
+}
+.container_works {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
 
 .pemory_logo img {
   width: 86px;
@@ -117,12 +128,16 @@ body {
   float: left;
   margin: 100px 0px;
 }
+#works_center_img {
+  width: 800px;
+  margin: 50px 0px;
+}
 .work_introduction h3 {
   font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   font-size: 24px;
   line-height: 1.3;
   text-align: center;
-  margin: 30px 0 20px 0;
+  margin: 20px 0 20px 0;
   text-transform:uppercase;
   color:#4E4E4E;
 }
@@ -135,8 +150,133 @@ body {
   text-align: center;
   color:#4E4E4E;
 }
+
+
+/*----------------next project----------------------------------*/
+#next-prev-all {
+  width: 100%;
+  margin: 0 auto;
+    font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    padding: 120px 0;
+    background: #F6F6F6;
+    transition: .175s ease-in-out all;
+    -o-transition: .175s ease-in-out all;
+    -ms-transition: .175s ease-in-out all;
+    -moz-transition: .175s ease-in-out all;
+    -webkit-transition: .175s ease-in-out all;
+}
+.next_prev_container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
+}
+#next-prev-all:hover {
+    background: #00A1FF;
+}
+
+#next-prev-all:hover, #next-prev-all:hover .smaller-font {
+    cursor: url(../images/hover-cursor.png),auto;
+    color: #fff;
+}
+#next-project .smaller-font {
+    font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #999;
+    transition: .175s ease-in-out all;
+    -o-transition: .175s ease-in-out all;
+    -ms-transition: .175s ease-in-out all;
+    -moz-transition: .175s ease-in-out all;
+    -webkit-transition: .175s ease-in-out all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------video----------------------------------*/
+.js-video {
+  height: 0;
+  padding-top: 1px;
+  padding-bottom: 40.5%;
+  margin: 0px 200px;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.js-video.widescreen {
+  padding-bottom: 56.34%;
+}
+ 
+.js-video.vimeo {
+  padding-top: 0;
+}
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+
+
+/*---------------------footer-------------------------------*/
+#footer_all {
+
+  width: 100%;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+}
+.footer_container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 30px 0;
+}
+.footer_container p {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 14px;
+  color: #676767;
+  
+  text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------*/
+
+
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
+  .js-video {
+    height: 0;
+    padding-top: 1px;
+    padding-bottom: 50.5%;
+    margin: 0px 50px;
+    position: relative;
+    overflow: hidden;
+  }
   .work_top_titles {
     width: 35%;
   }
@@ -145,6 +285,17 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
+  .container_works {
+    width:100%;
+  }
+  .js-video {
+    height: 0;
+    padding-top: 1px;
+    padding-bottom: 50.5%;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+  }
   .work_top_titles {
     width: 70%;
   }
