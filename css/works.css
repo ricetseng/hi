@@ -102,10 +102,20 @@ body {
   width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
+  bottom: 0;
+
+}
+.work_content_wrapper_photo {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../images/pemory_earth.png) 0 0 no-repeat #F6F6F6;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: visible;
 }
 .work_content_wrapper_color {
   width: 100%;
-  margin: 100px auto;
+  margin: 0px auto;
   background-color: #F6F6F6;
 }
 .container_works {
@@ -124,10 +134,36 @@ body {
 .work_introduction {
   width: 100%;
   height: 100%;
-  text-align: center;
   float: left;
   margin: 100px 0px;
+  text-align: center;
 }
+.work_introduction_r {
+  width: 40%;
+  height: 100%;
+  float: right;
+  margin: 100px 0px;
+}
+.work_introduction_r h3 {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 24px;
+  line-height: 1.3;
+  margin: 40px 0 20px 0;
+  text-transform:uppercase;
+  color:#4E4E4E;
+  text-align: left;
+}
+
+
+.work_introduction_r p {
+  font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  color:#4E4E4E;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
 #works_center_img {
   width: 90%;
   margin: 50px 0px;
@@ -147,8 +183,9 @@ body {
   font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   font-size: 16px;
   line-height: 2;
-  text-align: center;
+  text-align: left;
   color:#4E4E4E;
+  margin-bottom: 30px;
 }
 
 
@@ -209,8 +246,8 @@ body {
 .js-video {
   height: 0;
   padding-top: 1px;
-  padding-bottom: 40.5%;
-  margin: 0px 200px;
+  padding-bottom: 49.5%;
+  margin: 0px 50px;
   position: relative;
   overflow: hidden;
 }
@@ -269,6 +306,15 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
+  .work_content_wrapper_photo {
+    background: url() 0 0 no-repeat #F6F6F6;
+  }
+  .work_introduction_r {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 0 10%;
+  }
   .js-video {
     height: 0;
     padding-top: 1px;
@@ -283,10 +329,20 @@ body {
   .work_introduction {
     padding: 0 10%;
   }
+
 }
 @media screen and (max-width: 767px) {
+  .work_content_wrapper_photo {
+    background: url() 0 0 no-repeat #F6F6F6;
+  }
   .container_works {
     width:100%;
+  }
+  .work_introduction_r {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 0 10%;
   }
   .js-video {
     height: 0;
@@ -305,6 +361,7 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+
   .work_top_titles {
     width: 70%;
   }
