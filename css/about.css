@@ -51,20 +51,7 @@
     font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
 }
 
-.resume_item {
-    margin: 0px;
-}
 
-#resume_about {
-	display: inline-block;
-    vertical-align: top;
-    width: 83%;
-
-    margin-top: -10px;
-    text-decoration: none;
-    border-radius: 0px;
-    
-}
 
 
 @media screen and (max-width: 767px) {
