@@ -370,12 +370,13 @@ body {
   .work_introduction_l_video, .work_introduction_r_video {
     width:100%;
     text-align: center;
+    display: none;
   }
   .work_introduction_r_text {
-    margin: 0px 0px 100px 0px;
+    margin: 0px;
   }
   .work_introduction_l_text {
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
   }
   .work_content_wrapper_photo {
     background: url() 0 0 no-repeat #F6F6F6;
@@ -406,12 +407,13 @@ body {
   .work_introduction_l_video, .work_introduction_r_video {
     width: 100%;
     text-align: center;
+    display: none;
   }
   .work_introduction_r_text {
-    margin: 0px 0px 100px 0px;
+    margin: 0px;
   }
   .work_introduction_l_text {
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
   }
   .work_content_wrapper_photo {
     background: url() 0 0 no-repeat #F6F6F6;
