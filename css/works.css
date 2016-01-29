@@ -156,19 +156,20 @@ body {
   margin: 100px 0px;
   text-align: center;
 }
-.work_introduction_r {
+/*--------------------------type1----------------------------*/
+.work_introduction_r_text {
   width: 40%;
   height: 100%;
   float: right;
   margin: 100px 0px;
 }
-.work_introduction_l {
+.work_introduction_l_video {
   width: 40%;
   height: 100%;
   float: left;
   margin: 100px 0px;
 }
-.work_introduction_r h3 {
+.work_introduction_r_text h3 {
   font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   font-size: 24px;
   line-height: 1.3;
@@ -179,7 +180,42 @@ body {
 }
 
 
-.work_introduction_r p {
+.work_introduction_r_text p {
+  font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  color:#4E4E4E;
+  margin-bottom: 40px;
+  text-align: left;
+}
+/*--------------------------type1 end----------------------------*/
+
+/*--------------------------type2----------------------------*/
+
+.work_introduction_l_text {
+  width: 40%;
+  height: 100%;
+  float: left;
+  margin: 100px 0px;
+}
+.work_introduction_r_video {
+  width: 40%;
+  height: 100%;
+  float: right;
+  margin: 100px 0px;
+}
+.work_introduction_l_text h3 {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 24px;
+  line-height: 1.3;
+  margin: 40px 0 20px 0;
+  text-transform:uppercase;
+  color:#4E4E4E;
+  text-align: left;
+}
+
+
+.work_introduction_l_text p {
   font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   font-size: 16px;
   line-height: 2;
@@ -188,6 +224,7 @@ body {
   text-align: left;
 }
 
+/*--------------------------type1 end----------------------------*/
 #works_center_img {
   width: 100%;
   margin: 40px 0px;
@@ -330,17 +367,20 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
-  .work_introduction_l {
+  .work_introduction_l_video, .work_introduction_r_video {
     width:100%;
     text-align: center;
   }
-  .work_introduction_r {
+  .work_introduction_r_text {
     margin: 0px 0px 100px 0px;
+  }
+  .work_introduction_l_text {
+    margin: 0px 0px 0px 0px;
   }
   .work_content_wrapper_photo {
     background: url() 0 0 no-repeat #F6F6F6;
   }
-  .work_introduction_r {
+  .work_introduction_r_text, .work_introduction_l_text {
     width: 100%;
     height: 100%;
     float: left;
@@ -363,12 +403,15 @@ body {
 
 }
 @media screen and (max-width: 767px) {
-  .work_introduction_l {
+  .work_introduction_l_video, .work_introduction_r_video {
     width: 100%;
     text-align: center;
   }
-  .work_introduction_r {
+  .work_introduction_r_text {
     margin: 0px 0px 100px 0px;
+  }
+  .work_introduction_l_text {
+    margin: 0px 0px 0px 0px;
   }
   .work_content_wrapper_photo {
     background: url() 0 0 no-repeat #F6F6F6;
@@ -376,7 +419,7 @@ body {
   .container_works {
     width:100%;
   }
-  .work_introduction_r {
+  .work_introduction_r_text, .work_introduction_l_text {
     width: 100%;
     height: 100%;
     float: left;
