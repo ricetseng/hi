@@ -1,0 +1,68 @@
+.cv_page {
+    width: 70%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.cv_item_big {
+    margin: 200px 0;
+}
+
+.cv_title {
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    color: #111;
+    text-transform: uppercase;
+    font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.cv_big {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    color: #111;
+    font-size: 60px;
+    line-height: 80px;
+    font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    margin-top: -20px;
+}
+
+.cv_item {
+    margin: 100px 0;
+}
+
+.cv_title {
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    color: #111;
+    text-transform: uppercase;
+    font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.cv_content {
+    display: inline-block;
+    vertical-align: top;
+    width: 83%;
+    color: #888;
+    margin-top: -10px;
+    font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-size: 16px;
+    line-height: 38px;
+}
+
+
+
+
+
+
+
+
+
+
