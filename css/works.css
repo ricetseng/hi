@@ -108,11 +108,11 @@ body {
 .work_content_wrapper_flow {
   width: 100%;
   margin: 0 auto;
-  background: url(../images/pemory_flow.png) 0 0 no-repeat #fff;
+  background: url(../images/pemory_flow.jpg) 0 0 no-repeat #fff;
   background-size: cover;
   overflow: visible;
-  /*background-attachment: fixed;
-  overflow: visible;*/
+  background-attachment: fixed;
+  overflow: visible;
 }
 .work_content_wrapper_sketch {
   width: 100%;
