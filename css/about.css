@@ -55,6 +55,12 @@
     color: #444;
     font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
 }
+.cv_content .light {
+    color: #bbb;
+    font-size: 14px;
+    font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    line-height: 24px;
+}
 .cv_big {
     display: inline-block;
     vertical-align: top;
