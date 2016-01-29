@@ -41,6 +41,20 @@
     font-size: 16px;
     line-height: 38px;
 }
+.cv_content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.bullet li {
+    list-style-position: outside;
+    margin-left: 15px;
+    list-style-type: circle;
+}
+.cv_content .bold {
+    color: #444;
+    font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+}
 .cv_big {
     display: inline-block;
     vertical-align: top;
