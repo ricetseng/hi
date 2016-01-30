@@ -5274,7 +5274,7 @@ a.pswp__share--download:hover {
   @media screen and (min-width: 75em) {
     /* line 15, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/modules/_extra-leads.scss */
     .b-extraLeads .b-project .b-project__overlay {
-      background-color: rgba(0, 213, 152, 1); }
+      background-color: rgba(0, 213, 152, 0.93); }
     /* line 18, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/modules/_extra-leads.scss */
     .b-extraLeads .b-project .b-project__type, .b-extraLeads .b-project .b-project__title {
       color: #FFFFFF; }
@@ -7443,7 +7443,7 @@ a.pswp__share--download:hover {
     backface-visiblity: hidden; }
   /* line 1073, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/state/_mediaqueries.scss */
   .b-project:hover .b-project__overlay {
-    background-color: rgba(0, 213, 152, 1); }
+    background-color: rgba(0, 213, 152, 0.93); }
   /* line 1076, /Users/luke/Sites/_websites/adaptable/content/themes/adaptive/assets/scss/theme/state/_mediaqueries.scss */
   .b-project:hover .b-project__title, .b-project:hover .b-project__type {
     color: white; }

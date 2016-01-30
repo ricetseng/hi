@@ -42,27 +42,47 @@
 </head>
 
 <body>
+    <!--<header class="main_h_default">
+
+        <div class="row_default">
+            <a class="logo_default" href="http://ricetseng.github.io/hi">RICE TSENG</a>
+
+            <div class="mobile-toggle-default">
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="http://ricetseng.github.io/hi/about.html">ABOUT</a></li>
+                    <li><a href="http://ricetseng.github.io/hi">WORKS</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>-->
 	<header class="main_h">
 
-	    <div class="row">
-	        <a class="logo" href="http://ricetseng.github.io/hi"></a>
+        <div class="row">
+            <a class="logo" href="http://ricetseng.github.io/hi">RICE TSENG</a>
 
-	        <div class="mobile-toggle">
-	            <span></span>
-	            <span></span>
-	        </div>
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+            </div>
 
-	        <nav>
-	            <ul>
-	                <li><a href="http://ricetseng.github.io/hi/about.html">ABOUT</a></li>
-	                <li><a href="http://ricetseng.github.io/hi">WORKS</a></li>
-	            </ul>
-	        </nav>
+            <nav class="nav_font">
+                <ul>
+                    <li><a href="http://ricetseng.github.io/hi/about.html">ABOUT</a></li>
+                    <li><a href="http://ricetseng.github.io/hi">WORKS</a></li>
+                    <li><a target="_blank" href="https://www.dropbox.com/s/b4j2ksbi2osfz85/ricetseng_reusme.pdf?dl=0">RESUME</a></li>
+                </ul>
+            </nav>
 
-	    </div> <!-- / row -->
+        </div> <!-- / row -->
 
-	</header>
-
+    </header>
 	<div class="cv_page">
 
         <div class="cv_item">
@@ -275,8 +295,49 @@
         </div>
     </nav>
 	
+    <script>
 
-<script src="js/load.js"></script>
+        $(window).scroll(function() {
+
+            if ($(window).scrollTop() > 100) {
+                $('.main_h').addClass('sticky');
+                $( '.logo' ).css( "color", "#fff" );
+            } else {
+                $('.main_h').removeClass('sticky');
+                $( '.logo' ).css( "color", "#111" );
+            }
+        });
+        
+        // Mobile Navigation
+        $('.mobile-toggle').click(function() {
+            if ($('.main_h').hasClass('open-nav')) {
+                $('.main_h').removeClass('open-nav');
+            } else {
+                $('.main_h').addClass('open-nav');
+            }
+        });
+
+        $('.main_h li a').click(function() {
+            if ($('.main_h').hasClass('open-nav')) {
+                $('.navigation').removeClass('open-nav');
+                $('.main_h').removeClass('open-nav');
+            }
+        });
+
+        $('nav a').click(function(event) {
+            var id = $(this).attr("href");
+            var offset = 70;
+            var target = $(id).offset().top - offset;
+            $('html, body').animate({
+                scrollTop: target
+            }, 500);
+            event.preventDefault();
+        });
+
+    </script>
+    
+
+<!--<script src="js/load.js"></script>-->
 
 
 </body>
