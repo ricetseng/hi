@@ -270,6 +270,10 @@ body {
   width: 100%;
   margin: 40px 0px;
 }
+#works_center_ic {
+  width: 35px;
+  margin: 0px 0px;
+}
 .work_introduction h3 {
   font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   font-size: 24px;
