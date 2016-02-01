@@ -147,15 +147,7 @@ body {
   /*background-attachment: fixed;
   overflow: visible;*/
 }
-.work_content_wrapper_dictionary {
-  width: 100%;
-  margin: 0 auto;
-  background: url(../images/dictionary_7.png) 0 0 no-repeat #F6F6F6;
-  background-size: cover;
-  overflow: visible;
-  /*background-attachment: fixed;
-  overflow: visible;*/
-}
+
 .work_content_wrapper_photo {
   width: 100%;
   margin: 0 auto;
@@ -435,10 +427,11 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
+
   .work_introduction_l_video, .work_introduction_r_video {
     width:100%;
     text-align: center;
-    display: none;
+    
   }
   .work_introduction_r_text {
     margin: 0px;
@@ -475,6 +468,9 @@ body {
 
 }
 @media screen and (max-width: 767px) {
+  .work_introduction iframe {
+    display: none;
+  }
   .work_introduction_l_video, .work_introduction_r_video {
     width: 100%;
     text-align: center;
@@ -518,6 +514,9 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+  .work_introduction iframe {
+    display: none;
+  }
   .work_introduction_r_text h3, .work_introduction_l_text h3 {
     text-align: center;
   }
