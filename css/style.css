@@ -832,19 +832,19 @@ nav ul a {
     height: 110px;
     text-indent: -9999px;
     margin:0 auto;
-    /*background: url(../images/logo.gif) 0 0 no-repeat;*/
+    background: url(../images/logo.svg) 0 0 no-repeat;
     position: relative;
     top:8%;
 }
+/*
 .logo_content img {
   display: block;
   width: 100px;
     height: 100px;
     margin:0 auto;
-    /*background: url(../images/logo.gif) 0 0 no-repeat;*/
     position: relative;
     top:18%;
-}
+}*/
 .content .logo_content a {
 	width: 110px;
     height: 110px;
