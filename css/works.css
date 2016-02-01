@@ -468,7 +468,7 @@ body {
 
 }
 @media screen and (max-width: 767px) {
-  .work_introduction iframe {
+  .work_introduction #framer {
     display: none;
   }
   .work_introduction_l_video, .work_introduction_r_video {
@@ -514,7 +514,7 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-  .work_introduction iframe {
+  .work_introduction #framer {
     display: none;
   }
   .work_introduction_r_text h3, .work_introduction_l_text h3 {
