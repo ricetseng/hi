@@ -1235,7 +1235,9 @@ a.button:hover {
   .home_introduction_just_photo {
     margin: 146.25px 0px;
   }
-	
+	.introduction h1 {
+    line-height: 1.4;
+  }
 
 }
 
