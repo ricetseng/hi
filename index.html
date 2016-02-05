@@ -78,9 +78,14 @@
 		<section class="intro_section">
 	        <div class="container">
 	            <div class="introduction">
-	                <h1 class="fade">Rice Tseng | Product Designer</h1>
+	                <h1 class="fade">
+						<div class="typewrite" data-period="1500" data-type='[ "Hi, Im Rice Tseng.", "I am a product designer.", "I LOVE prototyping!" ]'>
+						    <span class="wrap"></span>
+						  </div>
+	                </h1>
+
 	                <div class="bio">
-	                    <p>I’m an experienced Interaction Designer and Prototyper currently working at Yahoo Taiwan. I have 3 years of work experience in UX design. I like to think of myself as half designer, half programmer. I LOVE prototyping!</p>
+	                    <p>I’m an experienced Interaction Designer and Prototyper currently working at Yahoo Taiwan. I have 3 years of work experience in UX design. I like to think of myself as half designer, half programmer.</p>
 	                </div>
 	            </div>    
 				
@@ -128,6 +133,64 @@
 	
 
 	<script src="js/load.js"></script>
+	<script>
+			var TxtType = function(el, toRotate, period) {
+		        this.toRotate = toRotate;
+		        this.el = el;
+		        this.loopNum = 0;
+		        this.period = parseInt(period, 10) || 2000;
+		        this.txt = '';
+		        this.tick();
+		        this.isDeleting = false;
+		    };
+
+		    TxtType.prototype.tick = function() {
+		        var i = this.loopNum % this.toRotate.length;
+		        var fullTxt = this.toRotate[i];
+
+		        if (this.isDeleting) {
+		        this.txt = fullTxt.substring(0, this.txt.length - 1);
+		        } else {
+		        this.txt = fullTxt.substring(0, this.txt.length + 1);
+		        }
+
+		        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+		        var that = this;
+		        var delta = 200 - Math.random() * 100;
+
+		        if (this.isDeleting) { delta /= 2; }
+
+		        if (!this.isDeleting && this.txt === fullTxt) {
+		        delta = this.period;
+		        this.isDeleting = true;
+		        } else if (this.isDeleting && this.txt === '') {
+		        this.isDeleting = false;
+		        this.loopNum++;
+		        delta = 500;
+		        }
+
+		        setTimeout(function() {
+		        that.tick();
+		        }, delta);
+		    };
+
+		    window.onload = function() {
+		        var elements = document.getElementsByClassName('typewrite');
+		        for (var i=0; i<elements.length; i++) {
+		            var toRotate = elements[i].getAttribute('data-type');
+		            var period = elements[i].getAttribute('data-period');
+		            if (toRotate) {
+		              new TxtType(elements[i], JSON.parse(toRotate), period);
+		            }
+		        }
+		        // INJECT CSS
+		        var css = document.createElement("style");
+		        css.type = "text/css";
+		        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+		        document.body.appendChild(css);
+		    };
+	</script>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

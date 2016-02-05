@@ -60,6 +60,16 @@ h1, h2, h3, h4, h5, h6, ol, dl, pre, table, address, fieldset, p, hr {
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
+/*-------------------type---------------------*/
+.console
+{
+}
+
+input[type="button"]
+{
+  cursor: pointer;
+}
+
 /*--------------home----------------------------*/
 
 .home_content_wrapper {
