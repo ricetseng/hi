@@ -78,11 +78,18 @@
 		<section class="intro_section">
 	        <div class="container">
 	            <div class="introduction">
-	                <h1 class="fade">
-						<div class="typewrite" data-period="1000" data-type='[ "Hi, I am Rice Tseng.", "I am a product designer.", "I LOVE prototyping!" ]'>
+	            	<!--<h1>Rice Tseng | Product Designer</h1>-->
+	            	<h1 class="fade">
+	            		
+						<div class="typewrite" data-period="1000" data-type='[ "Product Designer", "LOVE Prototyping!" ]'>
 						    <span class="wrap"></span>
 						  </div>
 	                </h1>
+	                <!--<h1 class="fade">
+						<div class="typewrite" data-period="1000" data-type='[ "Hi, I am Rice Tseng.", "I am a product designer.", "I LOVE prototyping!" ]'>
+						    <span class="wrap"></span>
+						  </div>
+	                </h1>-->
 
 	                <div class="bio">
 	                    <p>I’m an experienced Interaction Designer and Prototyper currently working at Yahoo Taiwan. I have 3 years of work experience in UX design. I like to think of myself as half designer, half programmer.</p>
@@ -134,6 +141,7 @@
 
 	<script src="js/load.js"></script>
 	<script>
+			var myName = "Rice Tseng | "
 			var TxtType = function(el, toRotate, period) {
 		        this.toRotate = toRotate;
 		        this.el = el;
@@ -154,7 +162,7 @@
 		        this.txt = fullTxt.substring(0, this.txt.length + 1);
 		        }
 
-		        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+		        this.el.innerHTML = myName +'<span class="wrap">'+this.txt+'</span>';
 
 		        var that = this;
 		        var delta = 200 - Math.random() * 100;
