@@ -1200,6 +1200,13 @@ a.button:hover {
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
+    .introduction h1 {
+      line-height: 1.4;
+      padding: 0 7%;
+    }
+    .introduction p {
+      padding: 0 7%;
+    }
 	
 }
 @media screen and (max-width: 767px) {
@@ -1207,18 +1214,20 @@ a.button:hover {
 	.content {
 	    margin-top: 50px;
 	}
-    .introduction {
+  .introduction {
 		min-height: 300px;
 		margin: 20px 0 0px 0;
 	}
 	   
 	.introduction h1 {
 		font-size: 28px;
-		line-height: 1;
+		line-height: 1.4;
 		letter-spacing: -1px;
+    padding: 0 5%;
 	}
 	.introduction p {
 		font-size: 18px;
+    padding: 0 5%;
 	}
 
 	.bio {
@@ -1234,9 +1243,6 @@ a.button:hover {
 	}
   .home_introduction_just_photo {
     margin: 146.25px 0px;
-  }
-	.introduction h1 {
-    line-height: 1.4;
   }
 
 }
