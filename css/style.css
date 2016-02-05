@@ -57,8 +57,110 @@ a:focus {
 h1, h2, h3, h4, h5, h6, ol, dl, pre, table, address, fieldset, p, hr {
 	margin-bottom: 20px;
 }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+/*--------------home----------------------------*/
+
+.home_content_wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../images/home_1.jpg) 0 0 no-repeat #F6F6F6;
+  background-size: cover;
+  overflow: visible;
+  height: 500px;
+  float: left;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+.home_content_wrapper_2 {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../images/home_2.jpg) 0 0 no-repeat #F6F6F6;
+  background-size: cover;
+  overflow: visible;
+  height: 500px;
+  float: left;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+.home_content_wrapper_3 {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../images/home_3.jpg) 0 0 no-repeat #F6F6F6;
+  background-size: cover;
+  overflow: visible;
+  height: 500px;
+  float: left;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+.home_overlay {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(143,100,224,0.8);
+  background-size: cover;
+  overflow: visible;
+  height: 500px;
+  display: block;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+.home_overlay_2 {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(41,152,251,0.8);
+  background-size: cover;
+  overflow: visible;
+  height: 500px;
+  display: block;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+.home_overlay_3 {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(243,65,117,0.8);
+  background-size: cover;
+  overflow: visible;
+  height: 500px;
+  display: block;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+
+.container_home {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 900px;
+}
 
 
+.home_introduction_just_photo {
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin: 177.5px 0px;
+  text-align: center;
+}
+.home_introduction_just_photo h3 {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 24px;
+  line-height: 1.3;
+  margin: 20px 0 20px 0;
+  text-transform:uppercase;
+  color:#ffffff;
+  text-align: center;
+}
+.home_introduction_just_photo p {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 18px;
+  line-height: 1.3;
+  margin: 20px 0 20px 0;
+  text-transform:uppercase;
+  color:#ffffff;
+  text-align: center;
+}
 /*loading---------------------------------------*/
 .loader {
   height: 100%;
@@ -834,7 +936,7 @@ nav ul a {
     margin:0 auto;
     background: url(../images/logo.svg) 0 0 no-repeat;
     position: relative;
-    top:8%;
+    top:12%;
 }
 /*
 .logo_content img {
@@ -862,7 +964,7 @@ nav ul a {
 .container {
 	width: 100%;
 	margin: 0 auto;
-	max-width: 1280px;
+	max-width: 900px;
 }
 
 
@@ -874,7 +976,7 @@ nav ul a {
 }
 .introduction h1 {
 	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-	font-size: 36px;
+	font-size: 28px;
 	line-height: 1.3;
 	text-align: center;
 	margin: 100px 0 20px 0;
@@ -894,10 +996,10 @@ nav ul a {
 }
 .introduction p {
 	font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 2;
 	text-align: center;
-	color:#4E4E4E;
+	color:#949494;
 }
 /*-----------------------work------------------------*/
 .content_works {
@@ -959,6 +1061,31 @@ nav ul a {
 	text-align: center;
 	color:#4E4E4E;
 }
+
+
+
+/*---------------------footer-------------------------------*/
+#footer_all {
+
+  width: 100%;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+}
+.footer_container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 30px 0;
+}
+.footer_container p {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 14px;
+  color: #676767;
+  
+  text-align: center;
+    
+}
+
 
 
 /*---------------------------------------------------*/
@@ -1059,12 +1186,12 @@ a.button:hover {
 	}
 	   
 	.introduction h1 {
-		font-size: 30px;
+		font-size: 28px;
 		line-height: 1;
 		letter-spacing: -1px;
 	}
 	.introduction p {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.bio {
