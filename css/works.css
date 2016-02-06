@@ -238,9 +238,9 @@ body {
 
 .work_introduction_r_text p {
   font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2;
-  color:#4E4E4E;
+  color: #949494;
   margin-bottom: 40px;
   text-align: left;
 }
@@ -273,9 +273,9 @@ body {
 
 .work_introduction_l_text p {
   font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2;
-  color:#4E4E4E;
+  color: #949494;
   margin-bottom: 40px;
   text-align: left;
 }
@@ -302,10 +302,10 @@ body {
 
 .work_introduction p {
   font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2;
   text-align: left;
-  color:#4E4E4E;
+  color: #949494;
   margin-bottom: 30px;
 }
 
