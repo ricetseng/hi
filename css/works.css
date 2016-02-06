@@ -84,7 +84,7 @@ body {
   z-index: 0;
   width: 100%;
   height: 524px;
-  background: url('../images/home_1.jpg') rgb(0, 163, 255);
+  background: url('../images/home_1.jpg') rgb(143, 100, 224);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
@@ -108,7 +108,7 @@ body {
   z-index: 0;
   width: 100%;
   height: 524px;
-  background: url('../images/home_3.jpg') rgb(0, 163, 255);
+  background: url('../images/home_3.jpg') rgb(243, 65, 117);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
