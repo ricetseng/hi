@@ -284,6 +284,17 @@ body {
   float: right;
   margin: 100px 0px;
 }
+
+.work_introduction_r_image {
+  width: 50%;
+  height: 100%;
+  float: right;
+  margin: 60px 0px;
+  display: hidden;
+}
+.work_introduction_r_image img {
+  width: 550px;
+}
 .work_introduction_l_text h3 {
   font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   font-size: 24px;
@@ -428,7 +439,7 @@ body {
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
 
-  .work_introduction_l_video, .work_introduction_r_video {
+  .work_introduction_l_video, .work_introduction_r_video, .work_introduction_r_image {
     width:100%;
     text-align: center;
     
@@ -471,7 +482,7 @@ body {
   .work_introduction #framer {
     display: none;
   }
-  .work_introduction_l_video, .work_introduction_r_video {
+  .work_introduction_l_video, .work_introduction_r_video, .work_introduction_r_image {
     width: 100%;
     text-align: center;
     display: none;
