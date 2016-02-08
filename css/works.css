@@ -314,6 +314,15 @@ body {
   color:#ffffff;
   text-align: center;
 }
+
+.work_introduction_process p {
+  font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 18px;
+  line-height: 2;
+  color: #ffffff;
+  margin-bottom: 40px;
+  text-align: left;
+}
 .process {
   width: 800px;
   margin: 3em auto;
