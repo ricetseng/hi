@@ -298,6 +298,9 @@ body {
   text-align: left;
 }
 /*--------------------------process----------------------------*/
+.list_process {
+    display: none;
+  }
 .work_introduction_process {
   width: 100%;
   height: 100%;
@@ -576,6 +579,13 @@ body {
 
 }
 @media screen and (max-width: 767px) {
+  .process {
+    display: none;
+  }
+  .list_process {
+    display: inherit;
+  }
+
   .work_introduction #framer {
     display: none;
   }
@@ -616,7 +626,7 @@ body {
   .work_top_titles {
     width: 70%;
   }
-  .work_introduction, .work_introduction_just_photo {
+  .work_introduction, .work_introduction_just_photo, .work_introduction_process {
     padding: 0 10%;
   }
 }
