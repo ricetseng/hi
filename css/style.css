@@ -105,6 +105,17 @@ input[type="button"]
   /*background-attachment: fixed;
   overflow: visible;*/
 }
+.home_content_wrapper_4 {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../images/home_4.jpg) 0 0 no-repeat #F6F6F6;
+  background-size: cover;
+  overflow: visible;
+  height: 500px;
+  float: left;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
 .home_overlay {
   width: 100%;
   margin: 0 auto;
@@ -138,7 +149,30 @@ input[type="button"]
   /*background-attachment: fixed;
   overflow: visible;*/
 }
-
+.home_overlay_4 {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.7);
+  background-size: cover;
+  overflow: visible;
+  height: 500px;
+  display: block;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+.home_overlay:hover {
+  background-color: rgba(143,100,224,0.5);
+}
+.home_overlay_2:hover {
+  background-color: rgba(41,152,251,0.5);
+}
+.home_overlay_3:hover {
+  background-color: rgba(243,65,117,0.5);
+}
+.home_overlay_4:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+/*
 .home_overlay:hover {
   box-shadow: rgba(0, 213, 152, 0) 0 0px 0px 2px inset;
   border:#8F64E0 20px solid; 
@@ -151,7 +185,11 @@ input[type="button"]
   box-shadow: rgba(0, 213, 152, 0) 0 0px 0px 2px inset;
   border:#F34175 20px solid; 
 }
-
+.home_overlay_4:hover {
+  box-shadow: rgba(80, 82, 85, 0) 0 0px 0px 2px inset;
+  border:#000000 20px solid; 
+}
+*/
 a.button:hover {
   color: rgba(255, 255, 255, 1);
   box-shadow: rgba(0, 213, 152, 1) 0 0px 0px 40px inset;
@@ -159,7 +197,7 @@ a.button:hover {
 .container_home {
   width: 80%;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 800px;
 }
 
 
