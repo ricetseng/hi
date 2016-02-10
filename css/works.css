@@ -77,7 +77,29 @@ body {
   -ms-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
   transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
 }
-
+.work_top_bg_web {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 100%;
+  height: 524px;
+  background: url('../images/home_4.jpg') rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  background-attachment: fixed;
+  overflow: visible;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+  -webkit-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+  -moz-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+  -o-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+  -ms-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+  transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+}
 .work_top_bg_dictionary {
   position: relative;
   float: left;
@@ -240,6 +262,7 @@ body {
   margin: 100px 0px;
   text-align: center;
 }
+
 
 .work_introduction_just_photo {
   width: 100%;
@@ -443,8 +466,6 @@ body {
   color: #949494;
   margin-bottom: 30px;
 }
-
-
 /*----------------next project----------------------------------*/
 #next-prev-all {
   width: 100%;
