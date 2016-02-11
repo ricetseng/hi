@@ -116,6 +116,8 @@
 	.cv_title {
 	    width: 100%;
 	    text-align: center;
+	    font-size: 24px;
+	    padding: 0 25px 0 25px;
 	}
 	.cv_content {
 	    width: 100%;
@@ -129,6 +131,9 @@
 }
 
 @media screen and (max-width: 767px) {
+	.container_works {
+		padding: 0 25px;
+	}
 	.cv_big {
     	width: 100%;
     	text-align: center;
@@ -137,8 +142,10 @@
 	    width: 90%;
 	}
 	.cv_title {
+		font-size: 24px;
 	    width: 100%;
 	    text-align: center;
+	    padding: 0 25px 0 25px;
 	}
 	.cv_content {
 	    width: 100%;
