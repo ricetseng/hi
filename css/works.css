@@ -665,12 +665,13 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+  .work_introduction_just_photo h3, .work_introduction_just_photo p, .work_introduction_process p, .work_introduction_process h3, .work_introduction p, .work_introduction h3, .work_introduction p, .work_introduction_r_text h3, .work_introduction_l_text h3 {
+    text-align: left;
+  }
   .work_introduction #framer {
     display: none;
   }
-  .work_introduction_r_text h3, .work_introduction_l_text h3 {
-    text-align: center;
-  }
+
   .work_top_titles {
     width: 70%;
   }
