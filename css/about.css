@@ -132,12 +132,19 @@
 }
 
 @media screen and (max-width: 767px) {
+
+	.cv_item {
+		width: 100%;
+	  	margin: 70px auto;
+	}
 	.container_works {
 		padding: 0 25px;
 	}
 	.cv_big {
     	width: 100%;
     	text-align: center;
+    	font-size: 28px;
+    	line-height: 42px;
     }
 	.cv_page {
 	    width: 90%;
@@ -165,16 +172,23 @@
 
 
 @media screen and (max-width: 400px) {
+	.cv_item {
+		width: 100%;
+	  	margin: 50px auto;
+	}
 	.cv_big {
-    	width: 100%;
-    	text-align: center;
+    	display: none;
+    }
+    #cv_logo {
+    	display: none;
     }
 	.cv_page {
 	    width: 90%;
 	}
 	.cv_title {
 	    width: 100%;
-	    text-align: center;
+	    text-align: left;
+	    padding: 0 25px 0 0px;
 	}
 	.cv_content {
 	    width: 100%;
