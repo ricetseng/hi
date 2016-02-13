@@ -569,6 +569,20 @@ body {
 .ruby_img {
   display: none;
 }
+@media screen and (min-width: 979px) and (max-width: 1300px) {
+  .work_content_wrapper_photo {
+    background: url() 0 0 no-repeat #F6F6F6;
+  }
+  .work_introduction_r_text h3 {
+    text-align: center;
+  }
+  .work_introduction_r_text {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 0px;
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
@@ -657,6 +671,7 @@ body {
     height: 100%;
     float: left;
     padding: 0 10%;
+    margin: 50px 0px;
   }
   .js-video {
     height: 0;
