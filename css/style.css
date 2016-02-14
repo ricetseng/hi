@@ -935,7 +935,7 @@ nav ul a {
 }
 @media only screen and (max-width: 766px) {
   .sticky_mobile {
-    /*background-color: rgba(35, 35, 35, 0.93);*/
+    background-color: rgba(35, 35, 35, 0.93);
     color: #fff;
     opacity: 1;
     top: 0px;
