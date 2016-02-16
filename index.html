@@ -101,7 +101,7 @@
 	<section class="home_content_wrapper clearfix">
 		<a class="home_overlay" href="http://ricetseng.github.io/hi/dictionary.html">
         <div class="container_home">
-            <div class="home_introduction_just_photo">
+            <div class="home_introduction_just_photo_1">
             	<p>- Dictionary -</p>
             	<h3>A TRANSLATE APP DESIGNED FOR PEOPLE WHO ARE NOT NATIVE SPEAKERS.</h3>
             </div>
@@ -112,7 +112,7 @@
     <section class="home_content_wrapper_2 clearfix">
     	<a class="home_overlay_2" href="http://ricetseng.github.io/hi/pemory.html">
         <div class="container_home">
-            <div class="home_introduction_just_photo">
+            <div class="home_introduction_just_photo_2">
             	<p>- Pemory -</p>
             	<h3>A CONCEPT APP DESIGNED TO SOLVE PET-RELATED PROBLEMS.</h3>
             </div>
@@ -123,7 +123,7 @@
     <section class="home_content_wrapper_3 clearfix">
 		<a class="home_overlay_3" href="http://ricetseng.github.io/hi/shopping.html">
         <div class="container_home">
-            <div class="home_introduction_just_photo">
+            <div class="home_introduction_just_photo_3">
             	<p>- Shopping -</p>
             	<h3>Deliver UX/UI design for shopping app iOS and shopping app Android.</h3>
             </div>
@@ -134,7 +134,7 @@
     <section class="home_content_wrapper_4 clearfix">
     	<a class="home_overlay_4" href="http://ricetseng.github.io/hi/website.html">
         <div class="container_home">
-            <div class="home_introduction_just_photo">
+            <div class="home_introduction_just_photo_4">
             	<p>- Web Design -</p>
             	<h3>SELECTED WEB DESIGN WORKS AND FRONT-END CODING DURING PAST 3 YEARS</h3>
             </div>
@@ -158,6 +158,58 @@
 
 	<script src="js/load.js"></script>
 	<script>
+			/*
+			$(".home_overlay").hover(function(){
+			    $(".home_introduction_just_photo").css("transform", "scale(1.1)");
+			    }, function(){
+			    $(".home_introduction_just_photo").css("transform", "scale(1)");
+			});
+
+			*/
+			$(".home_overlay").hover(function(){
+			    $(".home_introduction_just_photo_1 p").css("transform", "scale(0.9)");
+			    }, function(){
+			    $(".home_introduction_just_photo_1 p").css("transform", "scale(1)");
+			});
+			$(".home_overlay").hover(function(){
+			    $(".home_introduction_just_photo_1 h3").css("transform", "scale(1.1)");
+			    }, function(){
+			    $(".home_introduction_just_photo_1 h3").css("transform", "scale(1)");
+			});
+
+			$(".home_overlay_2").hover(function(){
+			    $(".home_introduction_just_photo_2 p").css("transform", "scale(0.9)");
+			    }, function(){
+			    $(".home_introduction_just_photo_2 p").css("transform", "scale(1)");
+			});
+			$(".home_overlay_2").hover(function(){
+			    $(".home_introduction_just_photo_2 h3").css("transform", "scale(1.1)");
+			    }, function(){
+			    $(".home_introduction_just_photo_2 h3").css("transform", "scale(1)");
+			});
+
+			$(".home_overlay_3").hover(function(){
+			    $(".home_introduction_just_photo_3 p").css("transform", "scale(0.9)");
+			    }, function(){
+			    $(".home_introduction_just_photo_3 p").css("transform", "scale(1)");
+			});
+			$(".home_overlay_3").hover(function(){
+			    $(".home_introduction_just_photo_3 h3").css("transform", "scale(1.1)");
+			    }, function(){
+			    $(".home_introduction_just_photo_3 h3").css("transform", "scale(1)");
+			});
+
+			$(".home_overlay_4").hover(function(){
+			    $(".home_introduction_just_photo_4 p").css("transform", "scale(0.9)");
+			    }, function(){
+			    $(".home_introduction_just_photo_4 p").css("transform", "scale(1)");
+			});
+			$(".home_overlay_4").hover(function(){
+			    $(".home_introduction_just_photo_4 h3").css("transform", "scale(1.1)");
+			    }, function(){
+			    $(".home_introduction_just_photo_4 h3").css("transform", "scale(1)");
+			});
+			//---------------------------------------------------------//
 			var myName = "Rice Tseng | "
 			var TxtType = function(el, toRotate, period) {
 		        this.toRotate = toRotate;
