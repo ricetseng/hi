@@ -39,11 +39,11 @@ p {
 }
 
 a {
-	-webkit-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);
-	-moz-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);
-	-ms-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);
-	-o-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);
-	transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);
+	-webkit-transition: all 400ms cubic-bezier(0.03, 0.51, 0.3, 0.93);
+	-moz-transition: all 400ms cubic-bezier(0.03, 0.51, 0.3, 0.93);
+	-ms-transition: all 400ms cubic-bezier(0.03, 0.51, 0.3, 0.93);
+	-o-transition: all 400ms cubic-bezier(0.03, 0.51, 0.3, 0.93);
+	transition: all 400ms cubic-bezier(0.03, 0.51, 0.3, 0.93);
 }
 
 a, a:hover {
@@ -57,8 +57,237 @@ a:focus {
 h1, h2, h3, h4, h5, h6, ol, dl, pre, table, address, fieldset, p, hr {
 	margin-bottom: 20px;
 }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+/*-------------------type---------------------*/
+.console
+{
+}
+
+input[type="button"]
+{
+  cursor: pointer;
+}
+
+/*--------------home----------------------------*/
+
+.home_content_wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../images/home_1.jpg) 0 0 no-repeat #F6F6F6;
+  background-position: center center;
+  background-size: 100% auto;
+  overflow: visible;
+  height: 500px;
+  float: left;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+.home_content_wrapper_2 {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../images/home_2.jpg) 0 0 no-repeat #F6F6F6;
+  background-position: center center;
+  background-size: 100% auto;
+  overflow: visible;
+  height: 500px;
+  float: left;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+.home_content_wrapper_3 {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../images/home_3.jpg) 0 0 no-repeat #F6F6F6;
+  background-position: center center;
+  background-size: 100% auto;
+  overflow: visible;
+  height: 500px;
+  float: left;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+.home_content_wrapper_4 {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../images/home_4.jpg) 0 0 no-repeat #F6F6F6;
+  background-position: center center;
+  background-size: 100% auto;
+  overflow: visible;
+  height: 500px;
+  float: left;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+
+.home_content_wrapper:hover, .home_content_wrapper_2:hover, .home_content_wrapper_3:hover, .home_content_wrapper_4:hover {
+  background-size: 105% auto;
+}
 
 
+.home_overlay {
+	transition: background-color 0.5s ease-in-out;
+	-webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(143,100,224,0.8);
+  background-size: cover;
+  overflow: visible;
+  height: 500px;
+  display: block;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+.home_overlay_2 {
+	transition: background-color 0.5s ease-in-out;
+	-webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(41,152,251,0.8);
+  background-size: cover;
+  overflow: visible;
+  height: 500px;
+  display: block;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+.home_overlay_3 {
+	transition: background-color 0.5s ease-in-out;
+	-webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(243,65,117,0.8);
+  background-size: cover;
+  overflow: visible;
+  height: 500px;
+  display: block;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+.home_overlay_4 {
+	transition: background-color 0.5s ease-in-out;
+	-webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.7);
+  background-size: cover;
+  overflow: visible;
+  height: 500px;
+  display: block;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+
+.home_overlay:hover {
+  background-color: rgba(143,100,224,0.5);
+}
+.home_overlay_2:hover {
+  background-color: rgba(41,152,251,0.5);
+}
+.home_overlay_3:hover {
+  background-color: rgba(243,65,117,0.5);
+}
+.home_overlay_4:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+/*
+.home_overlay:hover {
+  box-shadow: rgba(0, 213, 152, 0) 0 0px 0px 2px inset;
+  border:#8F64E0 20px solid; 
+}
+.home_overlay_2:hover {
+  box-shadow: rgba(0, 213, 152, 0) 0 0px 0px 2px inset;
+  border:#1F7ED3 20px solid; 
+}
+.home_overlay_3:hover {
+  box-shadow: rgba(0, 213, 152, 0) 0 0px 0px 2px inset;
+  border:#F34175 20px solid; 
+}
+.home_overlay_4:hover {
+  box-shadow: rgba(80, 82, 85, 0) 0 0px 0px 2px inset;
+  border:#000000 20px solid; 
+}
+*/
+a.button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: rgba(0, 213, 152, 1) 0 0px 0px 40px inset;
+}
+.container_home {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+
+.home_introduction_just_photo_1, .home_introduction_just_photo_2, .home_introduction_just_photo_3, .home_introduction_just_photo_4 {
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin: 177.5px 0px;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+/*
+.home_introduction_just_photo:hover {
+  transform: scale(1.1);
+}
+*/
+.home_introduction_just_photo_1 h3, .home_introduction_just_photo_2 h3, .home_introduction_just_photo_3 h3, .home_introduction_just_photo_4 h3 {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 24px;
+  line-height: 1.3;
+  margin: 20px 0 20px 0;
+  text-transform:uppercase;
+  color:#ffffff;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.home_introduction_just_photo_1 p, .home_introduction_just_photo_2 p, .home_introduction_just_photo_3 p, .home_introduction_just_photo_4 p {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 18px;
+  line-height: 1.3;
+  margin: 20px 0 20px 0;
+  text-transform:uppercase;
+  color:#ffffff;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
 /*loading---------------------------------------*/
 .loader {
   height: 100%;
@@ -829,16 +1058,25 @@ nav ul a {
 
 .content .logo_content {
 	width: 110px;
-    height: 80px;
+    height: 110px;
     text-indent: -9999px;
     margin:0 auto;
     background: url(../images/logo.svg) 0 0 no-repeat;
     position: relative;
-    top:8%;
+    top:12%;
 }
+/*
+.logo_content img {
+  display: block;
+  width: 100px;
+    height: 100px;
+    margin:0 auto;
+    position: relative;
+    top:18%;
+}*/
 .content .logo_content a {
 	width: 110px;
-    height: 80px;
+    height: 110px;
     display: block;
 	
 }
@@ -853,7 +1091,7 @@ nav ul a {
 .container {
 	width: 100%;
 	margin: 0 auto;
-	max-width: 1280px;
+	max-width: 900px;
 }
 
 
@@ -865,7 +1103,7 @@ nav ul a {
 }
 .introduction h1 {
 	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-	font-size: 36px;
+	font-size: 28px;
 	line-height: 1.3;
 	text-align: center;
 	margin: 100px 0 20px 0;
@@ -885,10 +1123,10 @@ nav ul a {
 }
 .introduction p {
 	font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 2;
 	text-align: center;
-	color:#4E4E4E;
+	color:#949494;
 }
 /*-----------------------work------------------------*/
 .content_works {
@@ -950,6 +1188,31 @@ nav ul a {
 	text-align: center;
 	color:#4E4E4E;
 }
+
+
+
+/*---------------------footer-------------------------------*/
+#footer_all {
+
+  width: 100%;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+}
+.footer_container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 30px 0;
+}
+.footer_container p {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 14px;
+  color: #676767;
+  
+  text-align: center;
+    
+}
+
 
 
 /*---------------------------------------------------*/
@@ -1037,6 +1300,13 @@ a.button:hover {
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
+    .introduction h1 {
+      line-height: 1.4;
+      padding: 0 7%;
+    }
+    .introduction p {
+      padding: 0 7%;
+    }
 	
 }
 @media screen and (max-width: 767px) {
@@ -1044,18 +1314,20 @@ a.button:hover {
 	.content {
 	    margin-top: 50px;
 	}
-    .introduction {
+  .introduction {
 		min-height: 300px;
 		margin: 20px 0 0px 0;
 	}
 	   
 	.introduction h1 {
-		font-size: 30px;
-		line-height: 1;
+		font-size: 28px;
+		line-height: 1.4;
 		letter-spacing: -1px;
+    padding: 0 5%;
 	}
 	.introduction p {
-		font-size: 20px;
+		font-size: 18px;
+    padding: 0 5%;
 	}
 
 	.bio {
@@ -1069,7 +1341,9 @@ a.button:hover {
 	.links a {
 		font-size:18px;
 	}
-	
+  .home_introduction_just_photo {
+    margin: 146.25px 0px;
+  }
 
 }
 

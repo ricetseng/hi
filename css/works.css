@@ -77,14 +77,60 @@ body {
   -ms-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
   transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
 }
-
+.work_top_bg_web {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 100%;
+  height: 524px;
+  background: url('../images/home_4.jpg') rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  background-attachment: fixed;
+  overflow: visible;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+  -webkit-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+  -moz-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+  -o-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+  -ms-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+  transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+}
 .work_top_bg_dictionary {
   position: relative;
   float: left;
   z-index: 0;
   width: 100%;
   height: 524px;
-  background: url('../images/dictionary_top.png') rgb(0, 163, 255);
+  background: url('../images/home_1.jpg') rgb(143, 100, 224);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  background-attachment: fixed;
+  overflow: visible;
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+  -webkit-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+  -moz-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+  -o-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+  -ms-transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+  transition: all 500ms cubic-bezier(0.12, 0.61, 0.66, 1.07);;
+}
+
+.work_top_bg_shopping {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 100%;
+  height: 524px;
+  background: url('../images/home_3.jpg') rgb(243, 65, 117);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
@@ -129,6 +175,15 @@ body {
   bottom: 0;
 
 }
+
+
+.work_content_wrapper_pink {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F34175;
+  bottom: 0;
+
+}
 .work_content_wrapper_flow {
   width: 100%;
   margin: 0 auto;
@@ -138,12 +193,35 @@ body {
   background-attachment: fixed;
   overflow: visible;
 }
+
+
+
 .work_content_wrapper_sketch {
   width: 100%;
   margin: 0 auto;
-  background: url(../images/pemory_sketch.jpg) 0 0 no-repeat #F6F6F6;
+  background: url(../images/pemory_sketch2.jpg) 0 0 no-repeat #F6F6F6;
   background-size: cover;
   overflow: visible;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+
+.work_content_wrapper_shopping {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../images/shot_shopping.jpg) 0 0 no-repeat #F34175;
+  background-size: cover;
+  overflow: inherit;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
+
+.work_content_wrapper_web {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../images/coding.jpg) 0 0 no-repeat #000000;
+  background-size: cover;
+  overflow: inherit;
   /*background-attachment: fixed;
   overflow: visible;*/
 }
@@ -196,6 +274,7 @@ body {
   text-align: center;
 }
 
+
 .work_introduction_just_photo {
   width: 100%;
   height: 100%;
@@ -209,7 +288,15 @@ body {
   line-height: 1.3;
   margin: 40px 0 20px 0;
   text-transform:uppercase;
-  color:#4E4E4E;
+  color:#ffffff;
+  text-align: center;
+}
+.work_introduction_just_photo p {
+  font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 18px;
+  line-height: 2;
+  color: #ffffff;
+  margin-bottom: 40px;
   text-align: center;
 }
 /*--------------------------type1----------------------------*/
@@ -238,13 +325,84 @@ body {
 
 .work_introduction_r_text p {
   font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2;
-  color:#4E4E4E;
+  color: #949494;
   margin-bottom: 40px;
   text-align: left;
 }
-/*--------------------------type1 end----------------------------*/
+/*--------------------------process----------------------------*/
+.list_process {
+    display: none;
+  }
+.work_introduction_process {
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin: 100px 0px;
+  text-align: center;
+}
+.work_introduction_process h3 {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 24px;
+  line-height: 1.3;
+  margin: 40px 0 30px 0;
+  text-transform:uppercase;
+  color:#ffffff;
+  text-align: center;
+}
+
+.work_introduction_process p {
+  font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 18px;
+  line-height: 2;
+  color: #ffffff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.process {
+  width: 800px;
+  margin: 3em auto;
+  cursor: default;
+}
+
+.process-items {
+  display: table;
+  margin: 0 0 10px;
+  padding: 0;
+  list-style-type: none;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+.process-items li {
+  display: table-cell;
+  width: 25%;
+  vertical-align: bottom;
+  padding: 0 .5em;
+  -webkit-transform: scale(0.65) translateY(40px);
+          transform: scale(0.65) translateY(40px);
+  -webkit-transform-origin: bottom center;
+          transform-origin: bottom center;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+.process-items li.active {
+  -webkit-transform: scale(1) translateY(0);
+          transform: scale(1) translateY(0);
+}
+.process-items em {
+  display: block;
+  margin-top: .5em;
+}
+
+
+
+
+
 
 /*--------------------------type2----------------------------*/
 
@@ -260,6 +418,17 @@ body {
   float: right;
   margin: 100px 0px;
 }
+
+.work_introduction_r_image {
+  width: 50%;
+  height: 100%;
+  float: right;
+  margin: 60px 0px;
+  display: hidden;
+}
+.work_introduction_r_image img {
+  width: 550px;
+}
 .work_introduction_l_text h3 {
   font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   font-size: 24px;
@@ -273,9 +442,9 @@ body {
 
 .work_introduction_l_text p {
   font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2;
-  color:#4E4E4E;
+  color: #949494;
   margin-bottom: 40px;
   text-align: left;
 }
@@ -302,14 +471,12 @@ body {
 
 .work_introduction p {
   font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2;
-  text-align: left;
-  color:#4E4E4E;
+  text-align: center;
+  color: #949494;
   margin-bottom: 30px;
 }
-
-
 /*----------------next project----------------------------------*/
 #next-prev-all {
   width: 100%;
@@ -391,30 +558,6 @@ body {
 
 
 
-/*---------------------footer-------------------------------*/
-#footer_all {
-
-  width: 100%;
-  margin: 0 auto;
-  background-color: #1e1e1e;
-}
-.footer_container {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 980px;
-  padding: 30px 0;
-}
-.footer_container p {
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-size: 14px;
-  color: #676767;
-  
-  text-align: center;
-    
-}
-
-
-
 
 
 
@@ -423,15 +566,34 @@ body {
 
 
 /*-------------------------------------------------------*/
-
+.ruby_img {
+  display: none;
+}
+@media screen and (min-width: 979px) and (max-width: 1300px) {
+  .work_content_wrapper_photo {
+    background: url() 0 0 no-repeat #F6F6F6;
+  }
+  .work_introduction_r_text h3 {
+    text-align: center;
+  }
+  .work_introduction_r_text {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 0px;
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
 
-  .work_introduction_l_video, .work_introduction_r_video {
+  .work_introduction_l_video, .work_introduction_r_video, .work_introduction_r_image {
     width:100%;
     text-align: center;
     
+  }
+  .ruby_img {
+    display: initial;
   }
   .work_introduction_r_text {
     margin: 0px;
@@ -449,7 +611,7 @@ body {
     width: 100%;
     height: 100%;
     float: left;
-    padding: 0 10%;
+    padding: 0px;
   }
   .js-video {
     height: 0;
@@ -463,21 +625,34 @@ body {
     width: 35%;
   }
   .work_introduction, .work_introduction_just_photo {
-    padding: 0 10%;
+    padding: 0px;
+  }
+  #ruby {
+    display: none;
   }
 
 }
 @media screen and (max-width: 767px) {
+  .ruby_img {
+    display: initial;
+  }
+  .work_introduction_just_photo h3, .work_introduction_just_photo p, .work_introduction_process p, .work_introduction_process h3, .work_introduction p, .work_introduction h3, .work_introduction p, .work_introduction_r_text h3, .work_introduction_l_text h3 {
+    text-align: left;
+  }
+  .process, #ruby {
+    display: none;
+  }
+  .list_process {
+    display: inherit;
+  }
+
   .work_introduction #framer {
     display: none;
   }
-  .work_introduction_l_video, .work_introduction_r_video {
+  .work_introduction_l_video, .work_introduction_r_video, .work_introduction_r_image {
     width: 100%;
     text-align: center;
     display: none;
-  }
-  .work_introduction_r_text h3, .work_introduction_l_text h3 {
-    text-align: center;
   }
   .work_introduction_r_text {
     margin: 0px;
@@ -496,6 +671,7 @@ body {
     height: 100%;
     float: left;
     padding: 0 10%;
+    margin: 50px 0px;
   }
   .js-video {
     height: 0;
@@ -508,22 +684,26 @@ body {
   .work_top_titles {
     width: 70%;
   }
-  .work_introduction, .work_introduction_just_photo {
+  .work_introduction, .work_introduction_just_photo, .work_introduction_process {
     padding: 0 10%;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .work_introduction #framer {
+  .ruby_img {
+    display: initial;
+  }
+  .work_introduction_just_photo h3, .work_introduction_just_photo p, .work_introduction_process p, .work_introduction_process h3, .work_introduction p, .work_introduction h3, .work_introduction p, .work_introduction_r_text h3, .work_introduction_l_text h3 {
+    text-align: left;
+  }
+  .work_introduction #framer, #ruby {
     display: none;
   }
-  .work_introduction_r_text h3, .work_introduction_l_text h3 {
-    text-align: center;
-  }
+
   .work_top_titles {
     width: 70%;
   }
   .work_introduction, .work_introduction_just_photo {
-    padding: 0 5%;
+    padding: 0 10%;
   }
 }
