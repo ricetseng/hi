@@ -726,6 +726,7 @@ nav ul a {
   font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
 }
 @media only screen and (max-width: 766px) {
+
   .main_h {
     padding-top: 18px;
   }
@@ -1299,7 +1300,13 @@ a.button:hover {
 
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
-    /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
+    /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */
+    .home_content_wrapper, .home_content_wrapper_2, .home_content_wrapper_3, .home_content_wrapper_4 {
+      background-size: auto 100%;
+    } 
+    .home_content_wrapper:hover, .home_content_wrapper_2:hover, .home_content_wrapper_3:hover, .home_content_wrapper_4:hover {
+  background-size: auto 105%;
+}
     .introduction h1 {
       line-height: 1.4;
       padding: 0 7%;
@@ -1311,6 +1318,12 @@ a.button:hover {
 }
 @media screen and (max-width: 767px) {
 	/* 如果使用者之視窗寬度 <= 768px，將會再載入這裡的 CSS。*/
+  .home_content_wrapper, .home_content_wrapper_2, .home_content_wrapper_3, .home_content_wrapper_4 {
+      background-size: auto 100%;
+    } 
+    .home_content_wrapper:hover, .home_content_wrapper_2:hover, .home_content_wrapper_3:hover, .home_content_wrapper_4:hover {
+  background-size: auto 105%;
+}
 	.content {
 	    margin-top: 50px;
 	}
