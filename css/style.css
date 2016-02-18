@@ -39,11 +39,11 @@ p {
 }
 
 a {
-	-webkit-transition: all 400ms cubic-bezier(0.03, 0.51, 0.3, 0.93);
-	-moz-transition: all 400ms cubic-bezier(0.03, 0.51, 0.3, 0.93);
-	-ms-transition: all 400ms cubic-bezier(0.03, 0.51, 0.3, 0.93);
-	-o-transition: all 400ms cubic-bezier(0.03, 0.51, 0.3, 0.93);
-	transition: all 400ms cubic-bezier(0.03, 0.51, 0.3, 0.93);
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
 }
 
 a, a:hover {
@@ -81,10 +81,10 @@ input[type="button"]
   overflow: visible;
   height: 500px;
   float: left;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
   /*background-attachment: fixed;
   overflow: visible;*/
 }
@@ -97,10 +97,10 @@ input[type="button"]
   overflow: visible;
   height: 500px;
   float: left;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
   /*background-attachment: fixed;
   overflow: visible;*/
 }
@@ -113,10 +113,10 @@ input[type="button"]
   overflow: visible;
   height: 500px;
   float: left;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
   /*background-attachment: fixed;
   overflow: visible;*/
 }
@@ -129,10 +129,10 @@ input[type="button"]
   overflow: visible;
   height: 500px;
   float: left;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
   /*background-attachment: fixed;
   overflow: visible;*/
 }
@@ -143,10 +143,10 @@ input[type="button"]
 
 
 .home_overlay {
-	transition: background-color 0.5s ease-in-out;
-	-webkit-transition: background-color 0.5s ease-in-out;
-    -moz-transition: background-color 0.5s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.2s ease-out;
+	-webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
   width: 100%;
   margin: 0 auto;
   background-color: rgba(143,100,224,0.8);
@@ -158,10 +158,10 @@ input[type="button"]
   overflow: visible;*/
 }
 .home_overlay_2 {
-	transition: background-color 0.5s ease-in-out;
-	-webkit-transition: background-color 0.5s ease-in-out;
-    -moz-transition: background-color 0.5s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.2s ease-out;
+	-webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
   width: 100%;
   margin: 0 auto;
   background-color: rgba(41,152,251,0.8);
@@ -173,10 +173,10 @@ input[type="button"]
   overflow: visible;*/
 }
 .home_overlay_3 {
-	transition: background-color 0.5s ease-in-out;
-	-webkit-transition: background-color 0.5s ease-in-out;
-    -moz-transition: background-color 0.5s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.2s ease-out;
+	-webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
   width: 100%;
   margin: 0 auto;
   background-color: rgba(243,65,117,0.8);
@@ -188,10 +188,10 @@ input[type="button"]
   overflow: visible;*/
 }
 .home_overlay_4 {
-	transition: background-color 0.5s ease-in-out;
-	-webkit-transition: background-color 0.5s ease-in-out;
-    -moz-transition: background-color 0.5s ease-in-out;
-    -o-transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.2s ease-out;
+	-webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
   width: 100%;
   margin: 0 auto;
   background-color: rgba(0,0,0,0.7);
@@ -252,10 +252,10 @@ a.button:hover {
   float: left;
   margin: 177.5px 0px;
   text-align: center;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
 }
 /*
 .home_introduction_just_photo:hover {
@@ -270,10 +270,10 @@ a.button:hover {
   text-transform:uppercase;
   color:#ffffff;
   text-align: center;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
 }
 .home_introduction_just_photo_1 p, .home_introduction_just_photo_2 p, .home_introduction_just_photo_3 p, .home_introduction_just_photo_4 p {
   font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
@@ -283,10 +283,10 @@ a.button:hover {
   text-transform:uppercase;
   color:#ffffff;
   text-align: center;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
 }
 /*loading---------------------------------------*/
 .loader {
@@ -306,8 +306,8 @@ a.button:hover {
 }
 
 .fade {
-	transition: all 1s ease-in-out;
-    -webkit-animation: fadein 1s ease-in-out;
+	transition: all 1s ease-out;
+    -webkit-animation: fadein 1s ease-out;
     animation: fadein 1s;
 }
 
@@ -367,7 +367,7 @@ a.button:hover {
 
 .circle:nth-child(2) {
   -webkit-animation:  loading 1s infinite;
-  -webkit-animation-delay: 0.5s;
+  -webkit-animation-delay: 0.2s;
 }
 
 .circle:nth-child(3) {
@@ -1083,7 +1083,7 @@ nav ul a {
 }
 
 #logo_content {
-	transition: all .2s ease-in-out;
+	transition: all .2s ease-out;
 }
 #logo_content:hover {
 	transform: scale(1.1);
@@ -1249,8 +1249,8 @@ nav ul a {
 	font-size: 20px; 
 	text-align: center;
 	color: #aaa;  
-	transition: transform 200ms ease-in-out, color 200ms ease-in-out; 
-	-webkit-transition: transform 200ms ease-in-out, color 200ms ease-in-out; 
+	transition: transform 200ms ease-out, color 200ms ease-out; 
+	-webkit-transition: transform 200ms ease-out, color 200ms ease-out; 
 	transform: scale(1); -ms-transform: scale(1); /* IE 9 */	
 	-webkit-transform: scale(1); /* Safari */
 }
