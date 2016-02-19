@@ -62,7 +62,7 @@ body {
   height: 524px;
   background: url('../images/pemory_2.png') rgb(0, 163, 255);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   background-position: left top;
   background-attachment: fixed;
   overflow: visible;
@@ -85,7 +85,7 @@ body {
   height: 524px;
   background: url('../images/home_4.jpg') rgb(0, 0, 0);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   background-position: left top;
   background-attachment: fixed;
   overflow: visible;
@@ -108,7 +108,7 @@ body {
   height: 524px;
   background: url('../images/home_1.jpg') rgb(143, 100, 224);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   background-position: left top;
   background-attachment: fixed;
   overflow: visible;
@@ -132,7 +132,7 @@ body {
   height: 524px;
   background: url('../images/home_3.jpg') rgb(243, 65, 117);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   background-position: left top;
   background-attachment: fixed;
   overflow: visible;
@@ -569,6 +569,13 @@ body {
 .ruby_img {
   display: none;
 }
+
+@media screen and (min-width: 979px) and (max-width: 1060px) {
+  .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping {
+    background-size: 120% auto;
+  } 
+}
+
 @media screen and (min-width: 979px) and (max-width: 1300px) {
   .work_content_wrapper_photo {
     background: url() 0 0 no-repeat #F6F6F6;
@@ -587,6 +594,9 @@ body {
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
 
+  .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping {
+    background-size: 150% auto;
+  } 
   .work_introduction_l_video, .work_introduction_r_video, .work_introduction_r_image {
     width:100%;
     text-align: center;
@@ -633,6 +643,9 @@ body {
 
 }
 @media screen and (max-width: 767px) {
+  .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping {
+    background-size: cover;
+  } 
   .ruby_img {
     display: initial;
   }
