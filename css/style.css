@@ -731,12 +731,12 @@ nav ul a {
     padding-top: 18px;
   }
   .open-nav {
-	  height: 290px !important;
+	  height: 310px !important;
 	}
 }
 
 .open-nav {
-  max-height: 290px !important;
+  max-height: 310px !important;
 }
 .open-nav .mobile-toggle {
   transform: rotate(-90deg);
@@ -904,12 +904,12 @@ nav ul a {
     padding-top: 18px;
   }
   .open-nav-dark {
-	  height: 290px !important;
+	  height: 310px !important;
 	}
 }
 
 .open-nav-dark {
-  max-height: 290px !important;
+  max-height: 310px !important;
 }
 .open-nav-dark .mobile-toggle-dark {
   transform: rotate(-90deg);
