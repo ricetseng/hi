@@ -1064,7 +1064,7 @@ nav ul a {
     margin:0 auto;
     background: url(../images/logo.svg) 0 0 no-repeat;
     position: relative;
-    top:12%;
+    top:100px;
 }
 /*
 .logo_content img {
