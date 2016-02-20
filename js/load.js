@@ -7,7 +7,7 @@ $('.main_h').hide();
       /* This line hide loader and show content */
       setTimeout(function(){
         $('.main_h').show();
-        $('.main_h').fadeIn("slow");
+        //$('.main_h').fadeIn("slow");
         $('.content').fadeIn("slow");
         (loader).fadeOut("fast");
         /*Set time in milisec */
