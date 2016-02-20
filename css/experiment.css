@@ -153,6 +153,11 @@
   }
 }
 @media (max-width: 728px) {
+  .work-block h3 {
+	  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+	  font-size: 20px;
+	  line-height: 1.5;
+	}
   .work-block {
 	  margin: 20px 10px 20px 8px;
   }
