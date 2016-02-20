@@ -696,6 +696,7 @@ body {
   }
   .work_top_titles {
     width: 70%;
+    margin: -390px 0 0 10%;
   }
   .work_introduction, .work_introduction_just_photo, .work_introduction_process {
     padding: 0 10%;
@@ -715,6 +716,7 @@ body {
 
   .work_top_titles {
     width: 70%;
+    margin: -390px 0 0 10%;
   }
   .work_introduction, .work_introduction_just_photo {
     padding: 0 10%;
