@@ -64,9 +64,11 @@
 .work-block {
   position: relative;
   margin: 20px auto;
+
 }
 .work-block img, .work-block h3 {
   transition: .35s ease-in-out;
+  height: 400px;
 }
 .work-block h3 {
   position: absolute;
