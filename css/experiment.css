@@ -99,7 +99,7 @@
 }
 
 .work-block a:hover > img {
-  opacity: .3;
+  opacity: .1;
 }
 
 .work-block a:hover > h3 {
