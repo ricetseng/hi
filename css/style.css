@@ -794,6 +794,7 @@ nav ul a {
   text-transform: uppercase;
   font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   font-size: 14px;
+  color:#ffffff;
 }
 
 .mobile-toggle {
@@ -936,33 +937,11 @@ nav ul a {
   margin-bottom: 10px;
 }
 
-nav {
-  float: right;
-  width: 60%;
- 
-}
+
 .row_dark nav {
 	margin-top: 10px;
 }
-nav ul {
-  list-style: none;
-  overflow: hidden;
-  text-align: right;
-  float: right;
-}
 
-nav ul li {
-  display: inline-block;
-  margin-left: 35px;
-  line-height: 1.5;
-}
-
-nav ul a {
-  color: #fff;
-  text-transform: uppercase;
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-size: 14px;
-}
 
 .mobile-toggle-dark {
   display: none;
