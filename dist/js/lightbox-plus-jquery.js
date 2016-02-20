@@ -5918,7 +5918,7 @@ jQuery.extend({
 
 					// We should always get a number back from opacity
 					var ret = curCSS( elem, "opacity" );
-					return ret === "" ? "1" : ret;
+					return ret === "" ? "" : ret;
 				}
 			}
 		}

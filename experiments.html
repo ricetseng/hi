@@ -23,6 +23,12 @@
     <link rel="stylesheet" href="css/reset.css">
 
     <link rel="stylesheet" href="css/experiment.css">
+
+    <!-- animsition.css -->
+    <link rel="stylesheet" href="dist/css/animsition.min.css">
+    <!-- animsition.js -->
+    <script src="dist/js/animsition.min.js"></script>
+    <script src="dist/js/page_transition.js"></script>
     
     <link rel="shortcut icon" href="images/favicon-20160115122452496.ico">
 	<link rel="bookmark" href="images/favicon-20160115122452496.ico"/>
@@ -39,10 +45,12 @@
 </head>
 
 <body>
-	<header class="main_h sticky_mobile">
+	<header class="main_h sticky_mobile animsition">
 
         <div class="row">
-            <a class="logo" href="http://ricetseng.github.io/hi">RICE TSENG</a>
+            <a class="logo animsition-link" 
+                      data-animsition-in-class="zoom-out-sm"
+                      data-animsition-in-duration="1000" class="logo" href="http://ricetseng.github.io/hi">RICE TSENG</a>
 
             <div class="mobile-toggle">
                 <span></span>
@@ -51,9 +59,16 @@
 
             <nav class="nav_font">
                 <ul>
-                    <li><a href="http://ricetseng.github.io/hi/about.html">ABOUT</a></li>
-                    <li><a href="http://ricetseng.github.io/hi">WORKS</a></li>
-                    <li><a href="http://ricetseng.github.io/hi/experiments.html">EXPERIMENTS</a></li>
+                    <li><a class="animsition-link" 
+                      data-animsition-in-class="zoom-out-sm"
+                      data-animsition-in-duration="1000"
+
+                    href="http://ricetseng.github.io/hi/about.html">ABOUT</a></li>
+                    <li><a href=".home_content_wrapper">WORKS</a></li>
+                    <li><a class="animsition-link" 
+                      data-animsition-in-class="zoom-out-sm"
+                      data-animsition-in-duration="1000"
+                      href="http://ricetseng.github.io/hi/experiments.html">EXPERIMENTS</a></li>
                     <li><a target="_blank" href="https://www.dropbox.com/s/b4j2ksbi2osfz85/ricetseng_reusme.pdf?dl=0">RESUME</a></li>
                 </ul>
             </nav>
@@ -62,7 +77,7 @@
 
     </header>
 
-    <section id="lab">
+    <section id="lab" class="animsition">
 
         <div class="row_lab">
             

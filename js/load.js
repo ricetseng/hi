@@ -1,4 +1,3 @@
- 
 $('.main_h').hide();
 
  function loaderSpinner() {
@@ -8,8 +7,8 @@ $('.main_h').hide();
       /* This line hide loader and show content */
       setTimeout(function(){
         $('.main_h').show();
-        $('.content').delay( 800 ).fadeIn("slow");
-        $('.main_h').delay( 800 ).fadeIn("slow");
+        $('.content').fadeIn("slow");
+        $('.main_h').fadeIn("slow");
         (loader).fadeOut("fast");
         /*Set time in milisec */
       },2000);
