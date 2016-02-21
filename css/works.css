@@ -337,6 +337,15 @@ section.prototype {
   /*background-attachment: fixed;
   overflow: visible;*/
 }
+.work_content_wrapper_dictionary {
+  width: 100%;
+  margin: 0 auto;
+  background: url(../images/showcase_dictionary.png) 0 0 no-repeat #F34175;
+  background-size: cover;
+  overflow: inherit;
+  /*background-attachment: fixed;
+  overflow: visible;*/
+}
 
 .work_content_wrapper_web {
   width: 100%;
