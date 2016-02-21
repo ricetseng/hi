@@ -10,7 +10,7 @@ $(document).ready(function() {
     loadingParentElement: 'body', //animsition wrapper element
     loadingClass: 'animsition-loading',
     loadingInner: '', // e.g '<img src="loading.svg" />'
-    timeout: false,
+    timeout: true,
     timeoutCountdown: 3000,
     onLoadEvent: true,
     browser: [ 'animation-duration', '-webkit-animation-duration'],

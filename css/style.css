@@ -1148,7 +1148,7 @@ button::after {
 }
 
 button {
-  background: none;
+  background: #fff;
   border: 3px solid #00D598;
   border-radius: 5px;
   color: #00D598;
