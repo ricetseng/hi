@@ -1,5 +1,5 @@
 body {
-  font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 .clearfix:before, .clearfix:after { content: ""; display: table; }

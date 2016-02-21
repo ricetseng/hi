@@ -1,16 +1,14 @@
-$('.main_h').hide();
+
+$('.wrapper').hide();
 
  function loaderSpinner() {
     $(window).load(function() {
         var loader = $('.loader');
 
-      /* This line hide loader and show content */
       setTimeout(function(){
-        $('.main_h').show();
-        //$('.main_h').fadeIn("slow");
+        $('.wrapper').show();
         $('.content').fadeIn("slow");
         (loader).fadeOut("fast");
-        /*Set time in milisec */
       },2000);
     });
 
