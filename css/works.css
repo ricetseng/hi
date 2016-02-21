@@ -13,7 +13,7 @@ section.prototype {
 section.prototype.on .d {
   transform: translate(-400px, 0); }
 
-section.prototype.on .headline-bg {
+section.prototype.on {
   opacity: .2;
   transform: translate(0, 0); }
 
@@ -21,7 +21,7 @@ section.prototype.on .text p, section.prototype.on .text .btn, section.prototype
   opacity: 1;
   transform: translate(0, 0); }
 
-section.prototype.on .prototype {
+section.prototype.on {
   opacity: 1;
   transform: translate(0, 0); }
 
@@ -33,21 +33,9 @@ section.prototype .screens.on .b, section.prototype .screens.on .d, section.prot
 
 section.prototype {
   background: #0097f2;
-  padding: 120px 0 1200px 0;
+  padding: 120px 0 600px 0;
   color: #fff; }
-  section.prototype .headline-bg {
-    font-size: 170px;
-    letter-spacing: -8px;
-    line-height: 140px;
-    font-weight: 700;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: .2;
-    z-index: 1;
-    opacity: 0;
-    transform: translate(-1000px, 0);
-    transition: transform .8s ease, opacity .8s ease; }
+ 
   section.prototype > .d {
     width: 0;
     height: 0;
@@ -114,49 +102,7 @@ section.prototype {
       margin-left: 820px;
       transform: translate(300px, 300px) rotate(315deg);
       transition: transform .6s ease; }
-  section.prototype .w {
-    max-width: 1080px;
-    z-index: 2; }
-  section.prototype .text {
-    padding-top: 250px;
-    width: 420px; }
-    section.prototype .text p {
-      font-size: 18px;
-      line-height: 28px;
-      margin-bottom: 95px;
-      opacity: 0;
-      transform: translate(-1000px, 0);
-      transition: transform 1s ease, opacity 1s ease; }
-    section.prototype .text .btn {
-      margin-bottom: 100px;
-      font-size: 14px;
-      line-height: 58px;
-      padding: 0 40px;
-      display: inline-block;
-      color: #fff;
-      opacity: 0;
-      transform: translate(-1000px, 0);
-      transition: transform 1.2s ease, opacity 1.2s ease; }
-    section.prototype .text p.poweredby {
-      font-size: 14px;
-      font-weight: 400;
-      font-style: italic;
-      display: block;
-      color: rgba(255, 255, 255, 0.6);
-      opacity: 0;
-      transform: translate(-1000px, 0);
-      transition: transform 1.8s ease, opacity 1.8s ease; }
-      section.prototype .text p.poweredby a {
-        display: inline-block;
-        background: url("../images/logo-invision.svg") no-repeat 0 0;
-        width: 88px;
-        height: 31px;
-        margin-left: 20px;
-        vertical-align: middle;
-        opacity: .6;
-        transition: opacity .3s ease; }
-        section.prototype .text p.poweredby a:hover {
-          opacity: 1; }
+  
   section.prototype .prototype {
     position: absolute;
     top: 0;
@@ -169,21 +115,10 @@ section.prototype {
     opacity: 0;
     transform: translate(0, 300px);
     transition: transform 1s ease, opacity 1s ease; }
-    section.prototype .prototype iframe {
-      border: 0;
-      margin-top: -126px;
-      margin-left: -31px; }
-    section.prototype .prototype .external {
-      width: 375px;
-      height: 646px;
-      display: block;
-      display: none; }
-      section.prototype .prototype .external img {
-        width: 100%; }
   section.prototype #download {
     text-align: center;
     padding-top: 220px;
-    background: url("../images/icon-x-lg.svg") no-repeat center 0; }
+  }
     section.prototype #download h2 {
       font-size: 60px;
       letter-spacing: -1px;
@@ -191,15 +126,6 @@ section.prototype {
     section.prototype #download p {
       font-size: 18px;
       margin-bottom: 45px; }
-    section.prototype #download form {
-      width: 50%;
-      min-width: 300px;
-      position: relative;
-      margin: 0 auto; }
-    section.prototype #download .btn {
-      width: 150px; }
-    section.prototype #download .btn + .btn {
-      margin-left: 25px; }
 /*--------------------------------------*/
 
 .content_animation {
