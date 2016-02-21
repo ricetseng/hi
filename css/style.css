@@ -1148,29 +1148,34 @@ button::after {
 }
 
 button {
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   background: #fff;
   border: 3px solid #00D598;
-  border-radius: 5px;
+  border-radius: 0px;
   color: #00D598;
   display: block;
   font-size: 12px;
   font-weight: bold;
-  margin: 1em auto;
-  padding: 2em 6em;
+  margin: 0 auto;
+  padding: 20px 30px;
   position: relative;
   text-transform: uppercase;
 }
-
+.btn-1 {
+  cursor: pointer;
+}
 button::before,
 button::after {
   background: #00D598;
+  color: #fff;
   content: '';
   position: absolute;
   z-index: -1;
 }
 
 button:hover {
-  color: #2ecc71;
+  color: #fff;
+  background-color:#00D598; 
 }
 
 
