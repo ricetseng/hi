@@ -30,6 +30,22 @@ $(window).scroll(function() {
 
 
 
+//----------more button-----------------
+
+
+
+$('.show_more').hide();
+$('.container_load').click(function(){
+    $('.show_more').show();
+    $('.container_load').fadeOut();
+});
+
+
+//----------end more button------------
+
+
+
+
 $('.nav-toggle').click(function(){
     $('body').toggleClass('nav-open');
     //$( '.nav-toggle' ).css( "background-color", "rgba(46, 46, 46, 0)" );

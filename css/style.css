@@ -1115,7 +1115,7 @@ nav ul a {
     padding: 20px 0;
 }
 
-a.button {
+.button {
 	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
 	font-size: 24px;
 	color: rgba(0, 213, 152, 1);
@@ -1124,12 +1124,71 @@ a.button {
 	padding: 15px 50px;
 }
 
-a.button:hover {
+.button:hover {
 	color: rgba(255, 255, 255, 1);
 	box-shadow: rgba(0, 213, 152, 1) 0 0px 0px 40px inset;
 }
+/*-----------------more button--------------------*/
+
+.container_load {
+  padding: 10px;
+  cursor: pointer;
+
+}
 
 
+/* GENERAL BUTTON STYLING */
+
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+button {
+  background: none;
+  border: 3px solid #00D598;
+  border-radius: 5px;
+  color: #00D598;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 2em 6em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button::before,
+button::after {
+  background: #00D598;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: #2ecc71;
+}
+
+
+/* BUTTON 1 */
+
+.btn-1::after {
+  height: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.btn-1:hover:after {
+  height: 100%;
+}
+
+}
+/*--------------------------------------*/
 
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
