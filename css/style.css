@@ -422,7 +422,8 @@ body.nav-open .nav-toggle .icon:after {
   width: 60px;
   height: 60px;
   z-index: 2;
-  border-radius: 50%;
+  
+  border-color: #00D598;
   margin: 20px;
   position: fixed;
   cursor: pointer;
@@ -436,8 +437,9 @@ body.nav-open .nav-toggle .icon:after {
 .nav-toggle:before {
   width: 60px;
   height: 60px;
-  border-radius: 50%;
+  border-radius: 0px;
   /*background-color: #00D598;*/
+
   content: "";
   position: absolute;
   top: 50%;
@@ -455,7 +457,7 @@ body.nav-open .nav-toggle .icon:after {
   width: 25px;
   height: 3px;
   border-radius:15px;
-  background-color: #00D598;
+  background-color: rgba(0, 213, 152, 1);
   position: absolute;
   top: 28px;
   left: 17px;
@@ -469,7 +471,7 @@ body.nav-open .nav-toggle .icon:after {
   width: 25px;
   height: 3px;
   border-radius:15px;
-  background-color: #00D598;
+  background-color: rgba(0, 213, 152, 1);
   content: "";
   position: absolute;
   left: 0;
