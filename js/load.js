@@ -30,8 +30,9 @@ $(window).scroll(function() {
 
 
 
-
 $('.nav-toggle').click(function(){
     $('body').toggleClass('nav-open');
-  $('.menu-items').toggleClass('fs');
+    //$( '.nav-toggle' ).css( "background-color", "rgba(46, 46, 46, 0)" );
+    //$( '.nav-toggle' ).css( "transform", "rotate(360deg)" );
+    $('.menu-items').toggleClass('fs');
 });

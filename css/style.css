@@ -432,14 +432,19 @@ body.nav-open .nav-toggle .icon:after {
   -webkit-transition-timing-function: swing;
   transition-timing-function: swing;
   /*box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);*/
+  /*
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  */
 }
 
 .nav-toggle:before {
   width: 60px;
   height: 60px;
-  border-radius: 0px;
+  border-radius: 1000px;
   /*background-color: #00D598;*/
-
+  
   content: "";
   position: absolute;
   top: 50%;
