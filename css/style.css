@@ -907,7 +907,7 @@ body.nav-open .nav-toggle .icon:after {
   font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
 }
 @media only screen and (max-width: 766px) {
-
+  
   .main_h {
     padding-top: 18px;
   }
@@ -1478,6 +1478,9 @@ a.button:hover {
 }
 @media screen and (max-width: 767px) {
 	/* 如果使用者之視窗寬度 <= 768px，將會再載入這裡的 CSS。*/
+  .nav-toggle {
+    margin: 10px;
+  }
   .home_content_wrapper, .home_content_wrapper_2, .home_content_wrapper_3, .home_content_wrapper_4 {
       background-size: auto 100%;
     } 
