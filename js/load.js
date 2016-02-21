@@ -1,6 +1,8 @@
 
-$('.wrapper').hide();
+$('.content').show();
 
+$('.wrapper').show();
+/*
  function loaderSpinner() {
     $(window).load(function() {
         var loader = $('.loader');
@@ -12,9 +14,21 @@ $('.wrapper').hide();
       },2000);
     });
 
-}
+}*/
 
-loaderSpinner();
+//loaderSpinner();
+
+/*
+$(window).scroll(function() {
+
+    if ($(window).scrollTop() > 100) {
+        $( '.nav-toggle' ).css( "background-color", "rgba(255, 255, 255, 0)" );
+    } else {
+        $( '.nav-toggle' ).css( "background-color", "rgba(255, 255, 255, 1)" );
+    }
+});
+
+*/
 
 
 $('.nav-toggle').click(function(){
