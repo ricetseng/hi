@@ -46,6 +46,8 @@
 
 </head>
 
+
+
 <!--loading-->
 <div class="loader">
 	<div id="icon">
@@ -56,38 +58,19 @@
 </div>
 
 <body>
+	<div class="wrapper">
+	  <div class="nav-toggle">
+	    <div class="icon"></div>
+	  </div>
+	</div>
+	<div class="menu-items">
+	  <div><a href="http://ricetseng.github.io/hi/about.html">About</a></div>
+	  <div><a href="http://ricetseng.github.io/hi">Works</a></div>
+	  <div><a href="http://ricetseng.github.io/hi/experiments.html">Experiments</a></div>
+	  <div><a target="_blank" href="https://www.dropbox.com/s/b4j2ksbi2osfz85/ricetseng_reusme.pdf?dl=0">Resume</a></div>
+	</div>
 
-	<header class="main_h sticky_mobile">
-
-	    <div class="row animsition">
-	        <a class="logo animsition-link" 
-                      data-animsition-in-class="zoom-out-sm"
-                      data-animsition-in-duration="1000" class="logo" href="http://ricetseng.github.io/hi">RICE TSENG</a>
-
-	        <div class="mobile-toggle">
-	            <span></span>
-	            <span></span>
-	        </div>
-
-	        <nav class="nav_font">
-	            <ul>
-	                <li><a class="animsition-link" 
-					  data-animsition-in-class="zoom-out-sm"
-					  data-animsition-in-duration="1000"
-
-	                href="http://ricetseng.github.io/hi/about.html">ABOUT</a></li>
-	                <li><a href=".home_content_wrapper">WORKS</a></li>
-	                <li><a class="animsition-link" 
-					  data-animsition-in-class="zoom-out-sm"
-					  data-animsition-in-duration="1000"
-					  href="http://ricetseng.github.io/hi/experiments.html">EXPERIMENTS</a></li>
-	                <li><a target="_blank" href="https://www.dropbox.com/s/b4j2ksbi2osfz85/ricetseng_reusme.pdf?dl=0">RESUME</a></li>
-	            </ul>
-	        </nav>
-
-	    </div>
-
-	</header>
+    
 	<div class="content animatedParent animsition">
 
 		<h1 class="logo_content fade animated tada" id="logo_content"><a href="http://ricetseng.github.io/hi/">Rice Tseng</a></h1>
@@ -101,11 +84,7 @@
 						    <span class="wrap"></span>
 						  </div>
 	                </h1>
-	                <!--<h1 class="fade">
-						<div class="typewrite" data-period="1000" data-type='[ "Hi, I am Rice Tseng.", "I am a product designer.", "I LOVE prototyping!" ]'>
-						    <span class="wrap"></span>
-						  </div>
-	                </h1>-->
+
 
 	                <div class="bio">
 	                    <p>I’m an experienced Interaction Designer and Prototyper currently working at Yahoo Taiwan. I have 3 years of work experience in UX design. I like to think of myself as half designer, half programmer.</p>
@@ -157,10 +136,6 @@
 	        </div>  
 	        </a>
 	    </section>
-
-	    <!--<div id="footer">
-               <p>&copy; Rice Tseng 2012-2016 | All Rights Reserved</p>
-        </div>-->
         
        <nav id="footer_all">
 	    	<div class="footer_container">
@@ -170,18 +145,11 @@
 
 	</div>
 	
-
 	<script src="js/load.js"></script>
 	<script src="js/css3-animate-it.js"></script>
 	<script>
-			/*
-			$(".home_overlay").hover(function(){
-			    $(".home_introduction_just_photo").css("transform", "scale(1.1)");
-			    }, function(){
-			    $(".home_introduction_just_photo").css("transform", "scale(1)");
-			});
-
-			*/
+			
+			
 			$(".home_overlay").hover(function(){
 			    $(".home_introduction_just_photo_1").css("transform", "scale(0.9)");
 			    }, function(){

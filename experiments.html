@@ -45,40 +45,18 @@
 </head>
 
 <body>
-	<header class="main_h sticky_mobile">
-
-        <div class="row animsition">
-            <a class="logo animsition-link" 
-                      data-animsition-in-class="zoom-out-sm"
-                      data-animsition-in-duration="1000" class="logo" href="http://ricetseng.github.io/hi">RICE TSENG</a>
-
-            <div class="mobile-toggle">
-                <span></span>
-                <span></span>
-            </div>
-
-            <nav class="nav_font">
-                <ul>
-                    <li><a class="animsition-link" 
-                      data-animsition-in-class="zoom-out-sm"
-                      data-animsition-in-duration="1000"
-
-                    href="http://ricetseng.github.io/hi/about.html">ABOUT</a></li>
-                    <li><a class="animsition-link" 
-                      data-animsition-in-class="zoom-out-sm"
-                      data-animsition-in-duration="1000" href="http://ricetseng.github.io/hi">WORKS</a></li>
-                    <li><a class="animsition-link" 
-                      data-animsition-in-class="zoom-out-sm"
-                      data-animsition-in-duration="1000"
-                      href="http://ricetseng.github.io/hi/experiments.html">EXPERIMENTS</a></li>
-                    <li><a target="_blank" href="https://www.dropbox.com/s/b4j2ksbi2osfz85/ricetseng_reusme.pdf?dl=0">RESUME</a></li>
-                </ul>
-            </nav>
-
-        </div>
-
-    </header>
-
+	
+    <div class="wrapper">
+      <div class="nav-toggle">
+        <div class="icon"></div>
+      </div>
+    </div>
+    <div class="menu-items">
+      <div><a href="http://ricetseng.github.io/hi/about.html">About</a></div>
+      <div><a href="http://ricetseng.github.io/hi">Works</a></div>
+      <div><a href="http://ricetseng.github.io/hi/experiments.html">Experiments</a></div>
+      <div><a target="_blank" href="https://www.dropbox.com/s/b4j2ksbi2osfz85/ricetseng_reusme.pdf?dl=0">Resume</a></div>
+    </div>
     <section id="lab" class="animsition">
 
         <div class="row_lab">
@@ -183,46 +161,7 @@
         </div>
     </nav>
 	
-    <script>
-
-        $(window).scroll(function() {
-
-            if ($(window).scrollTop() > 100) {
-                $('.main_h').addClass('sticky');
-                $( '.logo' ).css( "color", "#fff" );
-            } else {
-                $('.main_h').removeClass('sticky');
-                $( '.logo' ).css( "color", "#111" );
-            }
-        });
-        
-        // Mobile Navigation
-        $('.mobile-toggle').click(function() {
-            if ($('.main_h').hasClass('open-nav')) {
-                $('.main_h').removeClass('open-nav');
-            } else {
-                $('.main_h').addClass('open-nav');
-            }
-        });
-
-        $('.main_h li a').click(function() {
-            if ($('.main_h').hasClass('open-nav')) {
-                $('.navigation').removeClass('open-nav');
-                $('.main_h').removeClass('open-nav');
-            }
-        });
-
-        $('nav a').click(function(event) {
-            var id = $(this).attr("href");
-            var offset = 70;
-            var target = $(id).offset().top - offset;
-            $('html, body').animate({
-                scrollTop: target
-            }, 500);
-            event.preventDefault();
-        });
-
-    </script>
+    <script src="js/load.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -234,7 +173,6 @@
 
     </script>
 
-<!--<script src="js/load.js"></script>-->
 
 
 </body>
