@@ -32,7 +32,7 @@ $(window).scroll(function() {
 
 //----------more button-----------------
 
-
+/*
 
 $('.show_more').hide();
 $('.container_load').click(function(){
@@ -40,7 +40,7 @@ $('.container_load').click(function(){
     $('.container_load').fadeOut();
 });
 
-
+*/
 //----------end more button------------
 
 

@@ -1117,27 +1117,143 @@ nav ul a {
 
 .button {
 	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	color: rgba(0, 213, 152, 1);
 	box-shadow: rgba(0, 213, 152, 0) 0 0px 0px 2px inset;
-	border:#00D598 5px solid; 
-	padding: 15px 50px;
+	border:#00D598 3px solid; 
+	padding: 15px 20px;
 }
 
 .button:hover {
 	color: rgba(255, 255, 255, 1);
 	box-shadow: rgba(0, 213, 152, 1) 0 0px 0px 40px inset;
 }
-/*-----------------more button--------------------*/
+/*---------------------page-----------------*/
 
+button {
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.paginate {
+  position: relative;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0);
+  top: 50%;
+  margin-top: -20px;
+  -webkit-filter: drop-shadow(0 2px 0px rgba(0, 0, 0, 0.2));
+}
+.paginate i {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 50px;
+  height: 5px;
+  border-radius: 2.5px;
+  background: #00D598;
+  transition: all 0.15s ease;
+}
+.paginate.left {
+  right: 58%;
+}
+.paginate.left i {
+  transform-origin: 0% 50%;
+}
+.paginate.left i:first-child {
+  transform: translate(0, -1px) rotate(40deg);
+}
+.paginate.left i:last-child {
+  transform: translate(0, 1px) rotate(-40deg);
+}
+.paginate.left:hover i:first-child {
+  transform: translate(0, -1px) rotate(30deg);
+}
+.paginate.left:hover i:last-child {
+  transform: translate(0, 1px) rotate(-30deg);
+}
+.paginate.left:active i:first-child {
+  transform: translate(1px, -1px) rotate(25deg);
+}
+.paginate.left:active i:last-child {
+  transform: translate(1px, 1px) rotate(-25deg);
+}
+.paginate.left[data-state=disabled] i:first-child {
+  transform: translate(-5px, 0) rotate(0deg);
+}
+.paginate.left[data-state=disabled] i:last-child {
+  transform: translate(-5px, 0) rotate(0deg);
+}
+.paginate.left[data-state=disabled]:hover i:first-child {
+  transform: translate(-5px, 0) rotate(0deg);
+}
+.paginate.left[data-state=disabled]:hover i:last-child {
+  transform: translate(-5px, 0) rotate(0deg);
+}
+.paginate.right {
+  left: 58%;
+}
+.paginate.right i {
+  transform-origin: 100% 50%;
+}
+.paginate.right i:first-child {
+  transform: translate(0, 1px) rotate(40deg);
+}
+.paginate.right i:last-child {
+  transform: translate(0, -1px) rotate(-40deg);
+}
+.paginate.right:hover i:first-child {
+  transform: translate(0, 1px) rotate(30deg);
+}
+.paginate.right:hover i:last-child {
+  transform: translate(0, -1px) rotate(-30deg);
+}
+.paginate.right:active i:first-child {
+  transform: translate(1px, 1px) rotate(25deg);
+}
+.paginate.right:active i:last-child {
+  transform: translate(1px, -1px) rotate(-25deg);
+}
+.paginate.right[data-state=disabled] i:first-child {
+  transform: translate(5px, 0) rotate(0deg);
+}
+.paginate.right[data-state=disabled] i:last-child {
+  transform: translate(5px, 0) rotate(0deg);
+}
+.paginate.right[data-state=disabled]:hover i:first-child {
+  transform: translate(5px, 0) rotate(0deg);
+}
+.paginate.right[data-state=disabled]:hover i:last-child {
+  transform: translate(5px, 0) rotate(0deg);
+}
+.paginate[data-state=disabled] {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.counter {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  top: 50%;
+  margin-top: -15px;
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-size: 20px;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+  color: #00D598;
+}
+
+/*-----------------more button--------------------*/
+/*
 .container_load {
   padding: 10px;
   cursor: pointer;
 
 }
-
-
-/* GENERAL BUTTON STYLING */
 
 button,
 button::after {
@@ -1179,8 +1295,6 @@ button:hover {
 }
 
 
-/* BUTTON 1 */
-
 .btn-1::after {
   height: 0;
   left: 0;
@@ -1192,7 +1306,7 @@ button:hover {
   height: 100%;
 }
 
-}
+*/
 /*--------------------------------------*/
 
 
