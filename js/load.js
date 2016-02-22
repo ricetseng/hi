@@ -18,7 +18,7 @@ $('.wrapper').show();
 
 //loaderSpinner();
 
-
+/*
 $(window).scroll(function() {
 
     if ($(window).scrollTop() > 100) {
@@ -27,7 +27,7 @@ $(window).scroll(function() {
         $( '.nav-toggle' ).css( "background-color", "rgba(255, 255, 255, 0)" );
     }
 });
-
+*/
 
 
 //----------more button-----------------

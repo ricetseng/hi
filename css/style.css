@@ -1370,6 +1370,7 @@ button:hover {
 	/* 如果使用者之視窗寬度 <= 768px，將會再載入這裡的 CSS。*/
   .nav-toggle {
     margin: 10px;
+    background-color: rgba(46, 46, 46, 1);
   }
   .menu-items {
     margin-top: 50px;
