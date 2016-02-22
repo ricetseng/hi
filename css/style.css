@@ -300,7 +300,11 @@ input[type="button"]
   width: 100%;
   background: #fff;
   display: none;
-  padding-top: 90px;
+  padding-top: 120px;
+  background: url("../images/home.jpg") 50% 0 no-repeat;
+  background-attachment: fixed;
+  background-size: cover !important;
+  overflow: visible;
 }
 
 .fade {
@@ -1360,7 +1364,7 @@ button:hover {
   background-size: auto 105%;
 }
 	.content {
-	    padding-top: 20px;
+	    padding-top: 50px;
 	}
   .introduction {
 		min-height: 300px;
