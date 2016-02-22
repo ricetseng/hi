@@ -522,9 +522,8 @@ body.nav-open .nav-toggle .icon:after {
 .menu-items {
   z-index:  3;
   position: fixed;
-  font-weight: bold;
   font-size: 24px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: white;
   font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   width: 100%;
