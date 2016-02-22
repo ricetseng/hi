@@ -301,7 +301,7 @@ input[type="button"]
   background: #fff;
   display: none;
   padding-top: 120px;
-  background: url("../images/home.jpg") 50% 0 no-repeat;
+  background: url("") 50% 0 no-repeat;
   background-attachment: fixed;
   background-size: cover !important;
   overflow: visible;
