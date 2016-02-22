@@ -1364,11 +1364,11 @@ button:hover {
   background-size: auto 105%;
 }
 	.content {
-	    padding-top: 50px;
+	    padding-top: 10px;
 	}
   .introduction {
 		min-height: 300px;
-		margin: 20px 0 0px 0;
+		margin: 0px 0 0px 0;
 	}
 	   
 	.introduction h1 {
