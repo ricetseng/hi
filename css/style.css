@@ -1074,7 +1074,7 @@ nav ul a {
 
 .bio {
 	text-align: center;
-  padding: 0 50px;
+  padding: 20px 50px;
 }
 /* links */
 .links { 
@@ -1361,7 +1361,7 @@ button:hover {
       padding: 0 7%;
     }
     .bio {
-      margin: 33px 15px 80px 15px;
+      margin: 20px 15px 80px 15px;
       padding: 0 40px;
     }
 	
@@ -1400,8 +1400,8 @@ button:hover {
 	}
 
 	.bio {
-		margin: 33px 15px 80px 15px;
-    padding: 0 10px;
+		margin: 20px 15px 80px 15px;
+      padding: 0 40px;
 	}
 	.links { 
 		width: 100%;
