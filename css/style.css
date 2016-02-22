@@ -550,6 +550,13 @@ body.nav-open .nav-toggle .icon:after {
   transition: 1s;
   opacity: 0;
   margin-top: 0px;
+   transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+}
+.menu-items div:hover {
+  transform: scale(1.2);
 }
 .menu-bg.fs {
   transform: translate3d(50%, -50%, 0);
@@ -924,10 +931,12 @@ nav ul a {
 }
 
 #logo_content {
-	transition: all .2s ease-out;
+	transition: all 0.2s ease-out;
 }
 #logo_content:hover {
-	transform: scale(1.1);
+	transform: scale(1.2);
+}
+
 }
 
 
@@ -1064,6 +1073,7 @@ nav ul a {
 .bio {
 	text-align: center;
 	margin: 20px 90px 180px 90px;
+  padding: 0 140px;
 }
 /* links */
 .links { 
@@ -1349,6 +1359,10 @@ button:hover {
     .introduction p {
       padding: 0 7%;
     }
+    .bio {
+      margin: 33px 15px 80px 15px;
+      padding: 0 40px;
+    }
 	
 }
 @media screen and (max-width: 767px) {
@@ -1386,6 +1400,7 @@ button:hover {
 
 	.bio {
 		margin: 33px 15px 80px 15px;
+    padding: 0 10px;
 	}
 	.links { 
 		width: 100%;
