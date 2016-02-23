@@ -1428,10 +1428,16 @@ button:hover {
 	.links a {
 		font-size:18px;
 	}
-  .home_introduction_just_photo {
-    margin: 146.25px 0px;
+  .home_introduction_just_photo_1, .home_introduction_just_photo_2, .home_introduction_just_photo_3, .home_introduction_just_photo_4 {
+    margin: 156.25px 0px;
   }
 
+
+}
+@media screen and (max-width: 400px) {
+  .home_introduction_just_photo_1, .home_introduction_just_photo_2, .home_introduction_just_photo_3, .home_introduction_just_photo_4 {
+    margin: 126.25px 0px;
+  }
 }
 
 
