@@ -392,7 +392,7 @@ body.nav-open .nav-toggle {
 }
 
 body.nav-open .nav-toggle:before {
-  width: 6000px;
+  width: 6000px; 
   height: 6000px;
   background-color: rgba(91, 49, 244, 0.95);
 }
