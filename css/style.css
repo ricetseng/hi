@@ -300,7 +300,7 @@ input[type="button"]
   width: 100%;
   background: #fff;
   display: none;
-  padding-top: 200px;
+  /*padding-top: 200px;*/
   background: url("") 50% 0 no-repeat;
   background-attachment: fixed;
   background-size: cover !important;
@@ -960,6 +960,7 @@ nav ul a {
   width: 98%;
   margin: 0 auto;
   max-width: 980px;
+  padding-top: 40%;
 }
 .introduction h1 {
 	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
@@ -1347,7 +1348,18 @@ button:hover {
 
 */
 /*--------------------------------------*/
-
+@media screen and (min-width: 1280px) and (max-width: 1600px) {
+    .introduction {
+      padding-top: 35%;
+    }
+  
+}
+@media screen and (min-width: 979px) and (max-width: 1280px) {
+    .introduction {
+      padding-top: 30%;
+    }
+  
+}
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */
@@ -1357,6 +1369,9 @@ button:hover {
     .home_content_wrapper:hover, .home_content_wrapper_2:hover, .home_content_wrapper_3:hover, .home_content_wrapper_4:hover {
   background-size: auto 105%;
 }
+    .introduction {
+      padding-top: 25%;
+    }
     .introduction h1 {
       line-height: 1.4;
       padding: 0 7%;
@@ -1385,12 +1400,9 @@ button:hover {
     .home_content_wrapper:hover, .home_content_wrapper_2:hover, .home_content_wrapper_3:hover, .home_content_wrapper_4:hover {
   background-size: auto 105%;
 }
-	.content {
-	    padding-top: 130px;
-	}
+
   .introduction {
-		min-height: 300px;
-		margin: 0px 0 0px 0;
+		padding-top: 25%;
 	}
 	   
 	.introduction h1 {
