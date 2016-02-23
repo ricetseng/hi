@@ -1348,15 +1348,15 @@ button:hover {
 
 */
 /*--------------------------------------*/
-@media screen and (min-width: 1280px) and (max-width: 1600px) {
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
     .introduction {
-      padding-top: 35%;
+      padding-top: 28%;
     }
   
 }
 @media screen and (min-width: 979px) and (max-width: 1280px) {
     .introduction {
-      padding-top: 30%;
+      padding-top: 28%;
     }
   
 }
@@ -1402,7 +1402,7 @@ button:hover {
 }
 
   .introduction {
-		padding-top: 25%;
+		padding-top: 20%;
 	}
 	   
 	.introduction h1 {
