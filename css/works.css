@@ -700,7 +700,7 @@ section.prototype {
 .ruby_img {
   display: none;
 }
-@media screen and (min-width: 1440px) and (max-width: 3000px) {
+@media screen and (min-width: 1540px) and (max-width: 3000px) {
   .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping {
     height: 730px;
   } 
@@ -709,7 +709,7 @@ section.prototype {
   }
  
 }
-@media screen and (min-width: 979px) and (max-width: 1440px) {
+@media screen and (min-width: 979px) and (max-width: 1540px) {
   .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping {
     background-size: 120% auto;
   } 
