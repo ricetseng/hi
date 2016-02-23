@@ -447,6 +447,9 @@ body.nav-open .nav-toggle .icon:after {
 .nav-toggle:hover {
   transform: scale(1.2);
 }
+.nav-toggle:active {
+  transform: scale(1);
+}
 .nav-toggle:before {
   width: 60px;
   height: 60px;
