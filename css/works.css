@@ -700,7 +700,15 @@ section.prototype {
 .ruby_img {
   display: none;
 }
-
+@media screen and (min-width: 1060px) and (max-width: 3000px) {
+  .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping {
+    height: 730px;
+  } 
+  .work_top_titles {
+     margin: -600px 0 0 6%;
+  }
+ 
+}
 @media screen and (min-width: 979px) and (max-width: 1060px) {
   .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping {
     background-size: 120% auto;
