@@ -149,7 +149,7 @@ input[type="button"]
     -o-transition: background-color 0.2s ease-out;
   width: 100%;
   margin: 0 auto;
-  background-color: rgba(143,100,224,0.8);
+  background-color: rgba(66,228,191,0.95);
   background-size: cover;
   overflow: visible;
   height: 500px;
@@ -164,7 +164,7 @@ input[type="button"]
     -o-transition: background-color 0.2s ease-out;
   width: 100%;
   margin: 0 auto;
-  background-color: rgba(41,152,251,0.8);
+  background-color: rgba(41,152,251,0.95);
   background-size: cover;
   overflow: visible;
   height: 500px;
@@ -179,7 +179,7 @@ input[type="button"]
     -o-transition: background-color 0.2s ease-out;
   width: 100%;
   margin: 0 auto;
-  background-color: rgba(243,65,117,0.8);
+  background-color: rgba(243,65,117,0.95);
   background-size: cover;
   overflow: visible;
   height: 500px;
@@ -194,7 +194,7 @@ input[type="button"]
     -o-transition: background-color 0.2s ease-out;
   width: 100%;
   margin: 0 auto;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(255,213,82,0.95);
   background-size: cover;
   overflow: visible;
   height: 500px;
@@ -204,16 +204,16 @@ input[type="button"]
 }
 
 .home_overlay:hover {
-  background-color: rgba(143,100,224,0.5);
+  background-color: rgba(66,228,191,0.8);
 }
 .home_overlay_2:hover {
-  background-color: rgba(41,152,251,0.5);
+  background-color: rgba(41,152,251,0.8);
 }
 .home_overlay_3:hover {
-  background-color: rgba(243,65,117,0.5);
+  background-color: rgba(243,65,117,0.8);
 }
 .home_overlay_4:hover {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(255,213,82,0.8);
 }
 
 
