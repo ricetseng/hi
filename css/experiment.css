@@ -48,6 +48,7 @@
 }
 .grid-33 {
   width: 33.333%;
+  margin-top: -5px;
 }
 .grid-25 {
   width: 21%;
@@ -112,7 +113,9 @@
 }
 /**************************Media Quieries*/
 @media screen and (min-width: 1040px) and (max-width: 1300px) {
-
+  .work-block a:hover > h3 {
+    top: 34%;
+  }
 }
 @media (max-width: 1040px) {
 
@@ -150,7 +153,7 @@
   	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
 	font-size: 20px;
 	line-height: 1.5;
-    margin: 20px auto 20px;
+        margin: 13px auto 45px;
     position: relative;
     opacity: 1;
   }
@@ -178,7 +181,7 @@
   	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
 	font-size: 20px;
 	line-height: 1.5;
-    margin: 20px auto 20px;
+        margin: 13px auto 45px;
     position: relative;
     opacity: 1;
   }
