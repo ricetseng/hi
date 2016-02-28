@@ -1715,9 +1715,11 @@ button:hover {
   }
   .project_white_web {
     height: 800px;
+    width: 110%;
   }
   .project_experiment {
     height: 462px;
+    width: 110%;
   }
   .project_r_text {
     width: 100%;
