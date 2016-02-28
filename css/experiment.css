@@ -9,12 +9,9 @@
 /**************************Grid*/
 #lab {
   width: 100%;
-  padding: 50px 0;
 }
 .row_lab {
   margin: 0 auto;
-  max-width: 1200px;
-  padding: 0;
   display: block;
 }
 
@@ -30,8 +27,7 @@
 
 .grid-100, .grid-75, .grid-50, .grid-33, .grid-25, .grid-20 {
   float: left;
-  padding: 0 2%;
-  margin: 40px auto;
+  margin: 0px auto;
 }
 
 .grid-max {
@@ -51,7 +47,7 @@
   width: 46%;
 }
 .grid-33 {
-  width: 29%;
+  width: 33.333%;
 }
 .grid-25 {
   width: 21%;
@@ -71,7 +67,6 @@
 }
 .work-block {
   position: relative;
-  margin: 40px 22px;
   transition: .35s ease-in-out;
 }
 .work-block img, .work-block h3 {
@@ -93,7 +88,7 @@
   margin: 0 10%;
 }
 .work-block:hover {
-	transform:translateY(-15px);
+	/*transform:translateY(-15px);*/
 }
 .work-block a {
   width: 100%;
@@ -107,7 +102,7 @@
 
 .work-block a:hover > h3 {
   opacity: 1;
-  top: 33%;
+  top: 44%;
 }
 
 
@@ -117,14 +112,10 @@
 }
 /**************************Media Quieries*/
 @media screen and (min-width: 1040px) and (max-width: 1300px) {
-  .work-block {
-	  margin: 35px 20px;
-  }
+
 }
 @media (max-width: 1040px) {
-  .work-block {
-	  margin: 20px 20px;
-  }
+
   .grid-75 {
     width: 96%;
   }
@@ -132,7 +123,7 @@
     width: 46%;
   }
   .grid-33 {
-    width: 46%;
+    width: 50%;
   }
   .grid-25 {
     width: 29%;
@@ -148,17 +139,13 @@
   }
 }
 @media screen and (min-width: 728px) and (max-width: 1040px) {
-  .work-block {
-	  margin: 35px 15px;
-  }
-  .grid-50 {
-    width: 96%;
+
+  .grid-33 {
+    width: 100%;
   }
 }
 @media screen and (min-width: 450px) and (max-width: 728px) {
-  .work-block {
-	  margin: 20px 10px 20px 12px;
-  }
+
   .work-block h3 {
   	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
 	font-size: 20px;
@@ -175,8 +162,7 @@
     width: 96%;
   }
   .grid-33 {
-    width: 96%;
-    margin: 20px auto;
+    width: 100%;
   }
   .grid-25 {
     width: 46%;
@@ -188,9 +174,6 @@
   }
 }
 @media (max-width: 450px) {
-  .work-block {
-	  margin: 20px 10px 20px 8px;
-  }
   .work-block h3 {
   	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
 	font-size: 20px;
@@ -207,8 +190,7 @@
     width: 96%;
   }
   .grid-33 {
-    width: 96%;
-    margin: 20px auto;
+    width: 100%;
   }
   .grid-25 {
     width: 46%;
