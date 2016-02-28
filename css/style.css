@@ -1708,6 +1708,7 @@ button:hover {
 @media screen and (max-width: 440px) {
   .project {
     height: 462px;
+    width: 110%;
   }
   .project_white {
     height: 462px;
