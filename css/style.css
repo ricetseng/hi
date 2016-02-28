@@ -1722,6 +1722,7 @@ button:hover {
     width: 100%;
     padding: 25% 11%;
     margin: 0 auto;
+    float: none;
   }
   .project_l_img {
     display: none;
@@ -1729,6 +1730,7 @@ button:hover {
   .project_l_text {
     width: 100%;
     padding: 25% 11%;
+    float: none;
   }
   .project_r_img {
     display: none;
