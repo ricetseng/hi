@@ -1737,6 +1737,9 @@ button:hover {
     width: 85%;
   }
   .project_r_text h1, .project_l_text h1 {
+    
+  }
+  .fade {
     display: none;
   }
   .project_center h3 {
