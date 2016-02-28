@@ -470,12 +470,12 @@ a:focus {
 
 /* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
 ::-moz-selection {
-    background: #fcd700;
+    background: #00D598;
     color: #fff;
     text-shadow: none;
 }
 ::selection {
-    background: #fcd700;
+    background: #00D598;
     color: #fff;
     text-shadow: none;
 }
