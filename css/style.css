@@ -1728,6 +1728,9 @@ button:hover {
   .project_r_img {
     display: none;
   }
+  .project_l_text p, .project_r_text p {
+    width: 85%;
+  }
   .project_center h3 {
     margin-top: 100px;
   }
