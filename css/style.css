@@ -1227,12 +1227,6 @@ nav ul a {
   margin: 0 auto;
   background-color: #1e1e1e;
 }
-#footer_all_index {
-
-  width: 100%;
-  margin: 0 auto;
-  background-color: #1e1e1e;
-}
 .footer_container {
   width: 80%;
   margin: 0 auto;
@@ -1725,7 +1719,7 @@ button:hover {
   }
   .project_experiment {
     height: 462px;
-    width: 110%;
+
   }
   .project_r_text {
     width: 100%;
@@ -1772,8 +1766,8 @@ button:hover {
   .content {
     padding-top: 30px;
   }
-  #footer_all_index {
-    width: 110%;
+  #footer_all {
+    display: none;
   }
 }
 
