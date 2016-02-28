@@ -30,6 +30,8 @@
     <!-- animsition.js -->
     <script src="dist/js/animsition.min.js"></script>
     <script src="dist/js/page_transition.js"></script>
+
+    <script src="dist/js/jquery.lazyload.js" type="text/javascript"></script>
     
     <link rel="shortcut icon" href="images/favicon-20160115122452496.ico">
 	<link rel="bookmark" href="images/favicon-20160115122452496.ico"/>
@@ -64,42 +66,42 @@
             
             <div class="grid-33 work-block">
               <a target="_blank" href="https://dribbble.com/shots/2395976-credit-card-prototype-with-Framer-js">
-                <img src="experiments/cc_picker_800_2.gif" alt="Credit card prototype with Framer.js" />
+                <img class="lazy" data-original="experiments/cc_picker_800_2.gif" alt="Credit card prototype with Framer.js" />
                 <h3>Credit card prototype with Framer.js</h3>
               </a>
             </div>
             
             <div class="grid-33 work-block">
               <a target="_blank" href="https://www.youtube.com/watch?v=C5Y7Zkcp5kU">
-                <img src="experiments/modern_teck_800_600.gif" alt="UI kit for security product" />
+                <img class="lazy" data-original="experiments/modern_teck_800_600.gif" alt="UI kit for security product" />
                 <h3>Modern Tech | UI kit for security product</h3>
               </a>
             </div>
             
             <div class="grid-33 work-block">
               <a target="_blank" href="https://www.youtube.com/watch?v=xjkOrd2wFEI">
-                <img src="experiments/open2-2.gif" alt="Pinterest with Material Design | Concept Video" />
+                <img class="lazy" data-original="experiments/open2-2.gif" alt="Pinterest with Material Design | Concept Video" />
                 <h3>Pinterest with Material Design | Concept Video</h3>
               </a>
             </div>
             
             <div class="grid-33 work-block">
               <a target="_blank" href="https://dribbble.com/shots/2375739-Schedule-app-prototype-with-Framer-js">
-                <img src="experiments/schedule_short.gif" alt="prototyping meetup" />
+                <img class="lazy" data-original="experiments/schedule_short.gif" alt="prototyping meetup" />
                 <h3>Prototyping meetup | Schedule app prototype with Framer.js</h3>
               </a>
             </div>
             
             <div class="grid-33 work-block">
               <a target="_blank" href="https://www.dropbox.com/s/z2i79bli94cvx0f/all_eng.mp4?dl=0">
-                <img src="experiments/800_6003.gif" alt="iOS social app" />
+                <img class="lazy" data-original="experiments/800_6003.gif" alt="iOS social app" />
                 <h3>An iOS app to let you be the "king of topic" in any social gatherings!</h3>
               </a>
             </div>
 
             <div class="grid-33 work-block">
               <a target="_blank" href="https://dribbble.com/shots/2369409-Dailyui-002-Credit-Card-Checkout">
-                <img src="experiments/all.gif" alt="Prototype | Credit Card Checkout" />
+                <img class="lazy" data-original="experiments/all.gif" alt="Prototype | Credit Card Checkout" />
                 <h3>Prototype | Credit Card Checkout</h3>
               </a>
             </div>
@@ -114,14 +116,14 @@
 
               <div class="grid-33 work-block">
                 <a target="_blank" href="https://drive.google.com/open?id=0B4S2hHoiyHsWNGtsbVVyS1NidDQ">
-                  <img src="experiments/ae.gif" alt="Discoin | You bring the traffic, traffic bring the deals" />
+                  <img class="lazy" data-original="experiments/ae.gif" alt="Discoin | You bring the traffic, traffic bring the deals" />
                   <h3>Discoin | You bring the traffic, traffic bring the deals</h3>
                 </a>
               </div>
 
               <div class="grid-33 work-block">
                 <a target="_blank" href="https://dribbble.com/shots/2181914-pull-down-and-play-video">
-                  <img src="experiments/comp-1.gif" alt="pull down and play video" />
+                  <img class="lazy" data-original="experiments/comp-1.gif" alt="pull down and play video" />
                   <h3>Prototype | pull down and play video</h3>
                 </a>
               </div>
@@ -129,14 +131,14 @@
 
                <div class="grid-33 work-block">
                 <a target="_blank" href="https://dribbble.com/shots/2177208-Sound-on-animation">
-                  <img src="experiments/sound_dribbble2.gif" alt="Sound on animation" />
+                  <img class="lazy" data-original="experiments/sound_dribbble2.gif" alt="Sound on animation" />
                   <h3>Prototype | Sound on animation</h3>
                 </a>
               </div>
 
               <div class="grid-33 work-block">
                 <a target="_blank" href="https://dribbble.com/shots/2437766-card-interaction-with-framer-js">
-                  <img src="experiments/bounce.gif" alt="card interaction with framer.js" />
+                  <img class="lazy" data-original="experiments/bounce.gif" alt="card interaction with framer.js" />
                   <h3>Prototype | card interaction with framer.js</h3>
                 </a>
               </div>
@@ -145,7 +147,7 @@
               
               <div class="grid-33 work-block">
                 <a target="_blank" href="https://dribbble.com/shots/2375735-Dailyui-010-Social-sharing-experience">
-                  <img src="experiments/twitter.gif" alt="Social sharing experience" />
+                  <img class="lazy" data-original="experiments/twitter.gif" alt="Social sharing experience" />
                   <h3>Prototype | Social sharing experience</h3>
                 </a>
               </div>
@@ -153,7 +155,7 @@
               
               <div class="grid-33 work-block">
                 <a target="_blank" href="https://dribbble.com/shots/2177208-Sound-on-animation">
-                  <img src="experiments/card-demo.gif" alt="165 app" />
+                  <img class="lazy" data-original="experiments/card-demo.gif" alt="165 app" />
                   <h3>Prototype | First-time experience with 3D card</h3>
                 </a>
               </div>
@@ -196,6 +198,10 @@
         </div>
     </nav>
 	   <script>
+      //lazy load
+      $("img.lazy").lazyload();
+
+
       // basic paging logic to demo the buttons
         var pr = document.querySelector( '.paginate.left' );
         var pl = document.querySelector( '.paginate.right' );
