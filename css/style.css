@@ -1739,7 +1739,7 @@ button:hover {
     width: 85%;
   }
   .project_r_text h1, .project_l_text h1 {
-    
+    margin:0;
   }
 
   .project_center h3 {
