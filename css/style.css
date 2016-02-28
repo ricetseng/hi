@@ -1737,12 +1737,13 @@ button:hover {
   }
   .project_l_text p, .project_r_text p {
     width: 85%;
-    display: none;
   }
   .project_r_text h1, .project_l_text h1 {
-   display: none;
+    
   }
-
+  .project_wrapper {
+    display: none;
+  }
   .project_center h3 {
     margin-top: 100px;
   }
