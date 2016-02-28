@@ -453,11 +453,19 @@ body, select, input, textarea {
     color: #2E2E2E;
 }
 a {
-    color: #03f;
-    text-decoration: none;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 }
-a:hover {
-    color: #69f;
+
+a, a:hover {
+  text-decoration: none;
+  color: #00D598;
+}
+a:focus {
+    outline: none;
 }
 
 /* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
