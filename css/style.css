@@ -1520,7 +1520,7 @@ button:hover {
 
 */
 /*--------------------------------------*/
-@media screen and (min-width: 1280px) and (max-width: 1440px) {
+@media screen and (min-width: 1280px) and (max-width: 2440px) {
     .introduction {
       padding-top: 20%;
     }
@@ -1732,7 +1732,7 @@ button:hover {
     width: 85%;
   }
   .project_r_text h1, .project_l_text h1 {
-    
+
   }
   .project_center h3 {
     margin-top: 100px;
