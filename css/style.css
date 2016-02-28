@@ -593,7 +593,7 @@ body.nav-open .nav-toggle .icon:after {
   width: 60px;
   height: 60px;
   z-index: 2;
-  
+  -webkit-transform: translateZ(0);
   border-color: #00D598;
   margin: 20px;
   position: fixed;
