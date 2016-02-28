@@ -1719,7 +1719,7 @@ button:hover {
   }
   .project_experiment {
     height: 462px;
-
+    width: 110%;
   }
   .project_r_text {
     width: 100%;
