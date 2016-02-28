@@ -1227,6 +1227,12 @@ nav ul a {
   margin: 0 auto;
   background-color: #1e1e1e;
 }
+#footer_all_index {
+
+  width: 100%;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+}
 .footer_container {
   width: 80%;
   margin: 0 auto;
@@ -1765,6 +1771,9 @@ button:hover {
   }
   .content {
     padding-top: 30px;
+  }
+  #footer_all_index {
+    width: 110%;
   }
 }
 
