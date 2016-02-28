@@ -1455,3 +1455,11 @@ a.hamburger-icon.active .line-3 {
   }
 
 }
+
+
+@media screen and (max-width: 440px) {
+  #footer_all {
+    display: none;
+  }
+}
+
