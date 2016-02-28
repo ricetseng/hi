@@ -1732,8 +1732,7 @@ button:hover {
     width: 85%;
   }
   .project_r_text h1, .project_l_text h1 {
-    overflow: hidden;
-    margin: -120px 0 0 50px;
+    
   }
   .project_center h3 {
     margin-top: 100px;
