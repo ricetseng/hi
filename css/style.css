@@ -117,7 +117,6 @@ input[type="button"]
   margin: 0 0 0 45%;
 }
 .project_center {
-  height: 1284px;
   text-align: center;
 }
 .project_center_experiment {
@@ -1523,6 +1522,12 @@ button:hover {
 @media screen and (min-width: 1280px) and (max-width: 2440px) {
     .introduction {
       padding-top: 20%;
+    }
+    .project_center img {
+      width: 860px;
+    }
+    .project_white_web {
+      height: 1200px;
     }
   
 }
