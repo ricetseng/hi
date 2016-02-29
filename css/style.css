@@ -124,7 +124,7 @@ input[type="button"]
   text-align: center;
 }
 .project_center h3, .project_center_experiment h3 {
-  font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   font-size: 36px;
   line-height: 1.3;
   color:#333;
@@ -162,7 +162,7 @@ input[type="button"]
   margin: -120px 0 0 180px;
 }
 .project_l_text h3, .project_r_text h3 {
-  font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   font-size: 36px;
   line-height: 1.3;
   color:#333;
