@@ -545,84 +545,84 @@ header {
     color: rgba(68, 68, 68, 1);
 }
 
-.martin-md-1, .martin-md-2, .martin-md-3, .martin-md-4, .martin-md-5, .martin-md-6, .martin-md-7, .martin-md-8, .martin-md-9, .martin-md-10, .martin-md-11, .martin-md-12 {
+.rice-md-1, .rice-md-2, .rice-md-3, .rice-md-4, .rice-md-5, .rice-md-6, .rice-md-7, .rice-md-8, .rice-md-9, .rice-md-10, .rice-md-11, .rice-md-12 {
     float: left;
     position: relative;
     min-height: 1px;
     padding-right: 20px;
     padding-left: 20px;
 }
-.martin-md-1 {
+.rice-md-1 {
     width: 60px;
 }
-.martin-md-2 {
+.rice-md-2 {
     width: 140px;
 }
-.martin-md-3 {
+.rice-md-3 {
     width: 220px;
 }
-.martin-md-4 {
+.rice-md-4 {
     width: 320px;
 }
-.martin-md-5 {
+.rice-md-5 {
     width: 380px;
 }
-.martin-md-6 {
+.rice-md-6 {
     width: 460px;
 }
-.martin-md-7 {
+.rice-md-7 {
     width: 540px;
 }
-.martin-md-8 {
+.rice-md-8 {
     width: 620px;
 }
-.martin-md-9 {
+.rice-md-9 {
     width: 700px;
 }
-.martin-md-10 {
+.rice-md-10 {
     width: 780px;
 }
 
-.martin-md-11 {
+.rice-md-11 {
     width: 860px;
 }
-.martin-md-12 {
+.rice-md-12 {
     width: 960px;
 }
-.martin-md-offset-1 {
+.rice-md-offset-1 {
     margin-left: 60px;
 }
-.martin-md-offset-2 {
+.rice-md-offset-2 {
     margin-left: 140px;
 }
-.martin-md-offset-3 {
+.rice-md-offset-3 {
     margin-left: 220px;
 }
-.martin-md-offset-4 {
+.rice-md-offset-4 {
     margin-left: 300px;
 }
-.martin-md-offset-5 {
+.rice-md-offset-5 {
     margin-left: 380px;
 }
-.martin-md-offset-6 {
+.rice-md-offset-6 {
     margin-left: 460px;
 }
-.martin-md-offset-7 {
+.rice-md-offset-7 {
     margin-left: 540px;
 }
-.martin-md-offset-8 {
+.rice-md-offset-8 {
     margin-left: 620px;
 }
-.martin-md-offset-9 {
+.rice-md-offset-9 {
     margin-left: 700px;
 }
-.martin-md-offset-10 {
+.rice-md-offset-10 {
     margin-left: 780px;
 }
-.martin-md-offset-11 {
+.rice-md-offset-11 {
     margin-left: 860px;
 }
-.martin-md-offset-12 {
+.rice-md-offset-12 {
     margin-left: 960px;
 }
 .center {
@@ -1146,11 +1146,11 @@ a.hamburger-icon.active .line-3 {
 
 @media screen and (min-width: 680px) and (max-width: 960px) {
 
-  .martin-md-4 {
+  .rice-md-4 {
     width: 50%;
   }
 
-  .martin-md-10 {
+  .rice-md-10 {
     width: 100%;
   }
 
@@ -1292,7 +1292,7 @@ a.hamburger-icon.active .line-3 {
     display: none;
   }
 
-  .martin-md-4 {
+  .rice-md-4 {
     width: 100%;
   }
 
@@ -1417,7 +1417,7 @@ a.hamburger-icon.active .line-3 {
     font-size: 16px;
   }
 
-  .martin-md-10 {
+  .rice-md-10 {
     width: 100%;
   }
 
