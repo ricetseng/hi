@@ -6,6 +6,10 @@
 	position: relative;
     right: 235px;
     top: 11px;
+    transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
 }
 .cv_top h3 {
 	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
