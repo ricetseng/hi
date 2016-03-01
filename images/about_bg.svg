@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1440px" height="460px" viewBox="0 0 1440 460" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>about_bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="about" sketch:type="MSArtboardGroup" transform="translate(0.000000, -79.000000)">
+            <g id="about_bg" sketch:type="MSLayerGroup" transform="translate(0.000000, 79.000000)">
+                <ellipse id="dot" fill="#00D598" sketch:type="MSShapeGroup" cx="118.416822" cy="213.299401" rx="15.4168224" ry="15.2994014"></ellipse>
+                <path d="M61.5,152.5 L0.621021748,91.6210217" id="Line" stroke="#EDEDED" stroke-width="30" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <ellipse id="big_dot" stroke="#F8F8F8" stroke-width="52" sketch:type="MSShapeGroup" cx="1424" cy="229.956873" rx="230" ry="229.956873"></ellipse>
+                <path d="M1383.62926,401.614713 C1384.27473,401.614713 1384.52964,401.16602 1384.20229,400.618683 L1363.54618,366.080908 C1363.21719,365.530816 1362.68213,365.533571 1362.35478,366.080908 L1341.69867,400.618683 C1341.36968,401.168775 1341.62413,401.614713 1342.27171,401.614713 L1383.62926,401.614713 Z" id="dot_3" fill="#4387FB" sketch:type="MSShapeGroup" transform="translate(1362.950483, 383.349796) rotate(-39.000000) translate(-1362.950483, -383.349796) "></path>
+                <rect id="dot_2" fill="#F46552" sketch:type="MSShapeGroup" x="411.79734" y="134.78365" width="16.5588182" height="16.4326992" rx="0.896"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
