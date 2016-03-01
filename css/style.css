@@ -1734,6 +1734,7 @@ button:hover {
   .project_experiment {
     height: 462px;
     width: 110%;
+    background-size: 160%;
   }
   .project_r_text {
     width: 100%;
@@ -1779,6 +1780,7 @@ button:hover {
   }
   .content {
     padding-top: 30px;
+    background-size: 150%;
   }
   #footer_all {
     display: none;
