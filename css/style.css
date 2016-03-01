@@ -474,7 +474,6 @@ input[type="button"]
   height: 750px;
   width: 100%;
   background: #fff;
-  display: none;
   /*padding-top: 200px;*/
   background: url("../images/dot_bg.svg") 0 0 no-repeat;
   background-size: 100% 100%;
@@ -489,7 +488,7 @@ input[type="button"]
 
 @keyframes fadein {
     from {
-        opacity: 0;
+        opacity: 1;
     }
     to {
         opacity: 1;

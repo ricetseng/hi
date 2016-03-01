@@ -1,7 +1,7 @@
 
-$('.content').show();
+//$('.content').show();
 
-$('.wrapper').show();
+//$('.wrapper').show();
 /*
  function loaderSpinner() {
     $(window).load(function() {
