@@ -1521,7 +1521,7 @@ button:hover {
 
 */
 /*--------------------------------------*/
-@media screen and (min-width: 1280px) and (max-width: 2440px) {
+@media screen and (min-width: 1441px) and (max-width: 3440px) {
     .introduction {
       padding-top: 20%;
     }
@@ -1531,9 +1531,21 @@ button:hover {
     .project_white_web {
       height: 1200px;
     }
+    .project_l_text {
+      padding: 7% 15%;
+    }
+    .project_l_img {
+      margin:115px 260px;
+    }
+    .project_r_img {
+      width:43%;
+    }
+    .project_r_text {
+      margin: 0 0 0 50%;
+    }
   
 }
-@media screen and (min-width: 979px) and (max-width: 1280px) {
+@media screen and (min-width: 979px) and (max-width: 1440px) {
     .introduction {
       padding-top: 20%;
     }
