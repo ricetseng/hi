@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1292px" height="370px" viewBox="0 0 1292 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>dot_bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="website" sketch:type="MSArtboardGroup" transform="translate(-74.000000, -155.000000)">
+            <g id="dot_bg" sketch:type="MSLayerGroup" transform="translate(74.000000, 155.000000)">
+                <circle id="big_dot" stroke="#F8F8F8" stroke-width="40" sketch:type="MSShapeGroup" cx="1115" cy="177" r="177"></circle>
+                <ellipse id="dot" fill="#00D598" sketch:type="MSShapeGroup" cx="15.4168224" cy="244.299401" rx="15.4168224" ry="15.2994014"></ellipse>
+                <path d="M1191.67121,363.006346 C1192.16795,363.006346 1192.36412,362.660982 1192.1122,362.239692 L1176.21597,335.655637 C1175.96279,335.232225 1175.55103,335.234346 1175.29912,335.655637 L1159.40289,362.239692 C1159.14971,362.663103 1159.34552,363.006346 1159.84388,363.006346 L1191.67121,363.006346 Z" id="dot_3" fill="#4387FB" sketch:type="MSShapeGroup" transform="translate(1175.757545, 348.947664) rotate(-39.000000) translate(-1175.757545, -348.947664) "></path>
+                <rect id="dot_2" fill="#F46552" sketch:type="MSShapeGroup" x="820.79734" y="138.78365" width="16.5588182" height="16.4326992" rx="0.896"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
