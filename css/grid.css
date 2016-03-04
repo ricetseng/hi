@@ -232,7 +232,6 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-weight: normal;
     vertical-align: baseline;
     background: transparent;
 }
@@ -446,7 +445,6 @@ button, input[type=button] {
 /* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
 body {
     font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-    font-weight: 300;
     font-size: 50px;
     line-height: 1.3;
 }
