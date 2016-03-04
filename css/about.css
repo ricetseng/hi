@@ -23,7 +23,8 @@
 
 	width: 280px;
   color: #ffffff;
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 600;
   font-size: 20px;
   background: #00D598;
   box-shadow: 0px 8px 20px 0px rgba(2,2,2,0.23);
@@ -39,7 +40,8 @@
 	transform: scale(1.1);
 }
 .cv_top h3 {
-	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
 	font-size: 46px;
 	color: #2e2e2e;
 	line-height: 1.2em;
@@ -106,7 +108,8 @@
     width: 20%;
     color: #4E4E4E;
     text-transform: uppercase;
-    font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  	font-weight: 600;
     font-size: 16px;
     margin: 0;
     padding: 0 50px 0 10px;
@@ -120,7 +123,8 @@
     width: 80%;
     color: #888;
     margin-top: -10px;
-    font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  	font-weight: 400;
     font-size: 16px;
     line-height: 38px;
 }
@@ -136,12 +140,14 @@
 }
 .cv_content .bold {
     color: #444;
-    font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
 }
 .cv_content .light {
     color: #bbb;
     font-size: 14px;
-    font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  	font-weight: 300;
     line-height: 24px;
 }
 .cv_big {
@@ -151,7 +157,8 @@
     color: #4E4E4E;
     font-size: 40px;
     line-height: 60px;
-    font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 768px) and (max-width: 979px) {

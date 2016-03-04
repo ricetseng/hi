@@ -1,6 +1,6 @@
 html, body {
   background-color: #fff;
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -10,12 +10,12 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 h1 {
-	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
 	font-size: 36px;
 	line-height: 1.3;
 }
@@ -29,7 +29,7 @@ h3 {
 }
 
 p {
-	font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
 	font-size: 24px;
 }
 
@@ -126,14 +126,16 @@ input[type="button"]
   text-align: center;
 }
 .project_center h3, .project_center_experiment h3 {
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.3;
   color:#333;
   margin-top: 150px;
 }
 .project_center p, .project_center_experiment p {
-  font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 300;
   font-size: 22px;
   line-height: 1.8;
   color:#949494;
@@ -164,7 +166,8 @@ input[type="button"]
   margin: -120px 0 0 180px;
 }
 .project_l_text h3, .project_r_text h3 {
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.3;
   color:#333;
@@ -172,9 +175,10 @@ input[type="button"]
   z-index: 1;
 }
 .project_l_text p, .project_r_text p {
-  font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 300;
   font-size: 22px;
-  line-height: 1.8;
+  line-height: 1.8; 
   color:#949494;
   margin-top: 60px;
   width: 384px;
@@ -210,7 +214,8 @@ input[type="button"]
 .resume_btn {
   width: 280px;
   color: #ffffff;
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 600;
   font-size: 20px;
   background: #00D598;
   box-shadow: 0px 8px 20px 0px rgba(2,2,2,0.23);
@@ -229,7 +234,8 @@ input[type="button"]
   width: 75px;
   padding: 21.3px 22.4px;
   margin: 200px 0 0 120px; 
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
   background: #00D598;
   box-shadow: 0px 8px 20px 0px rgba(2,2,2,0.23);
   border-radius: 1000px;
@@ -435,7 +441,8 @@ input[type="button"]
 }
 */
 .home_introduction_just_photo_1 h3, .home_introduction_just_photo_2 h3, .home_introduction_just_photo_3 h3, .home_introduction_just_photo_4 h3 {
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
   font-size: 24px;
   line-height: 1.3;
   margin: 20px 0 20px 0;
@@ -449,7 +456,8 @@ input[type="button"]
   -o-transition: all 0.2s ease-out;
 }
 .home_introduction_just_photo_1 p, .home_introduction_just_photo_2 p, .home_introduction_just_photo_3 p, .home_introduction_just_photo_4 p {
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 300;
   font-size: 18px;
   line-height: 1.3;
   margin: 20px 0 20px 0;
@@ -713,7 +721,8 @@ body.nav-open .nav-toggle .icon:after {
   font-size: 24px;
   letter-spacing: 1px;
   color: white;
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 600;
   width: 100%;
   text-align: center;
   opacity: 0;
@@ -769,7 +778,8 @@ body.nav-open .nav-toggle .icon:after {
   opacity: 1;
   top: 0px;
   padding-bottom: 6px;
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
 }
 @media only screen and (max-width: 766px) {
   
@@ -838,7 +848,8 @@ nav ul li {
 }
 nav ul a {
   text-transform: uppercase;
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 600;
   font-size: 14px;
   color:#ffffff;
 }
@@ -944,7 +955,8 @@ nav ul a {
   opacity: 1;
   top: 0px;
   padding-bottom: 6px;
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
 }
 @media only screen and (max-width: 766px) {
   .main_h_dark {
@@ -1136,7 +1148,8 @@ nav ul a {
   padding-top: 40%;
 }
 .introduction h1 {
-	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
 	font-size: 60px;
 	line-height: 1.2;
 	text-align: left;
@@ -1155,7 +1168,8 @@ nav ul a {
     left: 50%;
 }
 .introduction p {
-	font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 300;
 	font-size: 18px;
 	line-height: 2;
 	text-align: left;
@@ -1187,7 +1201,8 @@ nav ul a {
 }
 
 .top_works h1 {
-	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
 	font-size: 36px;
 	line-height: 1.3;
 	text-align: center;
@@ -1197,7 +1212,8 @@ nav ul a {
 	color:#fff;
 }
 .top_works h3 {
-	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
 	font-size: 16px;
 	line-height: 1.3;
 	text-align: center;
@@ -1215,7 +1231,8 @@ nav ul a {
     margin: 30px 0px 0px -15px;
 }
 .top_works p {
-	font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 300;
 	font-size: 24px;
 	line-height: 2;
 	text-align: center;
@@ -1238,7 +1255,8 @@ nav ul a {
   padding: 30px 0;
 }
 .footer_container p {
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 300;
   font-size: 14px;
   color: #676767;
   text-align: center;   
@@ -1322,7 +1340,8 @@ nav ul a {
   transform: scale(1.2);
 }
 .button {
-	font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
 	font-size: 20px;
 	color: rgba(0, 213, 152, 1);
 	box-shadow: rgba(0, 213, 152, 0) 0 0px 0px 2px inset;
@@ -1454,7 +1473,8 @@ button {
   width: 100%;
   top: 50%;
   margin-top: -15px;
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
   font-size: 20px;
   text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
   color: #00D598;
