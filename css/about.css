@@ -204,7 +204,8 @@
     	line-height: 42px;
     }
 	.cv_page {
-	    width: 80%;
+	    width: 100%;
+	    padding: 0 10%;
 	}
 	.cv_title {
 		font-size: 24px;
@@ -230,7 +231,8 @@
 
 @media screen and (max-width: 414px) {
 	.cv_page {
-	    width: 80%;
+	    width: 100%;
+	    padding: 0 10%;
 	}
 	.rice_avatar {
 		width: 250px;
