@@ -167,9 +167,6 @@
     	width: 100%;
     	text-align: center;
     }
-	.cv_page {
-	    width: 80%;
-	}
 	.cv_title {
 	    width: 100%;
 	    text-align: center;
@@ -237,6 +234,7 @@
 	}
 	.rice_avatar {
 		width: 250px;
+		margin-left: 22px;
 	}
 	.avatar_ic {
 		width: 23px;
