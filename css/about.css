@@ -168,7 +168,7 @@
     	text-align: center;
     }
 	.cv_page {
-	    width: 100%;
+	    width: 80%;
 	}
 	.cv_title {
 	    width: 100%;
@@ -187,8 +187,12 @@
 	}
 }
 
-@media screen and (max-width: 767px) {
-
+@media screen and (min-width: 415px) and (max-width: 767px) {
+	
+	.rice_avatar {
+		width: 350px;
+		margin-left: 10px;
+	}
 	.cv_item {
 		width: 100%;
 	  	margin: 70px auto;
@@ -203,7 +207,7 @@
     	line-height: 42px;
     }
 	.cv_page {
-	    width: 100%;
+	    width: 80%;
 	}
 	.cv_title {
 		font-size: 24px;
@@ -227,7 +231,10 @@
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
+	.cv_page {
+	    width: 80%;
+	}
 	.rice_avatar {
 		width: 250px;
 	}
@@ -246,9 +253,6 @@
     #cv_logo {
     	display: none;
     }
-	.cv_page {
-	    width: 100%;
-	}
 	.cv_title {
 	    width: 100%;
 	    text-align: left;
