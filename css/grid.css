@@ -163,7 +163,8 @@ body.nav-open .nav-toggle .icon:after {
   font-size: 24px;
   letter-spacing: 1px;
   color: white;
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 600;
   width: 100%;
   text-align: center;
   opacity: 0;
@@ -216,7 +217,8 @@ body.nav-open .nav-toggle .icon:after {
   padding: 30px 0;
 }
 .footer_container p {
-  font-family: gothammedium, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+  font-weight: 300;
   font-size: 14px;
   color: #676767;
   
@@ -443,7 +445,8 @@ button, input[type=button] {
 
 /* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
 body {
-    font-family: gothamlight, "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-weight: 300;
     font-size: 50px;
     line-height: 1.3;
 }
@@ -746,10 +749,12 @@ header {
     text-align: center;
     line-height: 1.5em;
     color: rgba(68, 68, 68, .6);
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 .sub-title {
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-weight: 200;
     font-size: 36px;
     margin-top: 20px;
 }
@@ -805,7 +810,8 @@ header {
 }
 .abouttitle {
     font-size: 22px;
-    font-family: "Lato-Bold";
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-weight: 600;
     line-height: 2.0em;
 }
 .aboutword {
@@ -1414,6 +1420,8 @@ a.hamburger-icon.active .line-3 {
     margin-bottom: -10px;
   }
   .info {
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-weight: 200;
     font-size: 16px;
   }
 
