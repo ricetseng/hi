@@ -135,7 +135,7 @@ input[type="button"]
 }
 .project_center p, .project_center_experiment p {
   font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 22px;
   line-height: 1.8;
   color:#949494;
@@ -176,7 +176,7 @@ input[type="button"]
 }
 .project_l_text p, .project_r_text p {
   font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 22px;
   line-height: 1.8; 
   color:#949494;
@@ -1169,7 +1169,7 @@ nav ul a {
 }
 .introduction p {
 	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
 	font-size: 18px;
 	line-height: 2;
 	text-align: left;
