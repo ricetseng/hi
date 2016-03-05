@@ -1658,7 +1658,7 @@ button:hover {
 }
 @media screen and (max-width: 767px) {
 	/* 如果使用者之視窗寬度 <= 768px，將會再載入這裡的 CSS。*/
-  .menu-items div:hover {
+  .nav-toggle:hover {
     transform: scale(1);
   }
   .project {
@@ -1743,7 +1743,7 @@ button:hover {
 
 }
 @media screen and (max-width: 440px) {
-  .menu-items div:hover {
+  .nav-toggle:hover {
     transform: scale(1);
   }
   .project {

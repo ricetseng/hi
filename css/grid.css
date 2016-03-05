@@ -1466,7 +1466,7 @@ a.hamburger-icon.active .line-3 {
 
 }
 @media screen and (max-width: 767px) {
-  .menu-items div:hover {
+  .nav-toggle:hover {
     transform: scale(1);
   }
   .nav-toggle {
@@ -1478,7 +1478,7 @@ a.hamburger-icon.active .line-3 {
 }
 
 @media screen and (max-width: 440px) {
-  .menu-items div:hover {
+  .nav-toggle:hover {
     transform: scale(1);
   }
   #footer_all {
