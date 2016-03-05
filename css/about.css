@@ -271,6 +271,14 @@
 		font-size:18px;
 	}
 }
-
+@media screen and (max-width: 321px) {
+	.rice_avatar {
+	    margin-left: 7px;
+	}
+	.avatar_ic {
+	    right: -4px;
+	    top: -12px;
+	}
+}
 
 
