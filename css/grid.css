@@ -866,6 +866,7 @@ header {
   -moz-box-shadow:    0px 1px 2px 1px rgba(68,68,68,0.05);  /* Firefox 3.5 - 3.6 */
   box-shadow:         0px 1px 2px 1px rgba(68,68,68,0.05);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   transition: all 0.4s;
+  -moz-transition: all 0.4s;
   -webkit-transition: all 0.4s;
 }
 
@@ -962,6 +963,8 @@ header {
   display: inline-block;
   position: relative;
   transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
 }
 
 .cl-effect-4 a:hover {
@@ -1283,6 +1286,8 @@ a.hamburger-icon.active .line-3 {
     padding-right: 10px;
     color: rgba(68, 68, 68, 0.5);
     transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
   }
 
   .socialfont:hover {
@@ -1396,6 +1401,8 @@ a.hamburger-icon.active .line-3 {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.7);
     transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
   }
 
   .main-nav-list-link {
@@ -1405,6 +1412,8 @@ a.hamburger-icon.active .line-3 {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.7);
     transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
   }
 
   .main-nav-list-item:hover, .main-nav-list-link:hover {
