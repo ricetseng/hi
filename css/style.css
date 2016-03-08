@@ -1149,11 +1149,11 @@ nav ul a {
 }
 .introduction h1 {
 	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 	font-size: 60px;
 	line-height: 1.2;
 	text-align: left;
-  text-transform: uppercase;
+  text-transform: ;
 	color:#4E4E4E;
   top:60%;
 }
