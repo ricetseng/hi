@@ -1748,18 +1748,18 @@ button:hover {
   }
   .project {
     height: 462px;
-    width: 110%;
+    width: 100%;
   }
   .project_white {
     height: 462px;
   }
   .project_white_web {
     height: 800px;
-    width: 110%;
+    width: 100%;
   }
   .project_experiment {
     height: 462px;
-    width: 110%;
+    width: 100%;
     background-size: 160%;
   }
   .project_r_text {
