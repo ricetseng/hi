@@ -1723,6 +1723,7 @@ button:hover {
 	}
 	.introduction p {
 		font-size: 18px;
+    text-align: left;
 	}
   .project_l_text p, .project_r_text p {
     font-size: 18px;
