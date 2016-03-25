@@ -1170,7 +1170,7 @@ nav ul a {
 .introduction p {
 	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   font-weight: 200;
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 2;
 	text-align: left;
 	color:#949494;
@@ -1724,6 +1724,10 @@ button:hover {
 	.introduction p {
 		font-size: 18px;
 	}
+  .project_l_text p, .project_r_text p {
+    font-size: 18px;
+    line-height: 2;
+  }
 
 	.bio {
     padding: 0px; 
