@@ -218,7 +218,7 @@ input[type="button"]
   font-weight: 600;
   font-size: 20px;
   background: #00D598;
-  box-shadow: 0px 8px 20px 0px rgba(2,2,2,0.23);
+  
   border-radius: 2px;
   padding: 24px 96px;
   cursor: pointer;
@@ -229,6 +229,7 @@ input[type="button"]
 }
 .resume_btn:hover {
   transform: scale(1.1);
+  box-shadow: 0px 8px 20px 0px rgba(2,2,2,0.23);
 }
 .project_btn {
   width: 75px;
@@ -237,7 +238,7 @@ input[type="button"]
   font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   font-weight: 700;
   background: #00D598;
-  box-shadow: 0px 8px 20px 0px rgba(2,2,2,0.23);
+  
   border-radius: 1000px;
   cursor: pointer;
   transition: all 0.2s ease-out;
@@ -251,6 +252,7 @@ input[type="button"]
 }
 .project_btn:hover {
   transform: scale(1.1);
+  box-shadow: 0px 8px 20px 0px rgba(2,2,2,0.23);
 }
 /*--------------home----------------------------*/
 

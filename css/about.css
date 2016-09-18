@@ -17,17 +17,16 @@
 	display: block;
 }
 .cv_download_container {
-	position: relative;
-	margin:70px auto;
-	text-align: center;
-
-	width: 280px;
+  position: relative;
+  margin:70px auto;
+  text-align: center;
+  width: 280px;
   color: #ffffff;
   font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   font-weight: 600;
   font-size: 20px;
   background: #00D598;
-  box-shadow: 0px 8px 20px 0px rgba(2,2,2,0.23);
+  
   border-radius: 2px;
   padding: 24px 96px;
   cursor: pointer;
@@ -38,6 +37,7 @@
 }
 .cv_download_container:hover {
 	transform: scale(1.1);
+	box-shadow: 0px 8px 20px 0px rgba(2,2,2,0.23);
 }
 .cv_top h3 {
 	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
