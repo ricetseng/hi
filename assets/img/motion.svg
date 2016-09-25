@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="122px" height="122px" viewBox="0 0 122 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>motion</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EEEEEE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#2F9BD7" offset="0%"></stop>
+            <stop stop-color="#46B2EB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="motion" fill="#30D0DF">
+            <g id="Rectangle-1-+-Rectangle-1-Copy-+-Rectangle-1-Copy-2-Copy-Copy" transform="translate(19.000000, 19.000000)">
+                <polygon id="Rectangle-1" stroke="url(#linearGradient-1)" stroke-width="4.5125" stroke-linecap="round" stroke-linejoin="round" points="36.616021 41.38587 69.2737087 59.9133341 36.616021 79.4159278 3.95833333 60.4008989"></polygon>
+                <polygon id="Rectangle-1-Copy-4" points="44.0317246 17.2660296 87.8238728 42.1103315 44.0317246 68.2622282 0.23957645 42.7641289"></polygon>
+                <polygon id="Rectangle-1-Copy" stroke="url(#linearGradient-2)" stroke-width="4.5125" stroke-linecap="round" stroke-linejoin="round" points="43.8729654 23.3758444 76.5306531 41.9033084 43.8729654 61.4059021 11.2152778 42.3908732"></polygon>
+                <polygon id="Rectangle-1-Copy-2" points="50.6289469 0.0759469939 94.421095 24.9202489 50.6289469 51.0721456 6.83679867 25.5740463"></polygon>
+                <polygon id="Rectangle-1-Copy-3" stroke="#00F7B0" stroke-width="4.5125" stroke-linecap="round" stroke-linejoin="round" points="50.6289469 6.5590174 83.2866345 25.0864814 50.6289469 44.5890752 17.9712592 25.5740463"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

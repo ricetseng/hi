@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="122px" height="122px" viewBox="0 0 122 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>dwarf_rubyonrail</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M9.9999585,8.74985992 C0,17.4997198 0,34.9998547 0,50.0002075 C0,65.0001453 0,82.5002802 9.9999585,91.249725 C19.999917,100 39.999834,100 49.9997925,100 C59.999751,100 80.000083,100 90.0000415,91.249725 C100,82.5002802 100,65.0001453 100,50.0002075 C100,34.9998547 100,17.4997198 90.0000415,8.74985992 C80.000083,0 59.999751,0 49.9997925,0 C39.999834,0 19.999917,0 9.9999585,8.74985992 Z" id="path-2"></path>
+        <linearGradient x1="60.2985174%" y1="63.457684%" x2="39.6914865%" y2="36.5495419%" id="linearGradient-4">
+            <stop stop-color="#86D7F7" offset="0%"></stop>
+            <stop stop-color="#59D3FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="36.1674422%" y1="59.690666%" x2="63.8295492%" y2="40.3107731%" id="linearGradient-5">
+            <stop stop-color="#86D7F7" offset="0%"></stop>
+            <stop stop-color="#59D3FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.9965847%" y1="50.0007187%" x2="-0.00683060109%" y2="50.0007187%" id="linearGradient-6">
+            <stop stop-color="#86D7F7" offset="0%"></stop>
+            <stop stop-color="#59D3FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100.010242%" y1="50.0007187%" x2="0.00341413452%" y2="50.0007187%" id="linearGradient-7">
+            <stop stop-color="#86D7F7" offset="0%"></stop>
+            <stop stop-color="#59D3FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.9995259%" y1="49.9991669%" x2="-0.00142220537%" y2="49.9991669%" id="linearGradient-8">
+            <stop stop-color="#86D7F7" offset="0%"></stop>
+            <stop stop-color="#59D3FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100.002996%" y1="50.0011895%" x2="0.00119821466%" y2="50.0011895%" id="linearGradient-9">
+            <stop stop-color="#86D7F7" offset="0%"></stop>
+            <stop stop-color="#59D3FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100.011677%" y1="50.0191571%" x2="-0.0116767865%" y2="50.0191571%" id="linearGradient-10">
+            <stop stop-color="#2D436B" offset="0%"></stop>
+            <stop stop-color="#003978" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.9813259%" y1="50.0054735%" x2="0.00466853408%" y2="50.0054735%" id="linearGradient-11">
+            <stop stop-color="#2D436B" offset="0%"></stop>
+            <stop stop-color="#003978" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100.002509%" y1="49.9921715%" x2="-0.000403569732%" y2="49.9921715%" id="linearGradient-12">
+            <stop stop-color="#45C8B4" offset="0%"></stop>
+            <stop stop-color="#23C1AB" offset="51.5%"></stop>
+            <stop stop-color="#00B9A1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100.004266%" y1="49.9959573%" x2="0.00331847916%" y2="49.9959573%" id="linearGradient-13">
+            <stop stop-color="#FF407C" offset="0%"></stop>
+            <stop stop-color="#FF588E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.9995259%" y1="0.04%" x2="-0.00142220537%" y2="0.04%" id="linearGradient-14">
+            <stop stop-color="#FF407C" offset="0%"></stop>
+            <stop stop-color="#FF588E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.9692172%" y1="50.0167504%" x2="-1.87478294e-12%" y2="50.0167504%" id="linearGradient-15">
+            <stop stop-color="#2D436B" offset="0%"></stop>
+            <stop stop-color="#003978" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100.008354%" y1="50.0167084%" x2="1.18720591e-12%" y2="50.0167084%" id="linearGradient-16">
+            <stop stop-color="#2D436B" offset="0%"></stop>
+            <stop stop-color="#003978" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.9997718%" y1="49.9992302%" x2="-0.000335890953%" y2="49.9992302%" id="linearGradient-17">
+            <stop stop-color="#FF407C" offset="0%"></stop>
+            <stop stop-color="#FF588E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.00904704463%" y1="50.0054855%" x2="99.9975875%" y2="50.0054855%" id="linearGradient-18">
+            <stop stop-color="#2D436B" offset="0%"></stop>
+            <stop stop-color="#003978" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.00434404865%" y1="49.9982624%" x2="99.9982624%" y2="49.9982624%" id="linearGradient-19">
+            <stop stop-color="#2D436B" offset="0%"></stop>
+            <stop stop-color="#003978" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dwarf_rubyonrail">
+            <g id="Group-2" filter="url(#filter-1)" transform="translate(14.000000, 14.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Page-1-Copy" fill="#FFFFFF" xlink:href="#path-2"></use>
+                <g id="Group" mask="url(#mask-3)">
+                    <g transform="translate(29.000000, 14.000000)">
+                        <path d="M12.292,43.769 C12.868,43.295 13.893,43.472 14.584,44.164 L14.584,44.164 C15.276,44.859 15.368,45.804 14.794,46.279 L4.744,54.565 C4.168,55.039 3.143,54.862 2.452,54.17 L2.452,54.17 C1.763,53.477 1.669,52.531 2.244,52.058 L12.292,43.769 L12.292,43.769 Z" id="Shape" fill="url(#linearGradient-4)"></path>
+                        <path d="M29.587,43.168 C29.108,42.599 28.068,42.584 27.261,43.139 L27.261,43.139 C26.455,43.695 26.19,44.607 26.669,45.178 L35.032,55.164 C35.511,55.736 36.552,55.749 37.358,55.194 L37.358,55.194 C38.163,54.64 38.429,53.727 37.95,53.156 L29.587,43.168 L29.587,43.168 Z" id="Shape" fill="url(#linearGradient-5)"></path>
+                        <path d="M23.502,70.672 C23.502,71.332 24.157,71.867 24.966,71.867 L24.966,71.867 C25.775,71.867 26.43,71.332 26.43,70.672 L26.43,59.148 C26.43,58.488 25.775,57.953 24.966,57.953 L24.966,57.953 C24.157,57.953 23.502,58.488 23.502,59.148 L23.502,70.672 L23.502,70.672 Z" id="Shape" fill="url(#linearGradient-6)"></path>
+                        <path d="M13.705,70.672 C13.705,71.332 14.361,71.867 15.169,71.867 L15.169,71.867 C15.978,71.867 16.634,71.332 16.634,70.672 L16.634,59.148 C16.634,58.488 15.978,57.953 15.169,57.953 L15.169,57.953 C14.361,57.953 13.705,58.488 13.705,59.148 L13.705,70.672 L13.705,70.672 Z" id="Shape" fill="url(#linearGradient-7)"></path>
+                        <ellipse id="Oval" fill="url(#linearGradient-8)" cx="20.045" cy="53.532" rx="10.547" ry="12.003"></ellipse>
+                        <path d="M5.237,33.176 C5.237,40.139 12.71,45.785 21.929,45.785 C31.147,45.785 38.62,40.139 38.62,33.176 C38.62,26.211 31.146,20.565 21.929,20.565 C8.645,20.566 5.237,26.211 5.237,33.176 L5.237,33.176 Z" id="Shape" fill="url(#linearGradient-9)"></path>
+                        <ellipse id="Oval" fill="url(#linearGradient-10)" cx="16.966" cy="29.143" rx="2.141" ry="1.827"></ellipse>
+                        <ellipse id="Oval" fill="url(#linearGradient-11)" cx="23.406" cy="29.502" rx="2.142" ry="1.827"></ellipse>
+                        <path d="M22.381,32.428 C22.381,32.428 11.175,27.31 10.454,32.428 C9.731,37.544 22.381,36.291 22.381,36.291 L22.381,32.428 L22.381,32.428 Z" id="Shape" fill="url(#linearGradient-12)"></path>
+                        <g id="Group" stroke-width="1" fill="none" transform="translate(9.000000, 53.000000)">
+                            <path d="M11.044,12.811 C5.219,12.811 0.497,7.274 0.497,0.443 L21.591,0.443 C21.592,7.273 16.869,12.811 11.044,12.811 L11.044,12.811 Z" id="Shape" fill="url(#linearGradient-13)"></path>
+                            <path d="M21.592,0.442 L0.498,0.442" id="Shape" fill="url(#linearGradient-14)"></path>
+                        </g>
+                        <path d="M25.477,53.926 C25.674,53.926 25.857,53.806 25.93,53.612 L28.846,45.833 C28.94,45.583 28.812,45.304 28.563,45.21 C28.311,45.116 28.034,45.243 27.94,45.493 L25.025,53.272 C24.931,53.522 25.057,53.801 25.308,53.895 C25.363,53.916 25.421,53.926 25.477,53.926 L25.477,53.926 Z" id="Shape" fill="#075E75"></path>
+                        <path d="M12.706,53.926 C12.764,53.926 12.823,53.916 12.88,53.894 C13.13,53.797 13.254,53.517 13.157,53.268 L10.432,46.227 C10.336,45.977 10.055,45.854 9.806,45.95 C9.556,46.047 9.432,46.327 9.529,46.576 L12.254,53.617 C12.329,53.808 12.511,53.926 12.706,53.926 L12.706,53.926 Z" id="Shape" fill="#075E75"></path>
+                        <ellipse id="Oval" fill="url(#linearGradient-15)" cx="12.706" cy="53.442" rx="1.137" ry="1.194"></ellipse>
+                        <circle id="Oval" fill="url(#linearGradient-16)" cx="25.667" cy="53.543" r="1.197"></circle>
+                        <path d="M39.884,26.205 C39.884,26.205 40.693,40.561 35.126,44.679 C29.558,48.797 25.331,44.152 22.905,46.071 C20.556,47.927 17.535,52.167 15.332,52.167 C13.326,52.167 10.512,51.605 9.136,46.926 C7.758,42.246 4.775,44.867 5.005,40.376 C5.234,35.883 33.689,39.187 33.689,39.187 L36.442,26.206 L39.884,26.206 L39.884,26.205 Z" id="Shape" fill="#F5F5F5"></path>
+                        <path d="M34.536,15.02 C34.536,15.02 46.989,19.427 45.832,24.264 C44.673,29.101 31.699,27.489 27.761,27.13 C23.822,26.772 2.895,27.13 0.964,20.681 C-0.967,14.233 11.779,13.523 12.706,14.059 C13.634,14.598 19.189,2.587 24.517,0.617 C29.846,-1.355 34.767,13.946 34.536,15.02 L34.536,15.02 Z" id="Shape" fill="url(#linearGradient-17)"></path>
+                        <path d="M35.689,15.463 C35.689,16.47 34.766,17.286 33.629,17.286 L21.169,17.286 C20.031,17.286 19.109,16.47 19.109,15.463 L19.109,15.463 C19.109,14.457 20.032,13.64 21.169,13.64 L33.629,13.64 C34.766,13.64 35.689,14.456 35.689,15.463 L35.689,15.463 L35.689,15.463 Z" id="Shape" fill="url(#linearGradient-18)"></path>
+                        <circle id="Oval" fill="url(#linearGradient-19)" cx="15.25" cy="14.243" r="5.755"></circle>
+                        <circle id="Oval" fill="#F5F5F5" cx="12.365" cy="13.448" r="3.663"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

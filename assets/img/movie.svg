@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="122px" height="122px" viewBox="0 0 122 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>movie</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M31.5337347,73.7857788 L20.4875638,73.7857788 C19.0674242,73.7857788 17.9161737,72.6322122 17.9161737,71.1990275 L17.9161737,8.26442209 C17.9161737,6.83579875 19.0646264,5.67767071 20.4875638,5.67767071 L31.5337347,5.67767071 C31.8769644,9.4961518 35.0780067,12.4884815 38.9761737,12.4884815 C42.8743406,12.4884815 46.0753829,9.4961518 46.4186126,5.67767071 L57.4647835,5.67767071 C58.8849231,5.67767071 60.0361737,6.83123732 60.0361737,8.26442209 L60.0361737,71.1990275 C60.0361737,72.6276508 58.8877209,73.7857788 57.4647835,73.7857788 L46.4186126,73.7857788 C46.0753829,69.9672977 42.8743406,66.974968 38.9761737,66.974968 C35.0780067,66.974968 31.8769644,69.9672977 31.5337347,73.7857788 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="42.12" height="68.1081081" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <polyline id="path-3" points="8.54860837 37.9623981 23.6047343 0.357400193 35.0603937 4.32766847"></polyline>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="26.5117853" height="37.6049979" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="movie" stroke="#6D57D7" stroke-width="12.8955224">
+            <g id="Group-2" transform="translate(27.000000, 27.000000)">
+                <use id="Rectangle-109" mask="url(#mask-2)" transform="translate(38.976174, 39.731725) rotate(39.000000) translate(-38.976174, -39.731725) " xlink:href="#path-1"></use>
+                <use id="Path-2" mask="url(#mask-4)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>
