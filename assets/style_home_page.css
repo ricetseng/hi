@@ -764,6 +764,7 @@ footer h2 a:hover {
     .col {
         width: 100%;
         display: block;
+        height: 500px;
     }
 }
 .notime {
