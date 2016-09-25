@@ -397,12 +397,12 @@ tfoot td {
         display: table-cell
     }
 }
-/*
+
 @media (min-width: 480px) {
     .work {
         display: none;
     }
-}*/
+}
 .row {
     min-height: 240px
 }
