@@ -159,7 +159,9 @@ h1 {
     font-size: 3.6rem;
     font-style: normal;
     font-weight: 600;
+    margin: 0;
 }
+
 h2 {
     font-size: 4rem;
     font-weight: 600;
@@ -397,28 +399,13 @@ tfoot td {
         display: table-cell
     }
 }
-@media (max-width: 30em) {
-    h1 {
-        font-size: 2.6rem;
-        font-weight: 600;
-        margin: 0;
-    }
-    .row {
-        width: 100%;
-        display: table;
-        table-layout: fixed;
-    }
-    .col {
-        width: 100%;
-        display: block;
-    }
-}
+
 .work {
     width: 100%;
 }
 
 .row {
-    min-height: 240px
+    min-height: 240px;
 }
 .col {
     position: relative;
@@ -463,11 +450,7 @@ header {
     color: white;
     border: 3px solid white;
 }
-h1 {
-    font-size: 3.6rem;
-    font-weight: 600;
-    margin: 0
-}
+
 i {
     font-family: Baskerville-Italic;
     font-size: 3.6rem;
@@ -746,6 +729,41 @@ footer h2 a:hover {
     }
     footer h2 a {
         display: inline
+    }
+}
+
+@media (max-width: 30em) {
+    h1 {
+        font-size: 2.6rem;
+        font-weight: 600;
+        margin: 0;
+    }
+    h2, footer h2 {
+        font-size: 2.4rem;
+        font-weight: 600;
+        letter-spacing: -.01em;
+        line-height: 1.4;
+    }
+    .social,
+    .hire,
+    .bio {
+        display: inline-block;
+        padding: 4em 1.3em;
+    }
+    .social h2,
+    .hire h2,
+    .bio h2 {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .row {
+        width: 100%;
+        display: table;
+        table-layout: fixed;
+    }
+    .col {
+        width: 100%;
+        display: block;
     }
 }
 .notime {
