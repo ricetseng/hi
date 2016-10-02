@@ -479,58 +479,58 @@ i {
 }
 
 /*---------------------*/
-.work-lailaihui {
+.work-dictionary {
     background: #1FD7AE
 }
-.work-lailaihui .overlay {
+.work-dictionary .overlay {
     background-color: #1FD7AE
 }
-.work-loginn {
+.work-pemory {
     background: #3F91F0
 }
-.work-loginn .overlay {
+.work-pemory .overlay {
     background-color: #3F91F0
 }
-.work-freesvc {
+.work-shopping {
     background: #f9f9f9;
 }
-.work-freesvc .overlay {
+.work-shopping .overlay {
     background-color: #f9f9f9;
 }
-.work-shixian {
+.work-ruby {
     background: #f1d63d
 }
-.work-shixian .overlay {
+.work-ruby .overlay {
     background-color: #f1d63d
 }
-.work-mioji {
+.work-movie {
     background: #171718
 }
-.work-mioji .overlay {
+.work-movie .overlay {
     background-color: #171718
 }
-.work-caomei {
+.work-webdesign {
     background: #D71917
 }
-.work-caomei .overlay {
+.work-webdesign .overlay {
     background-color: #D71917
 }
-.work-next {
+.work-interaction {
     background: #30D0DF
 }
-.work-next .overlay {
+.work-interaction .overlay {
     background-color: #30D0DF
 }
-.work-36kr {
+.work-visual {
     background: #7A02E4
 }
-.work-36kr .overlay {
+.work-visual .overlay {
     background-color: #7A02E4
 }
-.work-krtv {
+.work-prototype {
     background: #212121
 }
-.work-krtv .overlay {
+.work-prototype .overlay {
     background-color: #212121;
 }
 /*---------------------*/
@@ -546,35 +546,35 @@ i {
 }
 
 /*---------------------*/
-.logo-lailaihui {
+.logo-dictionary {
     background: url(img/dictionary.svg) no-repeat
 }
-.logo-loginn {
+.logo-pemory {
     background: url(img/pemory.svg) no-repeat
 }
 
-.logo-freesvc {
+.logo-shopping {
     background: url(img/shopping.svg) no-repeat
 }
-.logo-shixian {
+.logo-ruby {
     background: url(img/dwarf_rubyonrail.svg) no-repeat
 }
-.logo-mioji {
+.logo-movie {
     background: url(img/movie.svg) no-repeat
 }
 
-.logo-caomei {
+.logo-webdesign {
     background: url(img/website.svg) no-repeat
 }
 
-.logo-next {
+.logo-interaction {
     background: url(img/motion.svg) no-repeat
 }
 
-.logo-36kr {
+.logo-visual {
     background: url(img/visual_design.svg) no-repeat
 }
-.logo-krtv {
+.logo-prototype {
     background: url(img/prototype.svg) no-repeat
 }
 /*---------------------*/
