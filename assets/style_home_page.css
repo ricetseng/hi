@@ -417,7 +417,8 @@ header {
     position: relative;
     height: 60vh;
     color: #fff;
-    background-image: -webkit-linear-gradient(45deg, #5249F8 0%, #00B7FF 100%);
+    background-image: -webkit-linear-gradient(45deg, #5249F8 0%, #5249F8 100%);
+    /*background-image: -webkit-linear-gradient(45deg, #5249F8 0%, #00B7FF 100%);*/
     /*background-image: -webkit-linear-gradient(45deg, #00C1B6 0%, #136EB5 100%);*/
     background-image: linear, 45deg, #5249F8 0%, #00B7FF 100%;
 }
