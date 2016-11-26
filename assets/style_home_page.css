@@ -480,10 +480,10 @@ i {
 
 /*---------------------*/
 .work-dictionary {
-    background: #1FD7AE
+    background: rgb(135, 0, 255);
 }
 .work-dictionary .overlay {
-    background-color: #1FD7AE
+    background-color: rgb(135, 0, 255);
 }
 .work-pemory {
     background: #3F91F0
