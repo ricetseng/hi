@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+	<meta name="author" content="Rice Tseng">
+    <meta name="description" content="UX Designer at Yahoo. Prototyper and pet lover.">
+    <meta name="keywords" content="designer, UI, interface, product, product designer, creative, UI designer, prototoyper.">
+    <meta property="og:title" content="Rice Tseng | Product Designer"/>
+    <meta property="og:url" content="www.ricetseng.com"/>
+    <meta property="og:image" content="http://ricetseng.com/images/fb_og.jpg"/>
+    <meta property="og:site_name" content="Rice Tseng | Product Designer"/>
+    <meta property="og:description" content="UX Designer at Yahoo. Prototyper and pet lover."/>
+	
+
+    <title>Rice Tseng | Product Designer</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/proxima-nova.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/works.css">
+
+    <link rel="stylesheet" href="css/grid.css">
+
+    <!-- animsition.css -->
+    <link rel="stylesheet" href="dist/css/animsition.css">
+    <!-- animsition.js -->
+    <script src="dist/js/animsition.min.js"></script>
+    <script src="dist/js/page_transition.js"></script>
+
+    
+    <link rel="shortcut icon" href="images/favicon-20160115122452496.ico">
+	<link rel="bookmark" href="images/favicon-20160115122452496.ico"/>
+    
+	<link rel="apple-touch-icon" href="images/apple120.png">
+	<link rel="apple-touch-icon" href="images/apple76.png" sizes="76x76">
+	<link rel="apple-touch-icon" href="images/apple120.png" sizes="120x120">
+	<link rel="apple-touch-icon" href="images/apple152.png" sizes="152x152">
+	<link rel="apple-touch-icon" href="images/apple180.png" sizes="180x180">
+	<link rel="apple-touch-icon" href="images/apple192.png" sizes="192x192">
+
+   
+
+</head>
+
+<body>
+	
+    
+    <div class="container animsition">
+        <section class=" section" layout="column" layout-align="center center">
+            <div class="sub-title">Visual Design</div>
+            <p class="info">Side project and visual exploration</p>
+            <div class="row">
+                <ul class="demo-list">
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2795101-Live-show-and-chat-box-design">
+                      <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2795101/proposal_1.png" alt=""></a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2758022-Profile-page-design">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2758022/dribbble.png" alt="">
+                      </a>
+                    </li>
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2646694-Movie-App-UI">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2646694/work_shot_1600_1200_copy.jpg" alt="">
+                      </a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2558062-Portfolio-profile-page">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2558062/001-macbook-silver_copy_copy.jpg" alt="">
+                      </a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2423363-Playing-for-music-player">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2423363/009_music_player_800.png" alt="">
+                      </a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2404327-Dailyui-013-Direct-Messaging">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2404327/013_800_2.png" alt="">
+                      </a>
+                    </li>
+
+
+                   
+                    
+                </ul>
+
+            </div>
+        </section>
+    </div>
+
+    <a href="http://ricetseng.com/prototyping.html" alt="View Abstract Solutions" title="View Abstract Solutions" id="next-project" class="abs-link">
+        <nav id="next-prev-all">
+          <div class="next_prev_container">
+          
+            <span class="smaller-font">NEXT</span><br><span style="color:#00D598;">PROTOTYPING</span>
+        </div>
+      </nav>
+    </a>
+   
+	
+    <nav id="footer_all">
+        <div class="footer_container">
+             <p>&copy; Rice Tseng 2012-2016 | All Rights Reserved</p>
+        </div>
+    </nav>
+	  <script>
+
+
+
+      // basic paging logic to demo the buttons
+        var pr = document.querySelector( '.paginate.left' );
+        var pl = document.querySelector( '.paginate.right' );
+
+        pr.onclick = slide.bind( this, -1 );
+        pl.onclick = slide.bind( this, 1 );
+
+        var index = 0, total = 2;
+
+        function slide(offset) {
+          index = Math.min( Math.max( index + offset, 0 ), total - 1 );
+
+          document.querySelector( '.counter' ).innerHTML = ( index + 1 ) + ' / ' + total;
+
+          pr.setAttribute( 'data-state', index === 0 ? 'disabled' : '' );
+          pl.setAttribute( 'data-state', index === total - 1 ? 'disabled' : '' );
+        }
+
+        slide(0); 
+     </script>
+    <script src="js/load.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-73111379-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+
+
+</body>
+</html>
