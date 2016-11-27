@@ -666,7 +666,7 @@ section.prototype {
   max-width: 500px;
 }
 #next-prev-all:hover {
-    background: #00A1FF;
+    background: #513FFC;
 }
 
 #next-prev-all:hover, #next-prev-all:hover .smaller-font {
