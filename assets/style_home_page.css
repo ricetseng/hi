@@ -640,7 +640,8 @@ i {
     width: 80%
 }
 .social h2 {
-    color: #5140fc
+    /*color: #5140fc*/
+    color: #262626;
 }
 .social h2 a {
     text-decoration: underline;
