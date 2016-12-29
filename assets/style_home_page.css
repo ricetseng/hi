@@ -644,7 +644,7 @@ i {
     color: #262626;
 }
 .social h2 a {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     color: #5140fc
 }
 .social h2 a:hover {
