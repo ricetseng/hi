@@ -1,43 +1,48 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 
-<meta name="author" content="Rice Tseng">
-<meta name="description" content="UX Designer at Yahoo. Prototyper and pet lover.">
-<meta name="keywords" content="designer, UI, interface, product, product designer, creative, UI designer, prototoyper.">
-<meta property="og:title" content="Rice Tseng | Product Designer"/>
-<meta property="og:url" content="www.ricetseng.com"/>
-<meta property="og:image" content="http://ricetseng.com/images/fb_og.jpg"/>
-<meta property="og:site_name" content="Rice Tseng | Product Designer"/>
-<meta property="og:description" content="UX Designer at Yahoo. Prototyper and pet lover."/>
-  
-<title>Rice Tseng | Product Designer</title>
+	<meta name="author" content="Rice Tseng">
+    <meta name="description" content="UX Designer at Yahoo. Prototyper and pet lover.">
+    <meta name="keywords" content="designer, UI, interface, product, product designer, creative, UI designer, prototoyper.">
+    <meta property="og:title" content="Rice Tseng | Product Designer"/>
+    <meta property="og:url" content="www.ricetseng.com"/>
+    <meta property="og:image" content="http://ricetseng.com/images/fb_og.jpg"/>
+    <meta property="og:site_name" content="Rice Tseng | Product Designer"/>
+    <meta property="og:description" content="UX Designer at Yahoo. Prototyper and pet lover."/>
+	
 
-<link rel="stylesheet" href="assets/fonts/proxima-nova.css">    
-<link rel='stylesheet' href='assets/style_home_page.css'>
-<link rel="stylesheet" href="css/precrafted-social.css">
+    <title>Rice Tseng | Product Designer</title>
 
-<!--<link rel='stylesheet' href='assets/simple-grid.css'>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <!--<link rel="stylesheet" href="css/style2.css">-->
+    <link rel="stylesheet" href="css/proxima-nova.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid2.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- animsition.css -->
+	<link rel="stylesheet" href="dist/css/animsition.css">
+	<!-- animsition.js -->
+	<script src="dist/js/animsition.min.js"></script>
+	<script src="dist/js/page_transition.js"></script>
 
+    <link rel="stylesheet" href="css/precrafted-social.css">
 
-
-
-<link rel="shortcut icon" href="images/favicon-20160115122452496.ico">
-<link rel="bookmark" href="images/favicon-20160115122452496.ico"/>
-<link rel="apple-touch-icon" href="images/apple120.png">
-<link rel="apple-touch-icon" href="images/apple76.png" sizes="76x76">
-<link rel="apple-touch-icon" href="images/apple120.png" sizes="120x120">
-<link rel="apple-touch-icon" href="images/apple152.png" sizes="152x152">
-<link rel="apple-touch-icon" href="images/apple180.png" sizes="180x180">
-<link rel="apple-touch-icon" href="images/apple192.png" sizes="192x192">
+    
+    <link rel="shortcut icon" href="images/favicon-20160115122452496.ico">
+	<link rel="bookmark" href="images/favicon-20160115122452496.ico"/>
+    
+	<link rel="apple-touch-icon" href="images/apple120.png">
+	<link rel="apple-touch-icon" href="images/apple76.png" sizes="76x76">
+	<link rel="apple-touch-icon" href="images/apple120.png" sizes="120x120">
+	<link rel="apple-touch-icon" href="images/apple152.png" sizes="152x152">
+	<link rel="apple-touch-icon" href="images/apple180.png" sizes="180x180">
+	<link rel="apple-touch-icon" href="images/apple192.png" sizes="192x192">
 
 <style>
   
@@ -167,7 +172,7 @@
 .menu__icon {
   font-size: 14px;
   margin-left: 22px;
-  margin-bottom: -36px;
+  margin-bottom: 28px;
 }
 
 .menu__item--active {
@@ -278,19 +283,14 @@
 </head>
 
 
-<body>
-<!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
+
 <div class="headerr">
   <div class="burger">
     <div class="burger__patty"></div>
     <div class="burger__patty"></div>
     <div class="burger__patty"></div>
   </div>
-  <div class="right">
-      <a href="mailto:ricetsengtw@gmail.com" class="ping">Say Hello to Rice</a>
-    </div>
+
 
   <nav class="menu">
     <div class="menu__brand">
@@ -326,320 +326,355 @@
   </nav>
 </div>
 
+<body style="overflow-x: hidden">
+	<div class="wrapper">
+	  <div class="nav-toggle">
+	    <div class="icon"></div>
+	  </div>
+	</div>
+	<div class="menu-items">
+	  <div><a href="http://ricetseng.com/about.html">About</a></div>
+	  <div><a href="http://ricetseng.com">Works</a></div>
+	  <div><a href="http://ricetseng.com/experiments.html">Interaction</a></div>
+	  <div><a target="_blank" href="https://www.dropbox.com/s/b4j2ksbi2osfz85/ricetseng_reusme.pdf?dl=0">Resume</a></div>
+	</div>
 
-<header>
-  
-  <!-- <div class="top">
+    
+	<div class="content animsition">
+        <div class="container_intro">
+            <div class="introduction">
+            	<h1 class="fade">
+					<div class="typewrite" data-period="1000" data-type='[ "Product Designer", "Prototyper!", "Hacker!", "Thinker!", "Problem solver!" ]'>
+					    <span class="wrap"></span>
+					</div>
+                </h1>
 
-    <div class="left">
-      <nav role="navigation">
-        <div id="menuToggle">
-          <input type="checkbox" />
-          <span></span>
-          <span></span>
-          <span></span>
-          <ul id="menu">
-            <a target="_blank" href="http://ricetseng.com"><li>Home</li></a>
-            <a target="_blank" href="http://ricetseng.com/about.html"><li>About</li></a>
-            <a target="_blank" href="http://ricetseng.com/experiments.html"><li>Interaction</li></a>
-            <a target="_blank" href="http://ricetseng.com/prototyping.html"><li>Prototyping</li></a>
-            <a href="https://www.dropbox.com/s/b4j2ksbi2osfz85/ricetseng_reusme.pdf?dl=0" target="_blank"><li>Resume</li></a>
-          </ul>
+
+                <div class="bio">
+                    <p>I’m an experienced Interaction Designer and Prototyper currently working at Grab Singapore. I have 4 years of work experience in UX design. I like to think of myself as half designer, half programmer.</p></br></br>
+                    <a href="http://ricetseng.com/about.html"><div class="resume_btn">Profile</div></a>
+                    
+                </div>
+
+            </div> 
+		</div> 	
+	</div>
+	<script>
+			
+			
+			/*$(".project_r_img").hover(function(){
+			    $(".phone_img_r").css("transform", "translateX(10px)");
+			    }, function(){
+			    $(".phone_img_r").css("transform", "translateX(	0px)");
+			});*/
+			
+	
+			
+			
+			//---------------------------------------------------------//
+			var myName = "Rice Tseng </br>"
+			var TxtType = function(el, toRotate, period) {
+		        this.toRotate = toRotate;
+		        this.el = el;
+		        this.loopNum = 0;
+		        this.period = parseInt(period, 10) || 2000;
+		        this.txt = '';
+		        this.tick();
+		        this.isDeleting = false;
+		    };
+
+		    TxtType.prototype.tick = function() {
+		        var i = this.loopNum % this.toRotate.length;
+		        var fullTxt = this.toRotate[i];
+
+		        if (this.isDeleting) {
+		        this.txt = fullTxt.substring(0, this.txt.length - 1);
+		        } else {
+		        this.txt = fullTxt.substring(0, this.txt.length + 1);
+		        }
+
+		        this.el.innerHTML = myName +'<span class="wrap">'+this.txt+'</span>';
+
+		        var that = this;
+		        var delta = 200 - Math.random() * 100;
+
+		        if (this.isDeleting) { delta /= 2; }
+
+		        if (!this.isDeleting && this.txt === fullTxt) {
+		        delta = this.period;
+		        this.isDeleting = true;
+		        } else if (this.isDeleting && this.txt === '') {
+		        this.isDeleting = false;
+		        this.loopNum++;
+		        delta = 500;
+		        }
+
+		        setTimeout(function() {
+		        that.tick();
+		        }, delta);
+		    };
+
+		    window.onload = function() {
+		        var elements = document.getElementsByClassName('typewrite');
+		        for (var i=0; i<elements.length; i++) {
+		            var toRotate = elements[i].getAttribute('data-type');
+		            var period = elements[i].getAttribute('data-period');
+		            if (toRotate) {
+		              new TxtType(elements[i], JSON.parse(toRotate), period);
+		            }
+		        }
+		        // INJECT CSS
+		        var css = document.createElement("style");
+		        css.type = "text/css";
+		        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+		        document.body.appendChild(css);
+		    };
+
+		
+	</script>
+	<div class="project">
+		<div class="project_wrapper">
+			<div class="project_l_text">
+				<h1>1</h1>
+				<h3>Diciontary</h3>
+				<p>A translate app designed for people who are not native speakers.</p>
+				<a href="http://ricetseng.com/dictionary.html"><div class="project_btn"><img src="images/arrow_r.png" alt=""></div></a>
+			</div>
+			<div class="project_r_img">
+				<img style="width:375px;" class="phone_img_r" src="images/project_img5.svg" alt="">
+				<img style="width:375px;" class="phone_img_l" src="images/project_img6.svg" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="project_white">
+		<div class="project_wrapper">
+			
+			<div class="project_l_img">
+				<img style="width:375px;" class="phone_img_r" src="images/project_img4.png" alt="">
+				<img style="width:375px;" class="phone_img_l" src="images/project_img3.png" alt="">
+			</div>
+			<div class="project_r_text">
+				<h1>2</h1>
+				<h3>Pemory</h3>
+				<p>A concept app designed to solve pet-related problems.</p>
+				<a href="http://ricetseng.com/pemory.html"><div class="project_btn"><img src="images/arrow_r.png" alt=""></div></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="project">
+		<div class="project_wrapper">
+			<div class="project_l_text">
+				<h1>3</h1>
+				<h3>Shopping</h3>
+				<p>Deliver UX/UI design for shopping app iOS and Android in Yahoo.</p>
+				<a href="http://ricetseng.com/shopping.html"><div class="project_btn"><img src="images/arrow_r.png" alt=""></div></a>
+			</div>
+			<div class="project_r_img">
+				<img style="width:375px;" class="phone_img_r" src="images/project_img2.svg" alt="">
+				<img style="width:375px;" class="phone_img_l" src="images/project_img1.svg" alt="">
+			</div>
+		</div>
+	</div>
+
+	<!--<div class="project_white_web">
+		<div class="project_wrapper">
+			<div class="project_center">
+				<h3>Web Design</h3>
+				<p>Selected web design works and front-end coding during past 3 years.</p></br></br>
+				<a href="http://ricetseng.com/website.html"><div class="resume_btn" style="margin:0 auto;">See</div></a>
+				<img src="images/ruby_web.png" alt="">
+			</div>
+		</div>
+	</div>-->
+
+	<!--<div class="project_experiment">
+		<div class="project_wrapper">
+			<div class="project_center_experiment">
+				<h3>Interaction Design</h3>
+				<p>Selected prototyping, UI animated and experiements.</p></br></br>
+				<a href="http://ricetseng.com/experiments.html"><div class="resume_btn" style="margin:0 auto;">See</div></a>
+			</div>
+		</div>
+	</div>-->
+	<div class="" style="margin-top: 100px;">
+        <section class=" section" layout="column" layout-align="center center">
+            <div class="sub-title">Web Design</div>
+            <p class="info">Selected web design works and front-end coding during past 3 years.</p>
+            
+            <div class="row">
+                <ul class="demo-list">
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2176233-2015-Ruby-Conference-in-Taiwan">
+                      <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2176233/web_browser.gif" alt=""></a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://www.behance.net/gallery/20147447/Global-Premium-Support-Portal-Concept">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/1590318/support.jpg" alt="">
+                      </a>
+                    </li>
+
+                   
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://www.behance.net/gallery/20100929/Platinum-Support-Portal">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/1743709/dribbble.jpg" alt="">
+                      </a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+            <div class="project_center" style="margin-bottom: 50px;">
+				<a href="http://ricetseng.com/website.html"><div class="resume_btn" style="margin:0 auto;">See More</div></a>
+			</div>
+        </section>
+    </div>
+    
+	<div class="" style="margin-top: -100px;">
+        <section class=" section" layout="column" layout-align="center center">
+            <div class="sub-title">Prototyping &amp; Coding</div>
+            <p class="info">“Prototyping is the process of making user experience possible.”</p>
+            <div class="row">
+                <ul class="demo-list">
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2395976-credit-card-prototype-with-Framer-js">
+                      <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2395976/dribbble.jpg" alt=""></a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2375739-Schedule-app-prototype-with-Framer-js">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2375739/schedule_short.gif" alt="">
+                      </a>
+                    </li>
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="http://share.framerjs.com/342knpownyoj/">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="images/movie_long_press_en.gif" alt="">
+                      </a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2181914-pull-down-and-play-video">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2181914/comp-1.gif" alt="">
+                      </a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2437766-card-interaction-with-framer-js">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2437766/bounce.gif" alt="">
+                      </a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2437879-List-view-transition-for-photo-gallery-with-framer-js">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2437879/category_expand_empty3.gif" alt="">
+                      </a>
+                    </li>
+
+                    
+                </ul>
+
+            </div>
+        </section>
+    </div>
+
+    <div class="" style="margin-top: -80px;">
+        <section class=" section" layout="column" layout-align="center center">
+           <div class="sub-title">UI animation &amp; Experiments</div>
+            <p class="info">“UI animations can help me communicate my ideas &amp; concept with co-workers.”</p>
+            <div class="row">
+                <ul class="demo-list">
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://www.youtube.com/watch?v=C5Y7Zkcp5kU">
+                      <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2556004/modern_teck_800_600.gif" alt=""></a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://www.youtube.com/watch?v=xjkOrd2wFEI">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/1677711/open2-2.gif" alt="">
+                      </a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://www.dropbox.com/s/z2i79bli94cvx0f/all_eng.mp4?dl=0">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2350567/800_6003.gif" alt="">
+                      </a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2369409-Dailyui-002-Credit-Card-Checkout">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2369409/all.gif" alt="">
+                      </a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://drive.google.com/open?id=0B4S2hHoiyHsWNGtsbVVyS1NidDQ">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2087098/ae.gif" alt="">
+                      </a>
+                    </li>
+
+
+                    <li class="rice-md-4">
+                      <a target="_blank" href="https://dribbble.com/shots/2177208-Sound-on-animation">
+                        <img class="shadowpower loud-link-hover" data-src="imghover" src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2177208/sound_dribbble2.gif" alt="">
+                      </a>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+    </div>
+	
+	
+
+	<!--<footer class="footer" layout="column" layout-align="center center">
+        <p class="touch-me">Touch with me through</p>
+        <div class="social">
+            <a target="_blank" href="https://www.facebook.com/ricewendy">Facebook</a>
+            <a target="_blank" href="https://twitter.com/RiceTseng">Twitter</a>
+            <a href="mailto:ricetsengtw@gmail.com">E-Mail</a>
+            <a target="_blank" href="https://dribbble.com/ricetseng">Dribbble</a>
+            <a target="_blank" href="https://github.com/ricetseng">GitHub</a>
         </div>
-      </nav>
-    </div>
+        <div class="socialiconfont">
+          <a target="_blank" href="https://www.facebook.com/ricewendy"><span class="socialfont icon-Facebook"></span></a>
+          <a target="_blank" href="http://twitter.com/RiceTseng"><span class="socialfont icon-Twitter"></span></a>
+          <a href="mailto:ricetsengtw@gmail.com"><span class="socialfont icon-Mail2"></span></a>
+          <a target="_blank" href="https://dribbble.com/ricetseng"><span class="socialfont icon-NewDribbble"></span></a>
+          <a target="_blank" href="https://github.com/ricetseng"><span class="socialfont icon-NewGithub"></span></a>
+        </div>
+        <p class="copyright">Copyright © 2016 MartinRGB</p>
+    </footer>-->
+    <nav id="footer_all">
+    	<div class="footer_container">
+			 <p>&copy; Rice Tseng 2012-2016 | All Rights Reserved</p>
+		</div>
+	</nav>
+	
+	<script src="js/load.js"></script>
+	<script src="js/css3-animate-it.js"></script>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <div class="right">
-      <a href="mailto:ricetsengtw@gmail.com" class="ping">Say Hello to Rice</a>
-    </div>
-  </div> -->
+	  ga('create', 'UA-73111379-1', 'auto');
+	  ga('send', 'pageview');
 
-  <!-- <div class="info">
-    <h1>Hola, I'm Rice.</h1>
-    <h1>
-      <div class="typewrite" data-period="1000" data-type='[ "Product Designer", "Prototyper!", "Hacker!", "Thinker!", "Problem Solver!" ]'>
-          <span class="wrap"></span>
-      </div>
-      <div class="avatar">
-        <img class="rice_avatar" src="images/avatar.svg" alt="avatar">
-      </div>
-    </h1>
-  </div> -->
-  <div class="info">
-    <h1>Hola, I'm Rice.</h1>
-    <h1>
-      <div class="typewrite" data-period="1000" data-type='[ "Product Designer", "Prototyper!", "Hacker!", "Thinker!", "Problem Solver!" ]'>
-          <span class="wrap"></span>
-      </div>
-      <!-- <div class="avatar">
-        <img class="rice_avatar" src="images/avatar.svg" alt="avatar">
-      </div> -->
-    </h1>
-  </div>
-
-</header>
-
-<section class="bio">
-  <h2>An experienced Product Designer at Grab Singapore. Previously at Yahoo &amp; Trend Micro. I have 4 years of work experience in UX design. Know more <a target="_blank" href="http://ricetseng.com/about.html">about Rice</a> or download my <a target="_blank" href="https://www.dropbox.com/s/b4j2ksbi2osfz85/ricetseng_reusme.pdf?dl=0">resume</a> here.</h2>
-</section>
-
-    <section class="work">
-      <div class="row">
-        
-        <a class="col work-dictionary" target="_blank" href="http://ricetseng.com/dictionary.html">
-          <div class="client-logo logo-dictionary">Dictionary App - Yahoo!</div>
-          <div class="overlay"></div>
-          <div class="details">
-            <h3>Dictionary</h3>
-            <ul>
-              <li>App design</li>
-              <li>UX</li>
-              <li>Interaction design</li>
-              <li>Prototyping</li>
-              <li>Concept video</li>
-              <li>App Icon design</li>
-            </ul>
-          </div>
-        </a>
-
-        <a class="col work-movie" target="_blank" href="http://ricetseng.com/movie.html">
-          <div class="client-logo logo-movie">Movie</div>
-          <div class="overlay"></div>
-          <div class="details">
-            <h3>Movie</h3>
-            <ul>
-              <li>iOS/Android</li>
-              <li>UX</li>
-              <li>App structure</li>
-              <li>Visual design</li>
-              <li>Interaction design</li>
-              <li>Prototyping</li>
-            </ul>
-          </div>
-        </a>
-
-        
-        <a class="col work-pemory" target="_blank" href="http://ricetseng.com/pemory.html">
-          <div class="client-logo logo-pemory">Pemory</div>
-          <div class="overlay"></div>
-          <div class="details">
-            <h3>Pemory</h3>
-            <ul>
-              <li>App design</li>
-              <li>UX</li>
-              <li>Interaction design</li>
-              <li>Concept video</li>
-            </ul>
-          </div>
-        </a>
-
-        
-
-        
-        
-      </div>
-
-
-      <div class="row">
-
-        <a class="col work-shopping" target="_blank" href="http://ricetseng.com/shopping.html">
-          <div class="client-logo logo-shopping">Shopping App - Yahoo!</div>
-          <div class="overlay"></div>
-          <div class="details">
-            <h3 style="color:#3F3F3F;">Shopping App</h3>
-            <ul style="color:#3F3F3F;">
-              <li>iOS/Android</li>
-              <li>UX</li>
-              <li>Interaction design</li>
-              <li>Visual design</li>
-              <li>Interactive prototype</li>
-            </ul>
-          </div>
-        </a>
-
-        <a class="col work-ruby" target="_blank" href="https://dribbble.com/shots/2176233-2015-Ruby-Conference-in-Taiwan">
-          <div class="client-logo logo-ruby">2015 Ruby on Rails Conference</div>
-          <div class="overlay"></div>
-          <div class="details">
-            <h3>2015 Ruby on Rails Conference</h3>
-            <ul>
-              <li>Web design</li>
-              <li>Interaction design</li>
-              <li>Motion</li>
-            </ul>
-          </div>
-        </a>
-        
-
-        
-        
-        
-        
-        <a class="col work-webdesign" target="_blank" href="http://www.ricetseng.com/visual.html">
-          <div class="client-logo logo-webdesign">Web Design</div>
-          <div class="overlay"></div>
-          <div class="details">
-            <h3>Web Design</h3>
-            <ul>
-              <li>Web design</li>
-              <li>Front-end</li>
-              <li>Interaction esign</li>
-              <li>Visual design</li>
-            </ul>
-          </div>
-        </a>
-        
-      </div>
-      <div class="row">
-        <a class="col work-interaction" target="_blank" href="http://www.ricetseng.com/experiments.html">
-          <div class="client-logo logo-interaction">Interaction Design</div>
-          <div class="overlay"></div>
-          <div class="details">
-            <h3>Interaction Design</h3>
-            <ul>
-              <li>UI animations/Motion</li>
-              <li>Physical interaction</li>
-              <li>HCI</li>
-              <li>Digital Art</li>
-            </ul>
-          </div>
-        </a>
-        
-        <a class="col work-visual" target="_blank" href="http://www.ricetseng.com/visual.html">
-          <div class="client-logo logo-visual">Visual Design</div>
-          <div class="overlay"></div>
-          <div class="details">
-            <h3>Visual Design</h3>
-            <ul>
-              <li>Daily UI challenge</li>
-              <li>App Design</li>
-              <li>icon design</li>
-            </ul>
-          </div>
-        </a>
-        <a class="col work-prototype" target="_blank" href="http://www.ricetseng.com/prototyping.html">
-          <div class="client-logo logo-prototype">Prototyping</div>
-          <div class="overlay"></div>
-          <div class="details">
-            <h3>Prototyping</h3>
-            <ul>
-              <li>Framer.js</li>
-              <li>Principle for mac</li>
-              <li>Flinto</li>
-              <li>After effect</li>
-              <li>Keynote</li>
-            </ul>
-          </div>
-        </a>
-      </div>
-      
-      
-    </section>
-
-    <section class="social">
-    <!-- <h2>I love thinking &amp; embracing problems, Find some of my works on <a target="_blank" href="http://dribbble.com/ricetseng" class="ss-dribbble">dribbble</a> or <a target="_blank" href="https://www.behance.net/ricetseng" class="ss-behance">behance</a>. Sometimes, I love share sth on <a target="_blank" href="https://twitter.com/RiceTseng" class="ss-twitter">Twitter</a> and <a target="_blank" href="https://medium.com/@ricetseng_0820/" class="ss-medium">Medium</a>, or you can find me on <a href="" class="ss-wechat">Wechat<span class="popup"><img src="assets/img/wechat@2x.jpg" alt="" width="223" height="248"></span></a>.</h2> -->
-    <h2>I love thinking &amp; embracing problems, Find some of my works on <a target="_blank" href="http://dribbble.com/ricetseng" class="ss-dribbble">dribbble</a> or <a target="_blank" href="https://www.behance.net/ricetseng" class="ss-behance">behance</a>. Sometimes, I love share sth on <a target="_blank" href="https://twitter.com/RiceTseng" class="ss-twitter">Twitter</a> and <a target="_blank" href="https://medium.com/@ricetseng_0820/" class="ss-medium">Medium</a>.</h2>
-</section>
-
-<footer>
-  <section class="copyright">
-    <p>© Rice Tseng 2013-2017 All Rights Reserved. Made by <a href="http://ricetseng.com">Rice Tseng</a></p>
-  </section>
-</footer>
-
-<!--     <footer>
-  <section class="hire">
-    <h2>I am always excited to seek challenges from anywhere to make the product people LOVE.<br><a href="mailto:ricetsengtw@gmail.com">Contact me</a>.</h2>
-  </section>
-  <section class="copyright">
-    <p>© Rice Tseng 2013-2017 All Rights Reserved. Made by <a href="http://ricetseng.com">Rice Tseng</a></p>
-  </section>
-</footer> -->
-
-<script>
-      
-      
-    /*$(".project_r_img").hover(function(){
-        $(".phone_img_r").css("transform", "translateX(10px)");
-        }, function(){
-        $(".phone_img_r").css("transform", "translateX( 0px)");
-    });*/
-    
-
-    
-    
-    //---------------------------------------------------------//
-    var myName = ""
-    var TxtType = function(el, toRotate, period) {
-          this.toRotate = toRotate;
-          this.el = el;
-          this.loopNum = 0;
-          this.period = parseInt(period, 10) || 2000;
-          this.txt = '';
-          this.tick();
-          this.isDeleting = false;
-      };
-
-      TxtType.prototype.tick = function() {
-          var i = this.loopNum % this.toRotate.length;
-          var fullTxt = this.toRotate[i];
-
-          if (this.isDeleting) {
-          this.txt = fullTxt.substring(0, this.txt.length - 1);
-          } else {
-          this.txt = fullTxt.substring(0, this.txt.length + 1);
-          }
-
-          this.el.innerHTML = myName +'<span class="wrap">'+this.txt+'</span>';
-
-          var that = this;
-          var delta = 200 - Math.random() * 100;
-
-          if (this.isDeleting) { delta /= 2; }
-
-          if (!this.isDeleting && this.txt === fullTxt) {
-          delta = this.period;
-          this.isDeleting = true;
-          } else if (this.isDeleting && this.txt === '') {
-          this.isDeleting = false;
-          this.loopNum++;
-          delta = 500;
-          }
-
-          setTimeout(function() {
-          that.tick();
-          }, delta);
-      };
-
-      window.onload = function() {
-          var elements = document.getElementsByClassName('typewrite');
-          for (var i=0; i<elements.length; i++) {
-              var toRotate = elements[i].getAttribute('data-type');
-              var period = elements[i].getAttribute('data-period');
-              if (toRotate) {
-                new TxtType(elements[i], JSON.parse(toRotate), period);
-              }
-          }
-          // INJECT CSS
-          var css = document.createElement("style");
-          css.type = "text/css";
-          css.innerHTML = ".typewrite > .wrap { border-right: 0.1em solid #fff}";
-          document.body.appendChild(css);
-      };
-
-  
-</script>
-<script src="js/load.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-73111379-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-  </body>
+	</script>
+</body>
 </html>
