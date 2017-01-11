@@ -696,7 +696,8 @@ i {
     opacity: 1
 }
 footer {
-    background: #5140fc
+    /*background: #5140fc*/
+    background: #000000;
 }
 footer p {
     font-size: .8rem;
