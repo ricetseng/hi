@@ -136,7 +136,7 @@
 .bullet li {
     list-style-position: outside;
     margin-left: 15px;
-    list-style-type: circle;
+    list-style-type: disc;
 }
 .cv_content .bold {
     color: #444;
