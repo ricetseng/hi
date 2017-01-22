@@ -134,11 +134,33 @@
         </div>  
     </section>
 
-    <section class="work_content_wrapper_color clearfix">
+    <section class="work_content_wrapper_color clearfix" style="background-color: #6d57d7; color: #ffffff;">
         <div class="container_works">
             <div class="work_introduction">
-                <h3>What we try to solve after we face bottleneck</h3>
-                <p>After we received these feedback, we started mapping out the next plan with our awesome researcher. From our opinion, we need to design the most intuitive experience for our movie app and define the core value as our first priority. So we decided we should spend two weeks doing this research and iterate the design. Here’s the process after we face bottleneck : </p>
+                <h3 style="color: #ffffff;">What we try to solve after we face bottleneck</h3>
+                <p style="color: #ffffff;">After we received these feedback, we started mapping out the next plan with researcher.</br> Here’s the process after we face bottleneck : </p>
+
+                <div class="process">
+                    <ol class="process-items">
+                        <li class="active">Build prototype for user interview</li>
+                        <li>User interview</li>
+                        <li>Persona &amp; User journey map</li>
+                        <li>Study hightlight &amp; Finding statement</li>
+                        <li>How might we</li>
+                        <li>Random object workshop</li>
+                    </ol>
+                    <canvas id="canvas" width="850" height="55"></canvas>
+                </div>
+                <div class="list_process">
+                    <p style="color:white;">1. Build prototype for user interview</br>
+                    2. User interview</br>
+                    3. Persona &amp; User journey map </br>
+                    4. Study hightlight &amp; Finding statement </br>
+                    5. How might we </br>
+                    6. Random object workshop </br>
+                    </p>
+                </div>
+                
             </div>
         </div>  
     </section>
@@ -173,7 +195,7 @@
         var canvas = document.getElementById('canvas');
         var ctx = canvas.getContext('2d');
 
-        var SECTION_WIDTH = 200;
+        var SECTION_WIDTH = 140;
 
         var sections = [];
         var create = function(start) {
@@ -259,9 +281,11 @@
         });
 
         create(0);
-        create(200);
-        create(400);
-        create(600);
+        create(140);
+        create(280);
+        create(420);
+        create(560);
+        create(700);
 
         var loop = function() {
           ctx.clearRect(0, 0, canvas.width, canvas.height);

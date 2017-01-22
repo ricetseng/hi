@@ -540,9 +540,10 @@ section.prototype {
 }
 .process-items li {
   display: table-cell;
-  width: 25%;
+  line-height: 24px;
+  width: 18%;
   vertical-align: bottom;
-  padding: 0 .5em;
+  padding: 0.5em;
   -webkit-transform: scale(0.65) translateY(40px);
           transform: scale(0.65) translateY(40px);
   -webkit-transform-origin: bottom center;
