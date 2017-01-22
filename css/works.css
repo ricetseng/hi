@@ -614,6 +614,12 @@ section.prototype {
 }
 
 /*--------------------------type1 end----------------------------*/
+.work_introduction p.text_under_img {
+  font-style: italic;
+  font-size: 16px;
+  color: #b3b3b3;
+}
+
 #works_center_img {
   width: 100%;
   margin: 40px 0px;
