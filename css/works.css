@@ -749,7 +749,7 @@ section.prototype {
 }
 
 @media screen and (min-width: 1600px) {
-  .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping {
+  .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping, .work_top_bg_movie {
     height: 750px;
     background-size: 100% auto;
   } 
@@ -759,7 +759,7 @@ section.prototype {
   }
 }
 @media screen and (min-width: 979px) and (max-width: 1060px) {
-  .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping {
+  .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping, .work_top_bg_movie {
     background-size: 120% auto;
   } 
 }
@@ -774,7 +774,7 @@ section.prototype {
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
 
-  .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping {
+  .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping, .work_top_bg_movie {
     background-size: 150% auto;
   } 
   .work_introduction_l_video, .work_introduction_r_video, .work_introduction_r_image {
@@ -823,7 +823,7 @@ section.prototype {
 
 }
 @media screen and (max-width: 767px) {
-  .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping {
+  .work_top_bg, .work_top_bg_web, .work_top_bg_dictionary, .work_top_bg_shopping, .work_top_bg_movie {
     background-size: cover;
   } 
   .ruby_img {
