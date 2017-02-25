@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+	<meta name="author" content="Rice Tseng">
+  <meta name="description" content="UX Designer at Yahoo. Prototyper and pet lover.">
+  <meta name="keywords" content="designer, UI, interface, product, product designer, creative, UI designer, prototoyper.">
+  <meta property="og:title" content="Rice Tseng | Product Designer"/>
+  <meta property="og:url" content="www.ricetseng.com"/>
+  <meta property="og:image" content="http://ricetseng.com/images/fb_og.jpg"/>
+  <meta property="og:site_name" content="Rice Tseng | Product Designer"/>
+  <meta property="og:description" content="UX Designer at Yahoo. Prototyper and pet lover."/>
+	<title>Rice Tseng | Product Designer</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/proxima-nova.css">
+  <link rel="stylesheet" href="css/reset.css">
+
+    
+  <link rel="shortcut icon" href="images/favicon-20160115122452496.ico">
+	<link rel="bookmark" href="images/favicon-20160115122452496.ico"/>
+    
+	<link rel="apple-touch-icon" href="images/apple120.png">
+	<link rel="apple-touch-icon" href="images/apple76.png" sizes="76x76">
+	<link rel="apple-touch-icon" href="images/apple120.png" sizes="120x120">
+	<link rel="apple-touch-icon" href="images/apple152.png" sizes="152x152">
+	<link rel="apple-touch-icon" href="images/apple180.png" sizes="180x180">
+	<link rel="apple-touch-icon" href="images/apple192.png" sizes="192x192">
+
+  <style>
+  * {
+      box-sizing: border-box;
+  }
+  body {margin:0;}
+
+  .row::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+  [class*="col-"] {
+      float: left;
+      padding: 0px 50px 100px 50px;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+/*
+  .portfolio_l {
+    width: 50%;
+    float: left;
+    padding: 0px 20px 100px 120px;
+  }
+  .portfolio_r {
+    width: 50%;
+    float: left;
+    padding: 0px 120px 100px 20px;
+  }*/
+  .portfolio_r img, .portfolio_l img {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 8px;
+    transition: all 0.2s ease-out;
+  }
+  .portfolio_r img:hover {
+    box-shadow: 0 2px 10px 0 rgba(216,210,210,0.50), 0 13px 44px 0 rgba(198,198,198,0.30);
+  }
+  .portfolio_l img:hover {
+    box-shadow: 0 2px 10px 0 rgba(216,210,210,0.50), 0 13px 44px 0 rgba(198,198,198,0.30);
+  }
+
+  .portfolio_r h1, .portfolio_l h1 {
+        /* Movie: */
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #2C2B30;
+    letter-spacing: 0;
+    line-height: 43px;
+    margin-top: 25px;
+  }
+  .portfolio_r p, .portfolio_l p {
+        /* Movie: */
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-size: 16px;
+    color: #2C2B30;
+    letter-spacing: 0;
+    line-height: 36px;
+    margin-top: 10px;
+  }
+
+  
+  .menu_funghi {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .funghi_logo img {
+    width: 73px;
+    margin-top: -19px;
+  }
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 75px 0 50px 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+
+  ul.topnav li {float: left;}
+
+  ul.topnav li a {
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    display: inline-block;
+    color: #999999;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+
+  }
+
+  ul.topnav li a:hover {color: #50E3C2;}
+
+  ul.topnav li.icon {display: none;}
+
+
+  @media screen and (max-width:680px) {
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+      float: right;
+      display: inline-block;
+    }
+  }
+
+  @media screen and (max-width:745px) {
+    .portfolio_r, .portfolio_l {
+      width: 100%;
+      float: left;
+      padding: 0px 25px 70px 25px;
+    }
+    .portfolio_r img, .portfolio_l img {
+      width: 100%;
+    }
+    .menu_funghi {
+      width: 100%;
+    }
+    ul.topnav {
+      padding: 25px 10px 10px 0;
+    }
+
+    ul.topnav.responsive {position: relative;}
+    ul.topnav.responsive li.icon {
+      position: absolute;
+      right: 10px;
+      top: 25px;
+    }
+    ul.topnav.responsive li {
+      float: none;
+      display: inline;
+    }
+    ul.topnav.responsive li a {
+      display: block;
+      text-align: left;
+    }
+  
+  }
+  </style>
+</head>
+
+
+<body>
+<div class="menu_funghi">
+  <ul class="topnav" id="myTopnav">
+    <li class="funghi_logo"><a href="http://www.ricetseng.com/"><img src="images/funghi_logo.svg" alt=""></a></li>
+    <li><a target="_blank" href="http://www.ricetseng.com/">Work</a></li>
+    <li><a target="_blank" href="http://www.ricetseng.com/about.html">About</a></li>
+    <li><a target="_blank" href="https://medium.com/@ricetseng_0820">Blog</a></li>
+    <li><a target="_blank" href="https://dribbble.com/ricetseng">Dribbble</a></li>
+    <li><a target="_blank" href="https://twitter.com/RiceTseng">Twitter</a></li>
+    <li><a target="_blank" href="http://tw.linkedin.com/in/ricetseng">Linkedin</a></li>
+    <li class="icon">
+      <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+    </li>
+  </ul>
+</div>
+
+
+<div class="row">
+  <div class="portfolio_l col-6">
+    <a target="_blank" href="http://ricetseng.com/dictionary.html"><img src="images/shot3.png" alt=""></a>
+    <h1>Dictionary</h1>
+    <p>A translate app designed for foreigner.</p>
+  </div>
+  <div class="portfolio_r col-6">
+    <a target="_blank" href="http://ricetseng.com/movie.html"><img src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2646694/work_shot_1600_1200_copy.jpg" alt=""></a>
+    <h1>Yahoo! Movie</h1>
+    <p>The story behind this movie project.</p>
+  </div>
+  <div class="portfolio_l col-6">
+    <a target="_blank" href="http://ricetseng.com/pemory.html"><img src="images/shot1_1.jpg" alt=""></a>
+    <h1>Pemory - concept</h1>
+    <p>A concept app designed to solve pet-related problems.</p>
+  </div>
+  <div class="portfolio_r col-6">
+    <a target="_blank" href="http://ricetseng.com/shopping.html"><img src="images/shot_shopping2.jpg" alt=""></a>
+    <h1>Yahoo! Shopping</h1>
+    <p>Deliver UX/UI design for shopping app iOS and Android in Yahoo.</p>
+  </div>
+
+  <div class="portfolio_l col-6">
+    <a target="_blank" href="http://ricetseng.com/website.html"><img src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2684409/1600_1200.gif" alt=""></a>
+    <h1>Web design collection</h1>
+    <p>Selected web design works and front-end coding during past 3 years.</p>
+  </div>
+
+  <div class="portfolio_r col-6">
+    <a target="_blank" href="http://ricetseng.com/prototyping.html"><img src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/3319511/dribbble.gif" alt=""></a>
+    <h1>Prototyping &amp; Coding</h1>
+    <p>Prototyping is the process of making user experience possible.</p>
+  </div>
+
+  <div class="portfolio_l col-6">
+    <a target="_blank" href="http://ricetseng.com/experiments.html"><img src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2556004/modern_teck_800_600.gif" alt=""></a>
+    <h1>Concept &amp; Physical interaction</h1>
+    <p>Concept, hackday, HCI projects collection</p>
+  </div>
+
+  <div class="portfolio_r col-6">
+    <a target="_blank" href="https://dribbble.com/ricetseng/projects/329424-Daily-UI-challenge"><img src="https://d13yacurqjgara.cloudfront.net/users/249044/screenshots/2795101/proposal_1.png" alt=""></a>
+    <h1>Daily UI challenge</h1>
+    <p>For fun.</p>
+  </div>
+
+  
+
+</div>
+
+
+  <script>
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
+  </script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73111379-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
