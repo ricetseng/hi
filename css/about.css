@@ -1,6 +1,7 @@
 .rice_avatar {
-	width: 418px;
-	margin-left: 43px;
+	width: 200px;
+	/*margin-left: 43px;*/
+	margin-top: 20px;
 }
 .avatar_ic {
 	width: 43px;
@@ -52,7 +53,7 @@
     height: 100%;
     margin: 0 auto;
     padding-top: 50px;
-    background: url("../images/about_bg.svg") 0 0 no-repeat;
+    /*background: url("../images/about_bg.svg") 0 0 no-repeat;*/
     background-size: 110% auto;
   	overflow: hidden;
     /*background-attachment: fixed;*/
