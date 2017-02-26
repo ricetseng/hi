@@ -1,58 +1,8 @@
-.rice_avatar {
-	width: 200px;
-	/*margin-left: 43px;*/
-	margin-top: 20px;
-}
-.avatar_ic {
-	width: 43px;
-	position: relative;
-    right: 235px;
-    top: 11px;
-    transition: all 0.2s ease-out;
-	-webkit-transition: all 0.2s ease-out;
-	-moz-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-}
-.cv_download {
-	width: 100%;
-	display: block;
-}
-.cv_download_container {
-  position: relative;
-  margin:70px auto;
-  text-align: center;
-  width: 280px;
-  color: #ffffff;
-  font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  background: #00D598;
-  
-  border-radius: 2px;
-  padding: 24px 96px;
-  cursor: pointer;
-  transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-}
-.cv_download_container:hover {
-	transform: scale(1.1);
-	box-shadow: 0px 8px 20px 0px rgba(2,2,2,0.23);
-}
-.cv_top h3 {
-	font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-weight: 600;
-	font-size: 46px;
-	color: #2e2e2e;
-	line-height: 1.2em;
-	margin-top: 37px;
-}
+
 .cv_page {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    padding-top: 50px;
     /*background: url("../images/about_bg.svg") 0 0 no-repeat;*/
     background-size: 110% auto;
   	overflow: hidden;
@@ -97,33 +47,52 @@
 
 
 .cv_item {
-	width: 100%;
-  	margin: 100px auto;
+  	margin: 0px auto;
+    padding: 50px 0;
+}
 
+.cv_item_photo img {
+	border-radius: 8px;
+    transition: all 0.2s ease-out;
+	padding: 50px 0;
+	width: 400px;
+	float: right;
+	display: inline-block;
+}
+.cv_item_photo_hide {
+	width: 100%;
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+    text-align: center;
+    display: none;
+}
+.cv_item_photo_hide img {
+	width: 150px;
 }
 
 .cv_title {
-    display: block;
+    /*display: block;
     float: left;
     vertical-align: top;
-    width: 20%;
-    color: #4E4E4E;
+    width: 20%;*/
+    width: 50%;
+    color: #2C2B30;
     text-transform: uppercase;
     font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   	font-weight: 600;
-    font-size: 16px;
+    font-size: 32px;
     margin: 0;
-    padding: 0 50px 0 10px;
-    line-height: 24px;
-    text-align: right;
+    line-height: 43px;
+    text-align: left;
 }
 
 .cv_content {
-    display: inline-block;
+    /*display: inline-block;
     vertical-align: top;
-    width: 80%;
+    width: 80%;*/
+    width: 50%;
     color: #888;
-    margin-top: -10px;
+    margin-top: 20px;
     font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
   	font-weight: 400;
     font-size: 16px;
@@ -164,6 +133,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
     /* 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。 */ 
+    .cv_item_photo img {
+		display: none;
+	}
+	.cv_item_photo_hide {
+		display: block;
+	}
     .cv_big {
     	width: 100%;
     	text-align: center;
@@ -174,6 +149,11 @@
 	    font-size: 24px;
 	    padding: 0 25px 0 25px;
 	}
+	
+	.cv_item {
+		padding: 20px 0;
+	}
+
 	.cv_content {
 	    width: 100%;
 	    margin-top: 40px;
@@ -186,14 +166,19 @@
 }
 
 @media screen and (min-width: 415px) and (max-width: 767px) {
-	
+	.cv_item_photo img {
+		display: none;
+	}
+	.cv_item_photo_hide {
+		display: block;
+	}
 	.rice_avatar {
 		width: 170px;
 		/*margin-left: 10px;*/
 	}
 	.cv_item {
 		width: 100%;
-	  	margin: 70px auto;
+	  	margin: 0 auto;
 	}
 	.container_works {
 		padding: 0 25px;
@@ -231,6 +216,13 @@
 
 
 @media screen and (min-width: 321px) and (max-width: 414px) {
+	.cv_item_photo img {
+		display: none;
+	}
+	.cv_item_photo_hide {
+		display: block;
+	}
+
 	.cv_page {
 	    width: 100%;
 	    padding: 0 10%;
@@ -246,7 +238,7 @@
 	}
 	.cv_item {
 		width: 100%;
-	  	margin: 50px auto;
+	  	margin: 0 auto;
 	}
 	.cv_big {
     	display: none;
@@ -273,6 +265,12 @@
 	}
 }
 @media screen and (max-width: 320px) {
+	.cv_item_photo img {
+		display: none;
+	}
+	.cv_item_photo_hide {
+		display: block;
+	}
 	.rice_avatar {
 	    /*margin-left: 7px;*/
 	}
