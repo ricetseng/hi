@@ -188,8 +188,8 @@
 @media screen and (min-width: 415px) and (max-width: 767px) {
 	
 	.rice_avatar {
-		width: 350px;
-		margin-left: 10px;
+		width: 170px;
+		/*margin-left: 10px;*/
 	}
 	.cv_item {
 		width: 100%;
@@ -236,8 +236,8 @@
 	    padding: 0 10%;
 	}
 	.rice_avatar {
-		width: 250px;
-		margin-left: 22px;
+		width: 150px;
+		/*margin-left: 22px;*/
 	}
 	.avatar_ic {
 		width: 23px;
@@ -274,7 +274,7 @@
 }
 @media screen and (max-width: 320px) {
 	.rice_avatar {
-	    margin-left: 7px;
+	    /*margin-left: 7px;*/
 	}
 	.avatar_ic {
 	    right: -4px;
