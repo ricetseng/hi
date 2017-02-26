@@ -232,6 +232,12 @@
   }
 
   @media screen and (max-width:802px) {
+    [data-tooltip]:hover:before,
+    [data-tooltip]:hover:after {
+      visibility: hidden;
+      opacity: 0;
+      transform: scale(1.1,1.1);
+    }
     .portfolio_r, .portfolio_l {
       width: 100%;
       float: left;
