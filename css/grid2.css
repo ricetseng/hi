@@ -557,18 +557,20 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 .info {
     font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-    font-weight: 200;
-    font-size: 22px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 2;
     text-align: center;
-    line-height: 1.5em;
-    color: rgba(68, 68, 68, .6);
+    color: #949494;
     margin-top: 10px;
     margin-bottom: 40px;
 }
 .sub-title {
     font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #4E4E4E;
     margin-top: 20px;
 }
 .divider {
