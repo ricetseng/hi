@@ -43,9 +43,16 @@
     /*responsive nav*/
     body {margin:0;}
     .menu_funghi {
-        width: 600px;
-        text-align: center;
-        margin: 0 auto;
+        width: 100%;
+        height: 170px;
+        background-color: #fff;
+        position: fixed;
+        z-index: 10000;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
       }
 
       .funghi_logo img {
@@ -54,10 +61,22 @@
       }
       ul.topnav {
         list-style-type: none;
-        margin: 0;
-        padding: 75px 0 50px 0;
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 60px 0 60px 0;
         overflow: hidden;
-        background-color: #ffffff;
+
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    
+      }
+
+      ul.topnav.shrink {
+        padding: 30px 0 0px 0;
       }
 
       ul.topnav li {float: left;}
@@ -172,9 +191,10 @@
         }
         ul.topnav {
           padding: 25px 10px 25px 10px;
+          width: 100%;
         }
 
-        ul.topnav.responsive {position: relative;}
+        ul.topnav.responsive {position: relative; background-color: #fff;}
         ul.topnav.responsive li.icon {
           position: absolute;
           right: 10px;
@@ -457,6 +477,16 @@
               x.className = "topnav";
           }
       }
+
+      $(window).scroll(function() {
+          if ($(document).scrollTop() > 50) {
+            $('.topnav').addClass('shrink');
+            $('.menu_funghi').css( "height", "100px" );
+          } else {
+            $('.topnav').removeClass('shrink');
+            $('.menu_funghi').css( "height", "170px" );
+          }
+        });
     </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
