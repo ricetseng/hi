@@ -21,11 +21,12 @@
   <link rel="stylesheet" href="css/reset.css">
 
     
-  <link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="bookmark" href="images/favicon.ico"/>
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/manifest.json">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
     
 	<link rel="apple-touch-icon" href="images/apple120.png">
 	<link rel="apple-touch-icon" href="images/apple76.png" sizes="76x76">
@@ -119,22 +120,42 @@
 
   
   .menu_funghi {
-    width: 600px;
-    text-align: center;
-    margin: 0 auto;
-  }
+        width: 100%;
+        height: 170px;
+        background-color: rgba(255,255,255,0.95);
+        position: fixed;
+        z-index: 10000;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+      }
 
-  .funghi_logo img {
-    width: 73px;
-    margin-top: -19px;
-  }
-  ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 75px 0 50px 0;
-    overflow: hidden;
-    background-color: #ffffff;
-  }
+      .funghi_logo img {
+        width: 73px;
+        margin-top: -19px;
+      }
+      ul.topnav {
+        list-style-type: none;
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 60px 0 60px 0;
+        overflow: hidden;
+
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    
+      }
+
+      ul.topnav.shrink {
+        padding: 30px 0 0px 0;
+      }
+
 
   ul.topnav li {float: left;}
 
@@ -251,9 +272,10 @@
     }
     ul.topnav {
       padding: 25px 10px 25px 10px;
+      width: 100%;
     }
 
-    ul.topnav.responsive {position: relative;}
+    ul.topnav.responsive {position: relative; background-color: #fff;}
     ul.topnav.responsive li.icon {
       position: absolute;
       right: 10px;
@@ -269,6 +291,17 @@
     }
   
   }
+
+  .a::before {
+    background: white;
+  }
+  .a::after {
+    border-top: 5px solid white;
+    border-top: 5px solid white;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+  }
+
   </style>
 </head>
 
@@ -277,7 +310,7 @@
 <div class="menu_funghi">
   <ul class="topnav" id="myTopnav">
     <!-- <li class="funghi_logo"><a href="http://www.ricetseng.com/"><img src="images/funghi_logo.png" alt=""></a></li> -->
-    <li class="funghi_logo"><a href="#" data-tooltip="I'm Rice! Moaw~"><img src="images/funghi_logo.png" alt=""></a></li>
+    <li class="funghi_logo"><a href="#" class="a" data-tooltip="I'm Rice! Moaw~"><img src="images/funghi_logo.png" alt=""></a></li>
     <li><a target="_blank" href="http://www.ricetseng.com/">Work</a></li>
     <li><a target="_blank" href="http://www.ricetseng.com/about.html">About</a></li>
     <li><a target="_blank" href="https://medium.com/@ricetseng_0820">Medium</a></li>
@@ -351,6 +384,19 @@
           x.className = "topnav";
       }
   }
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 50) {
+      $('.topnav').addClass('shrink');
+      $('.menu_funghi').css( "height", "100px" );
+      $('.menu_funghi').css("box-shadow","0px -7px 40px rgba(180,180,180,0.2)");
+      $('.funghi_logo a').addClass('a');
+    } else {
+      $('.topnav').removeClass('shrink');
+      $('.menu_funghi').css( "height", "170px" );
+      $('.menu_funghi').css("box-shadow","0px -7px 40px rgba(180,180,180,0)");
+      $('.funghi_logo a').removeClass('a');
+    }
+  });
   </script>
 
   <script>
