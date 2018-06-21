@@ -77,14 +77,15 @@
     vertical-align: top;
     width: 20%;*/
     width: 50%;
-    color: #2C2B30;
-    text-transform: uppercase;
+    color: #1C1C1C;
+    text-transform: capitalize;
     font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  	font-weight: 600;
-    font-size: 32px;
+  	font-weight: 700;
+ 	font-size: 36px;
     margin: 0;
     line-height: 43px;
     text-align: left;
+    -webkit-font-smoothing: antialiased;
 }
 
 .cv_content {
@@ -92,12 +93,13 @@
     vertical-align: top;
     width: 80%;*/
     width: 50%;
-    color: #888;
+    color: #676767;
     margin-top: 20px;
     font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  	font-weight: 400;
-    font-size: 16px;
+  	font-weight: 500;
+    font-size: 18px;
     line-height: 38px;
+    -webkit-font-smoothing: antialiased;
 }
 .cv_content ul {
     list-style-type: none;
