@@ -904,6 +904,13 @@ section.prototype {
   .work_introduction_just_photo h3, .work_introduction_just_photo p, .work_introduction_process p, .work_introduction_process h3, .work_introduction p, .work_introduction h3, .work_introduction p, .work_introduction_r_text h3, .work_introduction_l_text h3 {
     text-align: left;
   }
+  .work_introduction_just_photo h3, .work_introduction_process h3, .work_introduction h3, .work_introduction_r_text h3, .work_introduction_l_text h3 {
+    margin: 20px 0 20px 0;
+  }
+  .work_introduction_r_text p, .work_introduction_l_text p, .work_introduction_just_photo p, .work_introduction_process p, .work_introduction p, .work_introduction p {
+    font-size: 18px;
+  }
+  
   .work_introduction #framer, #ruby {
     display: none;
   }
