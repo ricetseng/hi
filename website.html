@@ -71,7 +71,6 @@
       ul.topnav {
         list-style-type: none;
         width: 600px;
-        height: 1200px;
         margin: 0 auto;
         text-align: center;
         padding: 60px 0 60px 0;
@@ -349,8 +348,10 @@
           var x = document.getElementById("myTopnav");
           if (x.className === "topnav") {
               x.className += " responsive";
+              $('ul.topnav').css( "height", "1000px" );
           } else {
               x.className = "topnav";
+              $('ul.topnav').css( "height", "100px" );
           }
       }
       $(window).scroll(function() {

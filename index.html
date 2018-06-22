@@ -143,7 +143,6 @@
       ul.topnav {
         list-style-type: none;
         width: 600px;
-        height: 1200px;
         margin: 0 auto;
         text-align: center;
         padding: 60px 0 60px 0;
@@ -357,6 +356,7 @@
     <li><a target="_blank" href="http://tw.linkedin.com/in/ricetseng">Linkedin</a></li>
     <li class="icon">
       <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+      <!-- <a href="javascript:void(0);" onclick="myFunction()"><img src="images/nav_three_line@2x.png" alt=""></a> -->
     </li>
   </ul>
 </div>
@@ -494,8 +494,10 @@
       var x = document.getElementById("myTopnav");
       if (x.className === "topnav") {
           x.className += " responsive";
+          $('ul.topnav').css( "height", "1000px" );
       } else {
           x.className = "topnav";
+          $('ul.topnav').css( "height", "100px" );
       }
   }
   $(window).scroll(function() {
