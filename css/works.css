@@ -691,7 +691,7 @@ section.prototype {
   max-width: 500px;
 }
 #next-prev-all:hover {
-    background: #513FFC;
+    background: #19B4F3;
 }
 
 #next-prev-all:hover, #next-prev-all:hover .smaller-font {
@@ -700,7 +700,7 @@ section.prototype {
 }
 #next-project .smaller-font {
     font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
-  font-weight: 600;
+    font-weight: 600;
     font-size: 14px;
     margin-bottom: 10px;
     color: #999;
