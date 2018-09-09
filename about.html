@@ -63,7 +63,7 @@
       ul.topnav {
         list-style-type: none;
         width: 600px;
-        height: 1200px;
+        /*height: 1200px;*/
         margin: 0 auto;
         text-align: center;
         padding: 60px 0 60px 0;
@@ -203,7 +203,8 @@
         ul.topnav {
           padding: 25px 10px 25px 10px;
           width: 100%;
-        }
+/*          height: 1200px;
+*/        }
 
         ul.topnav.responsive {position: relative; background-color: #fff;}
         ul.topnav.responsive li.icon {
@@ -491,8 +492,10 @@
           var x = document.getElementById("myTopnav");
           if (x.className === "topnav") {
               x.className += " responsive";
+              $('ul.topnav').css( "height", "1200px" );
           } else {
               x.className = "topnav";
+              $('ul.topnav').css( "height", "100px" );
           }
       }
 
