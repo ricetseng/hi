@@ -36,11 +36,16 @@
 	<link rel="apple-touch-icon" href="images/apple192.png" sizes="192x192">
 
   <style>
+
+  @charset "UTF-8";
+  @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
   * {
       box-sizing: border-box;
   }
   body {margin:0;}
-
+  .row {
+    padding: 80px 2% 0 2%;
+  }
   .row::after {
       content: "";
       clear: both;
@@ -66,6 +71,241 @@
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+
+  /*--------------------------------------------------------------*/
+  /*start big description*/
+  .main_des {
+    display: block;
+    text-align: center;
+    color:rgba(51, 51, 51, 1);
+    line-height: 1.2;
+    font-size: 32px;
+    font-family: "Proxima Nova", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", "STHeitiTC-Light", "Microsoft JhengHei", sans-serif;
+    font-weight: 300;
+    padding: 0 20px 0 20px;
+    width:100%;
+
+  }
+  .main_des_wrap {
+    margin: 0 auto;
+    width: 55%;
+  }
+
+  .main_des_wrap img {
+    width: 110px;
+  }
+
+  /*------------------------text link-------------------------------*/
+
+  .main_des_content {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .main_des_content:hover, .main_des_content:focus {
+    outline: none;
+  }
+  .main_des_content a {
+    position: relative;
+    display: inline-block;
+    /*color:#e7e7e7;*/
+    color: rgba(51, 51, 51, 1);
+    font-weight: 700;
+    transition: transform 0.5s ease;
+    -webkit-transition: transform 0.5s ease;
+  }
+
+  .main_des_content a:before{
+    position: absolute;
+    top: -100%;
+    content: attr(title); /* The selector for Wordpress */
+    /*color:#00D598;*/
+    color: rgba(51, 51, 51, 1);
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  .main_des_content:hover a, .main_des_content:focus a{
+    color:white;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  /*--------------------------start social icons--------------------------*/
+
+  .social__container {
+    display: block;
+    text-align: center;
+    padding: 30px 20px 100px 20px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .main_des_wrap_social {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .social__item {
+    padding: 6px;
+  }
+
+  .icon--user::before {
+    content: "";
+  }
+
+  .social__icon--user {
+    background-color: #E9E9E9;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .social__icon--user:hover {
+    background-color: #f783ac;
+    transform: scale(1.1);
+  }
+
+  .icon--twitter::before {
+    content: "";
+  }
+
+  .social__icon--twitter {
+    background-color: #E9E9E9;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .social__icon--twitter:hover {
+    background-color: #32b9e7;
+    transform: scale(1.1);
+  }
+
+  .icon--facebook::before {
+    content: "";
+  }
+
+  .social__icon--facebook {
+    background-color: #E9E9E9;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .social__icon--facebook:hover {
+    background-color: #4b70ab;
+    transform: scale(1.1);
+  }
+
+  .icon--medium::before {
+    content: "";
+  }
+
+  .social__icon--medium {
+    background-color: #E9E9E9;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .social__icon--medium:hover {
+    background-color: #7BF799;
+    transform: scale(1.1);
+  }
+
+
+  .icon--linkedin::before {
+    content: "";
+  }
+
+  .social__icon--linkedin {
+    background-color: #E9E9E9;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .social__icon--linkedin:hover {
+    background-color: #0087be;
+    transform: scale(1.1);
+  }
+
+  .icon--dribble::before {
+    content: "";
+  }
+
+  .social__icon--dribble {
+    background-color: #E9E9E9;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .social__icon--dribble:hover {
+    background-color: #fc89b1;
+    transform: scale(1.1);
+  }
+
+  .icon--github::before {
+    content: "";
+  }
+
+  .social__icon--github {
+    background-color: #E9E9E9;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .social__icon--github:hover {
+    background-color: #333333;
+    transform: scale(1.1);
+  }
+
+  .social__item {
+    display: inline-block;
+    margin-right: 0.1em;
+  }
+
+  .icon, [class^="icon--"] {
+    font-family: 'FontAwesome';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .social__icon, [class^="social__icon"] {
+    font-size: 1.4em;
+    color: white;
+    text-decoration: none;
+    border-radius: 100%;
+    width: 2.2em;
+    height: 2.2em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  /*--------------------------------------------------------------*/
+
 /*
   .portfolio_l {
     width: 50%;
@@ -123,12 +363,13 @@
   }
 
   
-  .menu_funghi {
+      .menu_funghi {
         width: 100%;
         height: 170px;
         background-color: rgba(255,255,255,0.95);
         position: fixed;
         z-index: 10000;
+        opacity: 0;
         -webkit-transition: all 0.4s ease;
         -moz-transition: all 0.4s ease;
         -ms-transition: all 0.4s ease;
@@ -250,6 +491,9 @@
 
 
   @media screen and (max-width:802px) {
+    .main_des_wrap, .main_des_wrap_social {
+      width: 85%;
+    }
     ul.topnav li:not(:first-child) {display: none;}
     ul.topnav li.icon {
       float: right;
@@ -369,7 +613,69 @@
 </div>
 
 
+
+
 <div class="row">
+
+  <section class="main_des">
+    <div class="main_des_wrap">
+      <a href="http://www.ricetseng.com/about.html"><img src="images/rice_home.png" alt=""></a>
+    </div>
+  </section>
+  
+  <section class="main_des">
+    <div class="main_des_wrap">
+      <h1 class="main_des_content"><a title="👉About👈" target="_blank" href="http://www.ricetseng.com/about.html">Rice Tseng</a> is a product designer based in Singapore.</h1>
+    </div>
+  </section>
+
+  <div class="social__container">   
+    <div class="main_des_wrap_social">
+      <!-- social__item User -->
+      <div class="social__item" title="About">
+              <a target="_blank" href="http://www.ricetseng.com/about.html" class="social__icon--user"><i class="icon--user"></i></a>
+      </div>
+      <!-- /social__item User -->
+
+      <!-- social__item Medium -->
+      <div class="social__item" title="Medium">
+              <a target="_blank" href="https://medium.com/@ricetseng_0820" class="social__icon--medium"><i class="icon--medium"></i></a>
+      </div>
+      <!-- /social__item Medium -->
+    
+      <!-- social__item dribble -->
+      <div class="social__item" title="Dribbble">
+              <a target="_blank" href="https://dribbble.com/ricetseng" class="social__icon--dribble"><i class="icon--dribble"></i></a>
+      </div>
+      <!-- /social__item dribble -->
+    
+      <!-- social__item twitter -->
+      <div class="social__item" title="Twitter">
+              <a target="_blank" href="https://twitter.com/RiceTseng" class="social__icon--twitter"><i class="icon--twitter"></i></a>
+      </div>
+      <!-- /social__item twiter -->
+
+      <!-- social__item linkedin -->
+      <div class="social__item" title="Linkedin">
+              <a target="_blank" href="http://tw.linkedin.com/in/ricetseng" class="social__icon--linkedin"><i class="icon--linkedin"></i></a>
+      </div>
+      <!-- /social__item linkedin -->
+      
+      <!-- social__item facebook -->
+      <div class="social__item" title="Facebook">
+              <a target="_blank" href="https://www.facebook.com/ricewendy" class="social__icon--facebook"><i class="icon--facebook"></i></a>
+      </div>
+      <!-- /social__item facebook -->
+
+      <!-- social__item github -->
+      <div class="social__item" title="Github">
+              <a target="_blank" href="https://github.com/ricetseng" class="social__icon--github"><i class="icon--github"></i></a>
+      </div>
+      <!-- /social__item github -->
+    </div>
+  </div>
+
+
   <div class="portfolio_l col-6">
     <a target="_blank" href="https://medium.com/@ricetseng_0820/redesigning-the-transport-booking-experience-for-grab-app-52fbe796c36c?fbclid=IwAR0YEZ3bP_YIK-dpUqyCfl4trXuZR2iKZ3pmWdH4NYddqc18216Oq3yEek0"><img src="images/shot_redesign_1600.jpg" alt=""></a>
     <h1>Grab passenger app redesign</h1>
@@ -587,11 +893,13 @@
       $('.topnav').addClass('shrink');
       $('.menu_funghi').css( "height", "100px" );
       $('.menu_funghi').css("box-shadow","0px -7px 40px rgba(180,180,180,0.2)");
+      $('.menu_funghi').css("opacity","1");
       $('.funghi_logo a').addClass('a');
     } else {
       $('.topnav').removeClass('shrink');
       // $('.menu_funghi').css( "height", "170px" );
       $('.menu_funghi').css("box-shadow","0px -7px 40px rgba(180,180,180,0)");
+      $('.menu_funghi').css("opacity","0");
       $('.funghi_logo a').removeClass('a');
     }
   });
